@@ -1,0 +1,1822 @@
+
+src/main.cpp:8: note: not consecutive access _3 = MEM[(char * *)argv_1(D) + 8B];
+
+src/main.cpp:8: note: Failed to SLP the basic block.
+src/main.cpp:8: note: not vectorized: failed to find SLP opportunities in basic block.
+
+/share/apps/gcc/4.8.2/include/c++/4.8.2/iostream:74: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:15:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:18:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:20:41: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:8:22: note: not vectorized: control flow in loop.
+src/utils.cpp:8:22: note: bad loop form.
+src/utils.cpp:5:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/mm_malloc.h:46:12: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:3:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:12:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:3:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:8:22: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:3:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:15:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:18:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:20:41: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:8:22: note: not vectorized: control flow in loop.
+src/utils.cpp:8:22: note: bad loop form.
+src/utils.cpp:5:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/mm_malloc.h:46:12: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:3:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:12:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:3:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:8:22: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:3:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:15:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:18:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:20:41: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:8:22: note: not vectorized: control flow in loop.
+src/utils.cpp:8:22: note: bad loop form.
+src/utils.cpp:5:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/mm_malloc.h:46:12: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:3:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:12:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:3:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:8:22: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:3:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:161:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:423:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:425:33: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:15:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:18:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:20:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:161:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:423:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:425:33: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:4:25: note: misalign = 0 bytes of ref clearcache[i_10]
+src/utils.cpp:4:25: note: virtual phi. skip.
+src/utils.cpp:4:25: note: no optab.
+src/utils.cpp:3:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:5:20: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_clearcache.45_18] = vect__4.44_15;
+ scalar_type: vector(2) double
+src/utils.cpp:5:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:3:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:6:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:13:22: note: not vectorized: control flow in loop.
+src/utils.cpp:13:22: note: bad loop form.
+src/utils.cpp:10:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/mm_malloc.h:46:12: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:8:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:17:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:8:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:13:22: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:8:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:20:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:15:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:18:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:20:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:161:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:423:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:425:33: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:9:25: note: misalign = 0 bytes of ref clearcache[i_10]
+src/utils.cpp:9:25: note: virtual phi. skip.
+src/utils.cpp:9:25: note: no optab.
+src/utils.cpp:8:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:10:20: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_clearcache.45_18] = vect__4.44_15;
+ scalar_type: vector(2) double
+src/utils.cpp:10:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:8:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:11:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:22: note: not vectorized: control flow in loop.
+src/utils.cpp:18:22: note: bad loop form.
+src/utils.cpp:15:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/mm_malloc.h:46:12: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:13:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:22:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:13:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:22: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:13:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:25:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:16:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:19:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:29:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:161:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:423:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:425:33: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:9:25: note: misalign = 0 bytes of ref clearcache[i_10]
+src/utils.cpp:9:25: note: virtual phi. skip.
+src/utils.cpp:9:25: note: no optab.
+src/utils.cpp:8:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:10:20: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_clearcache.112_18] = vect__4.111_15;
+ scalar_type: vector(2) double
+src/utils.cpp:10:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:8:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:11:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:22: note: not vectorized: control flow in loop.
+src/utils.cpp:18:22: note: bad loop form.
+src/utils.cpp:15:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/mm_malloc.h:46:12: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:13:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:22:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:13:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:22: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:13:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:25:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1427:55: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1428:63: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:104:60: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not consecutive access _20 = *__args#0_7(D);
+
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:381:4: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:382:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:425:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Build SLP failed: unrolling required in basic block SLP
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:170:58: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:30:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:120:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:29:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:29:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:98:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:101:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:32:29: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:16:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:19:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:29:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:161:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:423:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:425:33: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:9:25: note: misalign = 0 bytes of ref clearcache[i_10]
+src/utils.cpp:9:25: note: virtual phi. skip.
+src/utils.cpp:9:25: note: no optab.
+src/utils.cpp:8:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:10:20: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_clearcache.112_18] = vect__4.111_15;
+ scalar_type: vector(2) double
+src/utils.cpp:10:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:8:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:11:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:22: note: not vectorized: control flow in loop.
+src/utils.cpp:18:22: note: bad loop form.
+src/utils.cpp:15:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/mm_malloc.h:46:12: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:13:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:22:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:13:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:22: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:13:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:25:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1427:55: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1428:63: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:104:60: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not consecutive access _20 = *__args#0_7(D);
+
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:381:4: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:382:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:425:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Build SLP failed: unrolling required in basic block SLP
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:170:58: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:30:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:120:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:29:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:29:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:98:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:101:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:32:29: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:16:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:19:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:14:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:25:23: note: not consecutive access type = type.1_9;
+
+src/main.cpp:25:23: note: not consecutive access type.1_9 = MEM[(char * *)argv_5(D) + 16B];
+
+src/main.cpp:25:23: note: Failed to SLP the basic block.
+src/main.cpp:25:23: note: not vectorized: failed to find SLP opportunities in basic block.
+src/main.cpp:26:34: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:161:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:423:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:425:33: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:9:25: note: misalign = 0 bytes of ref clearcache[i_10]
+src/utils.cpp:9:25: note: virtual phi. skip.
+src/utils.cpp:9:25: note: no optab.
+src/utils.cpp:8:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:10:20: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_clearcache.112_18] = vect__4.111_15;
+ scalar_type: vector(2) double
+src/utils.cpp:10:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:8:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:11:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:22: note: not vectorized: control flow in loop.
+src/utils.cpp:18:22: note: bad loop form.
+src/utils.cpp:15:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/mm_malloc.h:46:12: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:13:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:22:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:13:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:22: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:13:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:25:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1427:55: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1428:63: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:104:60: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not consecutive access _20 = *__args#0_7(D);
+
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:381:4: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:382:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:425:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Build SLP failed: unrolling required in basic block SLP
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:170:58: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:30:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:120:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:29:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:29:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:98:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:101:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:32:29: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:16:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:19:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:14:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:25:23: note: not consecutive access type = type.1_9;
+
+src/main.cpp:25:23: note: not consecutive access type.1_9 = MEM[(char * *)argv_5(D) + 16B];
+
+src/main.cpp:25:23: note: Failed to SLP the basic block.
+src/main.cpp:25:23: note: not vectorized: failed to find SLP opportunities in basic block.
+src/main.cpp:26:34: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:161:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:423:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:425:33: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:9:25: note: misalign = 0 bytes of ref clearcache[i_10]
+src/utils.cpp:9:25: note: virtual phi. skip.
+src/utils.cpp:9:25: note: no optab.
+src/utils.cpp:8:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:10:20: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_clearcache.113_18] = vect__4.112_15;
+ scalar_type: vector(2) double
+src/utils.cpp:10:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:8:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:11:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:22: note: not vectorized: control flow in loop.
+src/utils.cpp:18:22: note: bad loop form.
+src/utils.cpp:15:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/mm_malloc.h:46:12: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:13:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:22:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:13:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:22: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:13:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:25:24: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:37:1: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1427:55: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1428:63: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:104:60: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not consecutive access _20 = *__args#0_7(D);
+
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:381:4: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:382:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:425:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Build SLP failed: unrolling required in basic block SLP
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:170:58: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:30:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:120:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:29:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:29:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:98:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:101:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:32:29: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:16:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:19:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:29:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:161:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:423:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:425:33: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:16:25: note: misalign = 0 bytes of ref clearcache[i_10]
+src/utils.cpp:16:25: note: virtual phi. skip.
+src/utils.cpp:16:25: note: no optab.
+src/utils.cpp:15:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:17:20: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_clearcache.127_18] = vect__4.126_15;
+ scalar_type: vector(2) double
+src/utils.cpp:17:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:15:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:25:22: note: not vectorized: control flow in loop.
+src/utils.cpp:25:22: note: bad loop form.
+src/utils.cpp:22:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/mm_malloc.h:46:12: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:20:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:29:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:20:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:25:22: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:20:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:32:24: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:108:20: note: not vectorized: control flow in loop.
+src/utils.cpp:108:20: note: bad loop form.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 8 bytes of ref time_measurements.D.39761._M_impl._M_finish
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 0 bytes of ref time_measurements.D.39761._M_impl._M_start
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+src/utils.cpp:114:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:84:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:108:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:109:47: note: misalign = 0 bytes of ref MEM[(long long unsigned int * *)&time_measurements]
+src/utils.cpp:109:47: note: misalign = 8 bytes of ref MEM[(long long unsigned int * *)&time_measurements + 8B]
+src/utils.cpp:109:47: note: Failed to SLP the basic block.
+src/utils.cpp:109:47: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:803:4: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:780:41: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:87:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:84:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1427:55: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1428:63: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:104:60: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not consecutive access _20 = *__args#0_7(D);
+
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:381:4: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:382:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:425:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Build SLP failed: unrolling required in basic block SLP
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:170:58: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:37:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:120:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:36:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:36:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:98:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:101:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:39:29: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:16:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:19:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:29:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:161:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:423:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:425:33: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:16:25: note: misalign = 0 bytes of ref clearcache[i_10]
+src/utils.cpp:16:25: note: virtual phi. skip.
+src/utils.cpp:16:25: note: no optab.
+src/utils.cpp:15:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:17:20: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_clearcache.127_18] = vect__4.126_15;
+ scalar_type: vector(2) double
+src/utils.cpp:17:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:15:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:25:22: note: not vectorized: control flow in loop.
+src/utils.cpp:25:22: note: bad loop form.
+src/utils.cpp:22:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/mm_malloc.h:46:12: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:20:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:29:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:20:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:25:22: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:20:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:32:24: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:108:20: note: not vectorized: control flow in loop.
+src/utils.cpp:108:20: note: bad loop form.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 8 bytes of ref time_measurements.D.39761._M_impl._M_finish
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 0 bytes of ref time_measurements.D.39761._M_impl._M_start
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+src/utils.cpp:114:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:84:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:108:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:109:47: note: misalign = 0 bytes of ref MEM[(long long unsigned int * *)&time_measurements]
+src/utils.cpp:109:47: note: misalign = 8 bytes of ref MEM[(long long unsigned int * *)&time_measurements + 8B]
+src/utils.cpp:109:47: note: Failed to SLP the basic block.
+src/utils.cpp:109:47: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:803:4: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:780:41: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:87:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:84:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1427:55: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1428:63: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:104:60: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not consecutive access _20 = *__args#0_7(D);
+
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:381:4: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:382:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:425:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Build SLP failed: unrolling required in basic block SLP
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:170:58: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:37:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:120:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:36:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:36:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:98:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:101:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:39:29: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:16:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:19:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:29:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:16:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:19:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:29:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:161:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:423:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:425:33: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:17:25: note: misalign = 0 bytes of ref clearcache[i_10]
+src/utils.cpp:17:25: note: virtual phi. skip.
+src/utils.cpp:17:25: note: no optab.
+src/utils.cpp:16:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:20: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_clearcache.127_18] = vect__4.126_15;
+ scalar_type: vector(2) double
+src/utils.cpp:18:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:16:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:19:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:26:22: note: not vectorized: control flow in loop.
+src/utils.cpp:26:22: note: bad loop form.
+src/utils.cpp:23:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/mm_malloc.h:46:12: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:30:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:26:22: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:33:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:780:41: note: not vectorized: control flow in loop.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:780:41: note: bad loop form.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 8 bytes of ref time_measurements.D.39762._M_impl._M_finish
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 0 bytes of ref time_measurements.D.39762._M_impl._M_start
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+src/utils.cpp:114:1: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:802:2: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:110:43: note: misalign = 0 bytes of ref MEM[(long long unsigned int * *)&time_measurements]
+src/utils.cpp:110:43: note: misalign = 8 bytes of ref MEM[(long long unsigned int * *)&time_measurements + 8B]
+src/utils.cpp:110:43: note: Failed to SLP the basic block.
+src/utils.cpp:110:43: note: not vectorized: failed to find SLP opportunities in basic block.
+src/utils.cpp:86:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:86:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:803:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:86:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:780:41: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1427:55: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1428:63: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:104:60: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not consecutive access _20 = *__args#0_7(D);
+
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:381:4: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:382:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:425:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Build SLP failed: unrolling required in basic block SLP
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:170:58: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:38:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:120:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:37:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:37:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:98:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:101:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:40:29: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:16:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:19:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:14:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:25:23: note: not consecutive access type = type.1_9;
+
+src/main.cpp:25:23: note: not consecutive access type.1_9 = MEM[(char * *)argv_5(D) + 16B];
+
+src/main.cpp:25:23: note: Failed to SLP the basic block.
+src/main.cpp:25:23: note: not vectorized: failed to find SLP opportunities in basic block.
+src/main.cpp:26:34: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:16:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:19:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:14:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:25:23: note: not consecutive access type = type.1_9;
+
+src/main.cpp:25:23: note: not consecutive access type.1_9 = MEM[(char * *)argv_5(D) + 16B];
+
+src/main.cpp:25:23: note: Failed to SLP the basic block.
+src/main.cpp:25:23: note: not vectorized: failed to find SLP opportunities in basic block.
+src/main.cpp:26:34: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:161:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:423:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:425:33: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:17:25: note: misalign = 0 bytes of ref clearcache[i_10]
+src/utils.cpp:17:25: note: virtual phi. skip.
+src/utils.cpp:17:25: note: no optab.
+src/utils.cpp:16:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:20: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_clearcache.135_18] = vect__4.134_15;
+ scalar_type: vector(2) double
+src/utils.cpp:18:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:16:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:19:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:26:22: note: not vectorized: control flow in loop.
+src/utils.cpp:26:22: note: bad loop form.
+src/utils.cpp:23:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/mm_malloc.h:46:12: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:30:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:26:22: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:33:24: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:76:23: note: not vectorized: latch block not empty.
+src/utils.cpp:76:23: note: bad loop form.
+src/utils.cpp:45:18: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:47:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:52:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:53:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:58:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:59:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:64:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:65:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:69:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:70:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:75:34: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:80:40: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:44:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:77:17: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:44:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:93:20: note: not vectorized: control flow in loop.
+src/utils.cpp:93:20: note: bad loop form.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 8 bytes of ref time_measurements.D.40834._M_impl._M_finish
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 0 bytes of ref time_measurements.D.40834._M_impl._M_start
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+src/utils.cpp:114:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:86:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:93:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:94:49: note: not consecutive access _13 = *_12;
+
+src/utils.cpp:94:49: note: not consecutive access values.26_9 = values;
+
+src/utils.cpp:94:49: note: Failed to SLP the basic block.
+src/utils.cpp:94:49: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:96:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:97:49: note: not consecutive access _23 = *_22;
+
+src/utils.cpp:97:49: note: not consecutive access values.26_19 = values;
+
+src/utils.cpp:97:49: note: Failed to SLP the basic block.
+src/utils.cpp:97:49: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:99:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:100:49: note: not consecutive access _33 = *_32;
+
+src/utils.cpp:100:49: note: not consecutive access values.26_29 = values;
+
+src/utils.cpp:100:49: note: Failed to SLP the basic block.
+src/utils.cpp:100:49: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:102:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:103:29: note: not consecutive access _43 = *_42;
+
+src/utils.cpp:103:29: note: not consecutive access values.26_39 = values;
+
+src/utils.cpp:103:29: note: not consecutive access _44 = *_43;
+
+src/utils.cpp:103:29: note: Failed to SLP the basic block.
+src/utils.cpp:103:29: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:105:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:106:29: note: not consecutive access _51 = *_50;
+
+src/utils.cpp:106:29: note: not consecutive access values.26_47 = values;
+
+src/utils.cpp:106:29: note: not consecutive access _52 = *_51;
+
+src/utils.cpp:106:29: note: Failed to SLP the basic block.
+src/utils.cpp:106:29: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:89:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:86:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1427:55: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1428:63: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:104:60: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not consecutive access _20 = *__args#0_7(D);
+
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:381:4: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:382:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:425:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Build SLP failed: unrolling required in basic block SLP
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:170:58: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:38:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:120:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:37:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:37:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:98:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:101:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:40:29: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:15:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:18:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:13:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:24:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:27:42: note: not consecutive access bucket_size.1_11 = bucket_size;
+
+src/main.cpp:27:42: note: not consecutive access input_array.2_12 = input_array;
+
+src/main.cpp:27:42: note: Failed to SLP the basic block.
+src/main.cpp:27:42: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:161:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:423:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:425:33: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:17:25: note: misalign = 0 bytes of ref clearcache[i_10]
+src/utils.cpp:17:25: note: virtual phi. skip.
+src/utils.cpp:17:25: note: no optab.
+src/utils.cpp:16:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:20: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_clearcache.135_18] = vect__4.134_15;
+ scalar_type: vector(2) double
+src/utils.cpp:18:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:16:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:19:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:26:22: note: not vectorized: control flow in loop.
+src/utils.cpp:26:22: note: bad loop form.
+src/utils.cpp:23:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/mm_malloc.h:46:12: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:30:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:26:22: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:33:24: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:76:23: note: not vectorized: latch block not empty.
+src/utils.cpp:76:23: note: bad loop form.
+src/utils.cpp:45:18: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:47:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:52:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:53:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:58:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:59:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:64:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:65:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:69:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:70:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:75:34: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:80:40: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:44:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:77:17: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:44:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:93:20: note: not vectorized: control flow in loop.
+src/utils.cpp:93:20: note: bad loop form.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 8 bytes of ref time_measurements.D.40834._M_impl._M_finish
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 0 bytes of ref time_measurements.D.40834._M_impl._M_start
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+src/utils.cpp:114:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:86:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:93:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:94:49: note: not consecutive access _13 = *_12;
+
+src/utils.cpp:94:49: note: not consecutive access values.26_9 = values;
+
+src/utils.cpp:94:49: note: Failed to SLP the basic block.
+src/utils.cpp:94:49: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:96:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:97:49: note: not consecutive access _23 = *_22;
+
+src/utils.cpp:97:49: note: not consecutive access values.26_19 = values;
+
+src/utils.cpp:97:49: note: Failed to SLP the basic block.
+src/utils.cpp:97:49: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:99:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:100:49: note: not consecutive access _33 = *_32;
+
+src/utils.cpp:100:49: note: not consecutive access values.26_29 = values;
+
+src/utils.cpp:100:49: note: Failed to SLP the basic block.
+src/utils.cpp:100:49: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:102:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:103:29: note: not consecutive access _43 = *_42;
+
+src/utils.cpp:103:29: note: not consecutive access values.26_39 = values;
+
+src/utils.cpp:103:29: note: not consecutive access _44 = *_43;
+
+src/utils.cpp:103:29: note: Failed to SLP the basic block.
+src/utils.cpp:103:29: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:105:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:106:29: note: not consecutive access _51 = *_50;
+
+src/utils.cpp:106:29: note: not consecutive access values.26_47 = values;
+
+src/utils.cpp:106:29: note: not consecutive access _52 = *_51;
+
+src/utils.cpp:106:29: note: Failed to SLP the basic block.
+src/utils.cpp:106:29: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:89:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:86:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1427:55: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1428:63: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:104:60: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not consecutive access _20 = *__args#0_7(D);
+
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:381:4: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:382:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:425:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Build SLP failed: unrolling required in basic block SLP
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:170:58: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:38:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:120:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:37:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:37:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:98:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:101:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:40:29: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:15:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:18:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:27:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:161:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:423:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:425:33: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:17:25: note: misalign = 0 bytes of ref clearcache[i_10]
+src/utils.cpp:17:25: note: virtual phi. skip.
+src/utils.cpp:17:25: note: no optab.
+src/utils.cpp:16:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:20: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_clearcache.127_18] = vect__4.126_15;
+ scalar_type: vector(2) double
+src/utils.cpp:18:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:16:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:19:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:26:22: note: not vectorized: control flow in loop.
+src/utils.cpp:26:22: note: bad loop form.
+src/utils.cpp:23:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/mm_malloc.h:46:12: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:30:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:26:22: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:33:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:780:41: note: not vectorized: control flow in loop.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:780:41: note: bad loop form.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 8 bytes of ref time_measurements.D.39759._M_impl._M_finish
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 0 bytes of ref time_measurements.D.39759._M_impl._M_start
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+src/utils.cpp:114:1: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:802:2: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:110:43: note: misalign = 0 bytes of ref MEM[(long long unsigned int * *)&time_measurements]
+src/utils.cpp:110:43: note: misalign = 8 bytes of ref MEM[(long long unsigned int * *)&time_measurements + 8B]
+src/utils.cpp:110:43: note: Failed to SLP the basic block.
+src/utils.cpp:110:43: note: not vectorized: failed to find SLP opportunities in basic block.
+src/utils.cpp:86:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:86:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:803:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:86:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:780:41: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1427:55: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1428:63: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:104:60: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not consecutive access _20 = *__args#0_7(D);
+
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:381:4: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:382:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:425:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Build SLP failed: unrolling required in basic block SLP
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:170:58: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:38:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:120:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:37:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:37:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:98:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:101:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:40:29: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:15:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:18:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:13:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:24:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:27:42: note: not consecutive access bucket_size.1_11 = bucket_size;
+
+src/main.cpp:27:42: note: not consecutive access input_array.2_12 = input_array;
+
+src/main.cpp:27:42: note: Failed to SLP the basic block.
+src/main.cpp:27:42: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:161:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:423:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:425:33: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:17:25: note: misalign = 0 bytes of ref clearcache[i_10]
+src/utils.cpp:17:25: note: virtual phi. skip.
+src/utils.cpp:17:25: note: no optab.
+src/utils.cpp:16:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:20: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_clearcache.140_18] = vect__4.139_15;
+ scalar_type: vector(2) double
+src/utils.cpp:18:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:16:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:19:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:26:22: note: not vectorized: control flow in loop.
+src/utils.cpp:26:22: note: bad loop form.
+src/utils.cpp:23:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/mm_malloc.h:46:12: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:30:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:26:22: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:33:24: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:76:23: note: not vectorized: latch block not empty.
+src/utils.cpp:76:23: note: bad loop form.
+src/utils.cpp:45:18: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:47:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:52:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:53:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:58:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:59:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:64:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:65:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:69:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:70:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:75:34: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:80:40: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:44:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:77:17: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:44:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:93:20: note: not vectorized: control flow in loop.
+src/utils.cpp:93:20: note: bad loop form.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 8 bytes of ref time_measurements.D.40837._M_impl._M_finish
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 0 bytes of ref time_measurements.D.40837._M_impl._M_start
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+src/utils.cpp:114:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:86:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:93:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:94:49: note: not consecutive access _13 = *_12;
+
+src/utils.cpp:94:49: note: not consecutive access values.26_9 = values;
+
+src/utils.cpp:94:49: note: Failed to SLP the basic block.
+src/utils.cpp:94:49: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:96:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:97:49: note: not consecutive access _23 = *_22;
+
+src/utils.cpp:97:49: note: not consecutive access values.26_19 = values;
+
+src/utils.cpp:97:49: note: Failed to SLP the basic block.
+src/utils.cpp:97:49: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:99:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:100:49: note: not consecutive access _33 = *_32;
+
+src/utils.cpp:100:49: note: not consecutive access values.26_29 = values;
+
+src/utils.cpp:100:49: note: Failed to SLP the basic block.
+src/utils.cpp:100:49: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:102:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:103:29: note: not consecutive access _43 = *_42;
+
+src/utils.cpp:103:29: note: not consecutive access values.26_39 = values;
+
+src/utils.cpp:103:29: note: not consecutive access _44 = *_43;
+
+src/utils.cpp:103:29: note: Failed to SLP the basic block.
+src/utils.cpp:103:29: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:105:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:106:29: note: not consecutive access _51 = *_50;
+
+src/utils.cpp:106:29: note: not consecutive access values.26_47 = values;
+
+src/utils.cpp:106:29: note: not consecutive access _52 = *_51;
+
+src/utils.cpp:106:29: note: Failed to SLP the basic block.
+src/utils.cpp:106:29: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:89:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:86:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:118:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:122:35: note: not consecutive access _7 = *_6;
+
+src/utils.cpp:122:35: note: not consecutive access values.28_2 = values;
+
+src/utils.cpp:122:35: note: not consecutive access eventSet.29_8 = eventSet;
+
+src/utils.cpp:122:35: note: Failed to SLP the basic block.
+src/utils.cpp:122:35: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1427:55: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1428:63: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:104:60: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not consecutive access _20 = *__args#0_7(D);
+
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:381:4: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:382:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:425:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Build SLP failed: unrolling required in basic block SLP
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:170:58: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:38:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:120:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:37:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:37:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:98:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:101:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:40:29: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:15:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:18:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:13:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:24:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:27:42: note: not consecutive access bucket_size.1_11 = bucket_size;
+
+src/main.cpp:27:42: note: not consecutive access input_array.2_12 = input_array;
+
+src/main.cpp:27:42: note: Failed to SLP the basic block.
+src/main.cpp:27:42: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:161:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:423:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:425:33: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:17:25: note: misalign = 0 bytes of ref clearcache[i_10]
+src/utils.cpp:17:25: note: virtual phi. skip.
+src/utils.cpp:17:25: note: no optab.
+src/utils.cpp:16:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:20: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_clearcache.141_18] = vect__4.140_15;
+ scalar_type: vector(2) double
+src/utils.cpp:18:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:16:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:19:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:26:22: note: not vectorized: control flow in loop.
+src/utils.cpp:26:22: note: bad loop form.
+src/utils.cpp:23:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/mm_malloc.h:46:12: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:30:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:26:22: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:33:24: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:76:23: note: not vectorized: latch block not empty.
+src/utils.cpp:76:23: note: bad loop form.
+src/utils.cpp:45:18: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:47:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:52:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:53:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:58:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:59:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:64:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:65:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:69:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:70:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:75:34: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:80:40: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:44:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:77:17: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:44:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:93:20: note: not vectorized: control flow in loop.
+src/utils.cpp:93:20: note: bad loop form.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 8 bytes of ref time_measurements.D.40841._M_impl._M_finish
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 0 bytes of ref time_measurements.D.40841._M_impl._M_start
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+src/utils.cpp:114:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:86:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:93:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:94:49: note: not consecutive access _13 = *_12;
+
+src/utils.cpp:94:49: note: not consecutive access values.26_9 = values;
+
+src/utils.cpp:94:49: note: Failed to SLP the basic block.
+src/utils.cpp:94:49: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:96:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:97:49: note: not consecutive access _23 = *_22;
+
+src/utils.cpp:97:49: note: not consecutive access values.26_19 = values;
+
+src/utils.cpp:97:49: note: Failed to SLP the basic block.
+src/utils.cpp:97:49: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:99:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:100:49: note: not consecutive access _33 = *_32;
+
+src/utils.cpp:100:49: note: not consecutive access values.26_29 = values;
+
+src/utils.cpp:100:49: note: Failed to SLP the basic block.
+src/utils.cpp:100:49: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:102:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:103:29: note: not consecutive access _43 = *_42;
+
+src/utils.cpp:103:29: note: not consecutive access values.26_39 = values;
+
+src/utils.cpp:103:29: note: not consecutive access _44 = *_43;
+
+src/utils.cpp:103:29: note: Failed to SLP the basic block.
+src/utils.cpp:103:29: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:105:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:106:29: note: not consecutive access _51 = *_50;
+
+src/utils.cpp:106:29: note: not consecutive access values.26_47 = values;
+
+src/utils.cpp:106:29: note: not consecutive access _52 = *_51;
+
+src/utils.cpp:106:29: note: Failed to SLP the basic block.
+src/utils.cpp:106:29: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:89:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:86:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:118:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:122:35: note: not consecutive access _7 = *_6;
+
+src/utils.cpp:122:35: note: not consecutive access values.28_2 = values;
+
+src/utils.cpp:122:35: note: not consecutive access eventSet.29_8 = eventSet;
+
+src/utils.cpp:122:35: note: Failed to SLP the basic block.
+src/utils.cpp:122:35: note: not vectorized: failed to find SLP opportunities in basic block.
+src/utils.cpp:127:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:126:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:128:26: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:129:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:126:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:130:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:131:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:126:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:132:23: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:133:12: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1427:55: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1428:63: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:104:60: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not consecutive access _20 = *__args#0_7(D);
+
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:381:4: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:382:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:425:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Build SLP failed: unrolling required in basic block SLP
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:170:58: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:38:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:120:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:37:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:37:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:98:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:101:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:40:29: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:15:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:18:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:13:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:24:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:27:42: note: not consecutive access bucket_size.1_11 = bucket_size;
+
+src/main.cpp:27:42: note: not consecutive access input_array.2_12 = input_array;
+
+src/main.cpp:27:42: note: Failed to SLP the basic block.
+src/main.cpp:27:42: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:161:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:423:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:425:33: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:17:25: note: misalign = 0 bytes of ref clearcache[i_10]
+src/utils.cpp:17:25: note: virtual phi. skip.
+src/utils.cpp:17:25: note: no optab.
+src/utils.cpp:16:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:20: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_clearcache.141_18] = vect__4.140_15;
+ scalar_type: vector(2) double
+src/utils.cpp:18:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:16:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:19:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:26:22: note: not vectorized: control flow in loop.
+src/utils.cpp:26:22: note: bad loop form.
+src/utils.cpp:23:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/mm_malloc.h:46:12: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:30:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:26:22: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:33:24: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:76:23: note: not vectorized: latch block not empty.
+src/utils.cpp:76:23: note: bad loop form.
+src/utils.cpp:45:18: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:47:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:52:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:53:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:58:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:59:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:64:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:65:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:69:21: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:70:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:75:34: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:80:40: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:44:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:77:17: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:44:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:93:20: note: not vectorized: control flow in loop.
+src/utils.cpp:93:20: note: bad loop form.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 8 bytes of ref time_measurements.D.40841._M_impl._M_finish
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 0 bytes of ref time_measurements.D.40841._M_impl._M_start
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+src/utils.cpp:114:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:86:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:93:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:94:49: note: not consecutive access _13 = *_12;
+
+src/utils.cpp:94:49: note: not consecutive access values.26_9 = values;
+
+src/utils.cpp:94:49: note: Failed to SLP the basic block.
+src/utils.cpp:94:49: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:96:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:97:49: note: not consecutive access _23 = *_22;
+
+src/utils.cpp:97:49: note: not consecutive access values.26_19 = values;
+
+src/utils.cpp:97:49: note: Failed to SLP the basic block.
+src/utils.cpp:97:49: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:99:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:100:49: note: not consecutive access _33 = *_32;
+
+src/utils.cpp:100:49: note: not consecutive access values.26_29 = values;
+
+src/utils.cpp:100:49: note: Failed to SLP the basic block.
+src/utils.cpp:100:49: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:102:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:103:29: note: not consecutive access _43 = *_42;
+
+src/utils.cpp:103:29: note: not consecutive access values.26_39 = values;
+
+src/utils.cpp:103:29: note: not consecutive access _44 = *_43;
+
+src/utils.cpp:103:29: note: Failed to SLP the basic block.
+src/utils.cpp:103:29: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:105:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:106:29: note: not consecutive access _51 = *_50;
+
+src/utils.cpp:106:29: note: not consecutive access values.26_47 = values;
+
+src/utils.cpp:106:29: note: not consecutive access _52 = *_51;
+
+src/utils.cpp:106:29: note: Failed to SLP the basic block.
+src/utils.cpp:106:29: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:89:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:86:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:118:25: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:122:35: note: not consecutive access _7 = *_6;
+
+src/utils.cpp:122:35: note: not consecutive access values.28_2 = values;
+
+src/utils.cpp:122:35: note: not consecutive access eventSet.29_8 = eventSet;
+
+src/utils.cpp:122:35: note: Failed to SLP the basic block.
+src/utils.cpp:122:35: note: not vectorized: failed to find SLP opportunities in basic block.
+src/utils.cpp:127:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:126:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:128:26: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:129:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:126:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:130:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:131:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:126:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:132:23: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:133:12: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1427:55: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1428:63: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:104:60: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not consecutive access _20 = *__args#0_7(D);
+
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:381:4: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:382:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:425:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Build SLP failed: unrolling required in basic block SLP
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:170:58: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:38:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:120:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:37:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:37:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:98:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:101:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:40:29: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:15:5: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:18:27: note: not vectorized: not enough data-refs in basic block.
+src/main.cpp:27:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:161:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:423:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:425:33: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:17:25: note: misalign = 0 bytes of ref clearcache[i_10]
+src/utils.cpp:17:25: note: virtual phi. skip.
+src/utils.cpp:17:25: note: no optab.
+src/utils.cpp:16:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:18:20: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_clearcache.128_18] = vect__4.127_15;
+ scalar_type: vector(2) double
+src/utils.cpp:18:20: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:16:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:19:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:26:22: note: not vectorized: control flow in loop.
+src/utils.cpp:26:22: note: bad loop form.
+src/utils.cpp:23:42: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/mm_malloc.h:46:12: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:30:1: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:26:22: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:21:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:33:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:780:41: note: not vectorized: control flow in loop.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:780:41: note: bad loop form.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 8 bytes of ref time_measurements.D.39763._M_impl._M_finish
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: misalign = 0 bytes of ref time_measurements.D.39763._M_impl._M_start
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+src/utils.cpp:114:1: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:802:2: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:110:43: note: misalign = 0 bytes of ref MEM[(long long unsigned int * *)&time_measurements]
+src/utils.cpp:110:43: note: misalign = 8 bytes of ref MEM[(long long unsigned int * *)&time_measurements + 8B]
+src/utils.cpp:110:43: note: Failed to SLP the basic block.
+src/utils.cpp:110:43: note: not vectorized: failed to find SLP opportunities in basic block.
+src/utils.cpp:86:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:86:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:803:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:86:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:780:41: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:127:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:126:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:128:26: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:129:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:126:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:130:22: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:131:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:126:5: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:132:23: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:133:12: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:74: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1427:55: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:1428:63: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:104:60: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not consecutive access _20 = *__args#0_7(D);
+
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:655:50: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:381:4: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_algobase.h:382:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:425:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Build SLP failed: unrolling required in basic block SLP
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: Failed to SLP the basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:441:2: note: not vectorized: failed to find SLP opportunities in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/stl_vector.h:170:58: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:407:7: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:38:24: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/ext/new_allocator.h:120:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:37:6: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:37:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:98:6: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/bits/vector.tcc:101:4: note: not vectorized: not enough data-refs in basic block.
+src/utils.cpp:40:29: note: not vectorized: not enough data-refs in basic block.
+/share/apps/gcc/5.3.0/include/c++/5.3.0/iostream:74:25: note: not vectorized: not enough data-refs in basic block.
