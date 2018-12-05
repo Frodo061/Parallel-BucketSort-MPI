@@ -1,0 +1,48 @@
+rm -f build/* bin/*
+mpic++ -M src/main.cpp -o build/main.d -lm -O3 -Wall -Wextra -fopenmp -std=c++11 -Wno-unused-parameter -fopt-info-missed=logs/vec_report.dat
+mpic++ -M src/mergeSort.cpp -o build/mergeSort.d -lm -O3 -Wall -Wextra -fopenmp -std=c++11 -Wno-unused-parameter -fopt-info-missed=logs/vec_report.dat
+mpic++ -M src/utils.cpp -o build/utils.d -lm -O3 -Wall -Wextra -fopenmp -std=c++11 -Wno-unused-parameter -fopt-info-missed=logs/vec_report.dat
+mpic++ -c src/main.cpp -o build/main.o -lm -O3 -Wall -Wextra -fopenmp -std=c++11 -Wno-unused-parameter -fopt-info-missed=logs/vec_report.dat
+mpic++ -c src/mergeSort.cpp -o build/mergeSort.o -lm -O3 -Wall -Wextra -fopenmp -std=c++11 -Wno-unused-parameter -fopt-info-missed=logs/vec_report.dat
+mpic++ -c src/utils.cpp -o build/utils.o -lm -O3 -Wall -Wextra -fopenmp -std=c++11 -Wno-unused-parameter -fopt-info-missed=logs/vec_report.dat
+mpic++ -o bin/main build/main.o build/mergeSort.o build/utils.o -lm -O3 -Wall -Wextra -fopenmp -std=c++11 -Wno-unused-parameter -fopt-info-missed=logs/vec_report.dat
+
+Sizeof input 2048:
+Execution Time #0: 0.293ms
+Execution Time #0: 0.273ms
+Execution Time #0: 0.287ms
+Execution Time #0: 0.302ms
+Execution Time #0: 0.319ms
+Execution Time #0: 0.287ms
+Execution Time #0: 0.393ms
+Execution Time #0: 0.289ms
+
+Sizeof input 16384:
+Execution Time #0: 0.915ms
+Execution Time #0: 0.906ms
+Execution Time #0: 0.928ms
+Execution Time #0: 0.945ms
+Execution Time #0: 0.912ms
+Execution Time #0: 0.925ms
+Execution Time #0: 0.925ms
+Execution Time #0: 0.921ms
+
+Sizeof input 1048576:
+Execution Time #0: 35.636ms
+Execution Time #0: 28.97ms
+Execution Time #0: 29.252ms
+Execution Time #0: 29.189ms
+Execution Time #0: 29.384ms
+Execution Time #0: 29.07ms
+Execution Time #0: 29.068ms
+Execution Time #0: 29.239ms
+
+Sizeof input 2097152:
+Execution Time #0: 58.865ms
+Execution Time #0: 46.409ms
+Execution Time #0: 46.746ms
+Execution Time #0: 45.932ms
+Execution Time #0: 46.359ms
+Execution Time #0: 46.137ms
+Execution Time #0: 46.274ms
+Execution Time #0: 47.132ms

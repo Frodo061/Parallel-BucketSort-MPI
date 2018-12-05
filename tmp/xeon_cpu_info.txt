@@ -11,8 +11,8 @@ Vendor ID:             GenuineIntel
 CPU family:            6
 Model:                 62
 Stepping:              4
-CPU MHz:               2601.000
-BogoMIPS:              5199.24
+CPU MHz:               1200.000
+BogoMIPS:              5199.26
 Virtualization:        VT-x
 L1d cache:             32K
 L1i cache:             32K

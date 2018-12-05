@@ -18,13 +18,12 @@ void utils_clear_cache (void) {
 		clearcache[i] = i;
 }
 
-void utils_init (int *input_array, int size) {
+void utils_init (int **input_array, int size) {
     
-    input_array = (int *) _mm_malloc(size*size*sizeof(int), 32);
+    *input_array = (int*) _mm_malloc(size*sizeof(int), 32);
 
     for(int i = 0; i < size; i++) {
-        input_array[i] = ((int) rand()) % ((int) size);
-        cout << input_array[i] << endl;
+        (*input_array)[i] = ((int) rand()) % ((int) size);
     }
 
 }
@@ -123,12 +122,8 @@ void utils_stop_papi (int rep) {
 }
 #endif
 
-int utils_clean (int *input_array, int *buckets, unsigned *counters) {
+int utils_clean (int *input_array) {
     if(input_array!=NULL)
         free(input_array);
-    if(buckets!=NULL)
-        free(buckets);
-    if(counters!=NULL)
-        free(counters);
     return 0;
 }
