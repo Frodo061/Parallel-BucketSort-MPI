@@ -3,10 +3,7 @@
 #include <vector>
 #include <sys/time.h>
 #include <string.h>
-
-#ifdef PAPI
-#include <papi.h>
-#endif
+#include <mpi.h>
 
 using namespace std;
 
@@ -16,11 +13,7 @@ void utils_clear_cache (void);
 void utils_init (int **input_array, int size);
 void utils_start_timer (void);
 void utils_stop_timer (void);
+void utils_measure_wl(int *counters, int p);
+void utils_setup (char *type, int r);
 void utils_results (void);
 int utils_clean (int *input_array);
-
-#ifdef PAPI
-void utils_setup_papi (int repetitions, const char *type);
-void utils_start_papi (void);
-void utils_stop_papi (int rep);
-#endif

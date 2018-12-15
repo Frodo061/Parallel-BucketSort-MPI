@@ -1,0 +1,2296 @@
+rm -f build/* bin/*
+mpic++ -M src/main.cpp -o build/main.d -lm -O3 -Wall -Wextra -fopenmp -std=c++11 -Wno-unused-parameter
+mpic++ -M src/mergeSort.cpp -o build/mergeSort.d -lm -O3 -Wall -Wextra -fopenmp -std=c++11 -Wno-unused-parameter
+mpic++ -M src/utils.cpp -o build/utils.d -lm -O3 -Wall -Wextra -fopenmp -std=c++11 -Wno-unused-parameter
+mpic++ -c src/main.cpp -o build/main.o -lm -O3 -Wall -Wextra -fopenmp -std=c++11 -Wno-unused-parameter
+mpic++ -c src/mergeSort.cpp -o build/mergeSort.o -lm -O3 -Wall -Wextra -fopenmp -std=c++11 -Wno-unused-parameter
+mpic++ -c src/utils.cpp -o build/utils.o -lm -O3 -Wall -Wextra -fopenmp -std=c++11 -Wno-unused-parameter
+mpic++ -o bin/main build/main.o build/mergeSort.o build/utils.o -lm -O3 -Wall -Wextra -fopenmp -std=c++11 -Wno-unused-parameter
+
+Sizeof input 2048:
+
+#buckets: 3-1
+Execution Time: 0.269ms
+Execution Time: 0.259ms
+Execution Time: 0.257ms
+Execution Time: 0.259ms
+Execution Time: 0.262ms
+Execution Time: 0.265ms
+Execution Time: 0.264ms
+Execution Time: 0.267ms
+Estimated Communication Time: 0.156879ms
+Estimated Communication Time: 0.152111ms
+Estimated Communication Time: 0.154972ms
+Estimated Communication Time: 0.154972ms
+Estimated Communication Time: 0.150919ms
+Estimated Communication Time: 0.149012ms
+Estimated Communication Time: 0.159025ms
+Estimated Communication Time: 0.154972ms
+Numbers sorted by the #1 rank process: 972
+Numbers sorted by the #2 rank process: 1076
+Numbers sorted by the #1 rank process: 972
+Numbers sorted by the #2 rank process: 1076
+Numbers sorted by the #1 rank process: 972
+Numbers sorted by the #2 rank process: 1076
+Numbers sorted by the #1 rank process: 972
+Numbers sorted by the #2 rank process: 1076
+Numbers sorted by the #1 rank process: 972
+Numbers sorted by the #2 rank process: 1076
+Numbers sorted by the #1 rank process: 972
+Numbers sorted by the #2 rank process: 1076
+Numbers sorted by the #1 rank process: 972
+Numbers sorted by the #2 rank process: 1076
+Numbers sorted by the #1 rank process: 972
+Numbers sorted by the #2 rank process: 1076
+
+#buckets: 5-1
+Execution Time: 0.193ms
+Execution Time: 0.181ms
+Execution Time: 0.203ms
+Execution Time: 0.194ms
+Execution Time: 0.201ms
+Execution Time: 0.191ms
+Execution Time: 0.213ms
+Execution Time: 0.185ms
+Estimated Communication Time: 0.132084ms
+Estimated Communication Time: 0.138998ms
+Estimated Communication Time: 0.149012ms
+Estimated Communication Time: 0.133991ms
+Estimated Communication Time: 0.148058ms
+Estimated Communication Time: 0.135899ms
+Estimated Communication Time: 0.133991ms
+Estimated Communication Time: 0.134945ms
+Numbers sorted by the #1 rank process: 487
+Numbers sorted by the #2 rank process: 485
+Numbers sorted by the #3 rank process: 529
+Numbers sorted by the #4 rank process: 547
+Numbers sorted by the #1 rank process: 486
+Numbers sorted by the #2 rank process: 486
+Numbers sorted by the #3 rank process: 529
+Numbers sorted by the #4 rank process: 547
+Numbers sorted by the #1 rank process: 486
+Numbers sorted by the #2 rank process: 486
+Numbers sorted by the #3 rank process: 529
+Numbers sorted by the #4 rank process: 547
+Numbers sorted by the #1 rank process: 486
+Numbers sorted by the #2 rank process: 486
+Numbers sorted by the #3 rank process: 529
+Numbers sorted by the #4 rank process: 547
+Numbers sorted by the #1 rank process: 486
+Numbers sorted by the #2 rank process: 486
+Numbers sorted by the #3 rank process: 529
+Numbers sorted by the #4 rank process: 547
+Numbers sorted by the #1 rank process: 486
+Numbers sorted by the #2 rank process: 486
+Numbers sorted by the #3 rank process: 529
+Numbers sorted by the #4 rank process: 547
+Numbers sorted by the #1 rank process: 486
+Numbers sorted by the #2 rank process: 486
+Numbers sorted by the #3 rank process: 529
+Numbers sorted by the #4 rank process: 547
+Numbers sorted by the #1 rank process: 486
+Numbers sorted by the #2 rank process: 486
+Numbers sorted by the #3 rank process: 529
+Numbers sorted by the #4 rank process: 547
+
+#buckets: 9-1
+Execution Time: 0.207ms
+Execution Time: 0.195ms
+Execution Time: 0.193ms
+Execution Time: 0.213ms
+Execution Time: 0.202ms
+Execution Time: 0.203ms
+Execution Time: 0.199ms
+Execution Time: 0.209ms
+Estimated Communication Time: 0.169039ms
+Estimated Communication Time: 0.159979ms
+Estimated Communication Time: 0.164986ms
+Estimated Communication Time: 0.154972ms
+Estimated Communication Time: 0.168085ms
+Estimated Communication Time: 0.168085ms
+Estimated Communication Time: 0.169039ms
+Estimated Communication Time: 0.169039ms
+Numbers sorted by the #1 rank process: 256
+Numbers sorted by the #2 rank process: 230
+Numbers sorted by the #3 rank process: 246
+Numbers sorted by the #4 rank process: 240
+Numbers sorted by the #5 rank process: 251
+Numbers sorted by the #6 rank process: 278
+Numbers sorted by the #7 rank process: 278
+Numbers sorted by the #8 rank process: 269
+Numbers sorted by the #1 rank process: 256
+Numbers sorted by the #2 rank process: 230
+Numbers sorted by the #3 rank process: 246
+Numbers sorted by the #4 rank process: 240
+Numbers sorted by the #5 rank process: 251
+Numbers sorted by the #6 rank process: 278
+Numbers sorted by the #7 rank process: 278
+Numbers sorted by the #8 rank process: 269
+Numbers sorted by the #1 rank process: 256
+Numbers sorted by the #2 rank process: 230
+Numbers sorted by the #3 rank process: 246
+Numbers sorted by the #4 rank process: 240
+Numbers sorted by the #5 rank process: 251
+Numbers sorted by the #6 rank process: 278
+Numbers sorted by the #7 rank process: 278
+Numbers sorted by the #8 rank process: 269
+Numbers sorted by the #1 rank process: 256
+Numbers sorted by the #2 rank process: 230
+Numbers sorted by the #3 rank process: 246
+Numbers sorted by the #4 rank process: 240
+Numbers sorted by the #5 rank process: 251
+Numbers sorted by the #6 rank process: 278
+Numbers sorted by the #7 rank process: 278
+Numbers sorted by the #8 rank process: 269
+Numbers sorted by the #1 rank process: 256
+Numbers sorted by the #2 rank process: 230
+Numbers sorted by the #3 rank process: 246
+Numbers sorted by the #4 rank process: 240
+Numbers sorted by the #5 rank process: 251
+Numbers sorted by the #6 rank process: 278
+Numbers sorted by the #7 rank process: 278
+Numbers sorted by the #8 rank process: 269
+Numbers sorted by the #1 rank process: 256
+Numbers sorted by the #2 rank process: 230
+Numbers sorted by the #3 rank process: 246
+Numbers sorted by the #4 rank process: 240
+Numbers sorted by the #5 rank process: 251
+Numbers sorted by the #6 rank process: 278
+Numbers sorted by the #7 rank process: 278
+Numbers sorted by the #8 rank process: 269
+Numbers sorted by the #1 rank process: 256
+Numbers sorted by the #2 rank process: 230
+Numbers sorted by the #3 rank process: 246
+Numbers sorted by the #4 rank process: 240
+Numbers sorted by the #5 rank process: 251
+Numbers sorted by the #6 rank process: 278
+Numbers sorted by the #7 rank process: 278
+Numbers sorted by the #8 rank process: 269
+Numbers sorted by the #1 rank process: 256
+Numbers sorted by the #2 rank process: 230
+Numbers sorted by the #3 rank process: 246
+Numbers sorted by the #4 rank process: 240
+Numbers sorted by the #5 rank process: 251
+Numbers sorted by the #6 rank process: 278
+Numbers sorted by the #7 rank process: 278
+Numbers sorted by the #8 rank process: 269
+
+#buckets: 16-1
+Execution Time: 0.281ms
+Execution Time: 0.309ms
+Execution Time: 0.297ms
+Execution Time: 0.271ms
+Execution Time: 0.31ms
+Execution Time: 0.313ms
+Execution Time: 0.279ms
+Execution Time: 0.321ms
+Estimated Communication Time: 0.23818ms
+Estimated Communication Time: 0.245094ms
+Estimated Communication Time: 0.241995ms
+Estimated Communication Time: 0.249147ms
+Estimated Communication Time: 0.236988ms
+Estimated Communication Time: 0.241041ms
+Estimated Communication Time: 0.236034ms
+Estimated Communication Time: 0.241995ms
+Numbers sorted by the #1 rank process: 137
+Numbers sorted by the #2 rank process: 143
+Numbers sorted by the #3 rank process: 112
+Numbers sorted by the #4 rank process: 122
+Numbers sorted by the #5 rank process: 137
+Numbers sorted by the #6 rank process: 130
+Numbers sorted by the #7 rank process: 121
+Numbers sorted by the #8 rank process: 133
+Numbers sorted by the #9 rank process: 148
+Numbers sorted by the #10 rank process: 119
+Numbers sorted by the #11 rank process: 154
+Numbers sorted by the #12 rank process: 155
+Numbers sorted by the #13 rank process: 148
+Numbers sorted by the #14 rank process: 144
+Numbers sorted by the #15 rank process: 145
+Numbers sorted by the #1 rank process: 137
+Numbers sorted by the #2 rank process: 143
+Numbers sorted by the #3 rank process: 112
+Numbers sorted by the #4 rank process: 122
+Numbers sorted by the #5 rank process: 137
+Numbers sorted by the #6 rank process: 130
+Numbers sorted by the #7 rank process: 121
+Numbers sorted by the #8 rank process: 133
+Numbers sorted by the #9 rank process: 148
+Numbers sorted by the #10 rank process: 119
+Numbers sorted by the #11 rank process: 154
+Numbers sorted by the #12 rank process: 155
+Numbers sorted by the #13 rank process: 148
+Numbers sorted by the #14 rank process: 144
+Numbers sorted by the #15 rank process: 145
+Numbers sorted by the #1 rank process: 137
+Numbers sorted by the #2 rank process: 143
+Numbers sorted by the #3 rank process: 112
+Numbers sorted by the #4 rank process: 122
+Numbers sorted by the #5 rank process: 137
+Numbers sorted by the #6 rank process: 130
+Numbers sorted by the #7 rank process: 121
+Numbers sorted by the #8 rank process: 133
+Numbers sorted by the #9 rank process: 148
+Numbers sorted by the #10 rank process: 119
+Numbers sorted by the #11 rank process: 154
+Numbers sorted by the #12 rank process: 155
+Numbers sorted by the #13 rank process: 148
+Numbers sorted by the #14 rank process: 144
+Numbers sorted by the #15 rank process: 145
+Numbers sorted by the #1 rank process: 137
+Numbers sorted by the #2 rank process: 143
+Numbers sorted by the #3 rank process: 112
+Numbers sorted by the #4 rank process: 122
+Numbers sorted by the #5 rank process: 137
+Numbers sorted by the #6 rank process: 130
+Numbers sorted by the #7 rank process: 121
+Numbers sorted by the #8 rank process: 133
+Numbers sorted by the #9 rank process: 148
+Numbers sorted by the #10 rank process: 119
+Numbers sorted by the #11 rank process: 154
+Numbers sorted by the #12 rank process: 155
+Numbers sorted by the #13 rank process: 148
+Numbers sorted by the #14 rank process: 144
+Numbers sorted by the #15 rank process: 145
+Numbers sorted by the #1 rank process: 137
+Numbers sorted by the #2 rank process: 143
+Numbers sorted by the #3 rank process: 112
+Numbers sorted by the #4 rank process: 122
+Numbers sorted by the #5 rank process: 137
+Numbers sorted by the #6 rank process: 130
+Numbers sorted by the #7 rank process: 121
+Numbers sorted by the #8 rank process: 133
+Numbers sorted by the #9 rank process: 148
+Numbers sorted by the #10 rank process: 119
+Numbers sorted by the #11 rank process: 154
+Numbers sorted by the #12 rank process: 155
+Numbers sorted by the #13 rank process: 148
+Numbers sorted by the #14 rank process: 144
+Numbers sorted by the #15 rank process: 145
+Numbers sorted by the #1 rank process: 137
+Numbers sorted by the #2 rank process: 143
+Numbers sorted by the #3 rank process: 112
+Numbers sorted by the #4 rank process: 122
+Numbers sorted by the #5 rank process: 137
+Numbers sorted by the #6 rank process: 130
+Numbers sorted by the #7 rank process: 121
+Numbers sorted by the #8 rank process: 133
+Numbers sorted by the #9 rank process: 148
+Numbers sorted by the #10 rank process: 119
+Numbers sorted by the #11 rank process: 154
+Numbers sorted by the #12 rank process: 155
+Numbers sorted by the #13 rank process: 148
+Numbers sorted by the #14 rank process: 144
+Numbers sorted by the #15 rank process: 145
+Numbers sorted by the #1 rank process: 137
+Numbers sorted by the #2 rank process: 143
+Numbers sorted by the #3 rank process: 112
+Numbers sorted by the #4 rank process: 122
+Numbers sorted by the #5 rank process: 137
+Numbers sorted by the #6 rank process: 130
+Numbers sorted by the #7 rank process: 121
+Numbers sorted by the #8 rank process: 133
+Numbers sorted by the #9 rank process: 148
+Numbers sorted by the #10 rank process: 119
+Numbers sorted by the #11 rank process: 154
+Numbers sorted by the #12 rank process: 155
+Numbers sorted by the #13 rank process: 148
+Numbers sorted by the #14 rank process: 144
+Numbers sorted by the #15 rank process: 145
+Numbers sorted by the #1 rank process: 137
+Numbers sorted by the #2 rank process: 143
+Numbers sorted by the #3 rank process: 112
+Numbers sorted by the #4 rank process: 122
+Numbers sorted by the #5 rank process: 137
+Numbers sorted by the #6 rank process: 130
+Numbers sorted by the #7 rank process: 121
+Numbers sorted by the #8 rank process: 133
+Numbers sorted by the #9 rank process: 148
+Numbers sorted by the #10 rank process: 119
+Numbers sorted by the #11 rank process: 154
+Numbers sorted by the #12 rank process: 155
+Numbers sorted by the #13 rank process: 148
+Numbers sorted by the #14 rank process: 144
+Numbers sorted by the #15 rank process: 145
+
+#buckets: 32-1
+Execution Time: 0.655ms
+Execution Time: 0.593ms
+Execution Time: 0.513ms
+Execution Time: 0.506ms
+Execution Time: 0.513ms
+Execution Time: 0.551ms
+Execution Time: 0.505ms
+Execution Time: 0.514ms
+Estimated Communication Time: 0.535011ms
+Estimated Communication Time: 0.428915ms
+Estimated Communication Time: 0.471115ms
+Estimated Communication Time: 0.426054ms
+Estimated Communication Time: 0.4282ms
+Estimated Communication Time: 0.469923ms
+Estimated Communication Time: 0.586987ms
+Estimated Communication Time: 0.458002ms
+Numbers sorted by the #1 rank process: 60
+Numbers sorted by the #2 rank process: 74
+Numbers sorted by the #3 rank process: 64
+Numbers sorted by the #4 rank process: 71
+Numbers sorted by the #5 rank process: 61
+Numbers sorted by the #6 rank process: 55
+Numbers sorted by the #7 rank process: 48
+Numbers sorted by the #8 rank process: 67
+Numbers sorted by the #9 rank process: 67
+Numbers sorted by the #10 rank process: 61
+Numbers sorted by the #11 rank process: 68
+Numbers sorted by the #12 rank process: 58
+Numbers sorted by the #13 rank process: 64
+Numbers sorted by the #14 rank process: 60
+Numbers sorted by the #15 rank process: 51
+Numbers sorted by the #16 rank process: 81
+Numbers sorted by the #17 rank process: 62
+Numbers sorted by the #18 rank process: 73
+Numbers sorted by the #19 rank process: 55
+Numbers sorted by the #20 rank process: 64
+Numbers sorted by the #21 rank process: 63
+Numbers sorted by the #22 rank process: 75
+Numbers sorted by the #23 rank process: 79
+Numbers sorted by the #24 rank process: 76
+Numbers sorted by the #25 rank process: 61
+Numbers sorted by the #26 rank process: 85
+Numbers sorted by the #27 rank process: 64
+Numbers sorted by the #28 rank process: 62
+Numbers sorted by the #29 rank process: 77
+Numbers sorted by the #30 rank process: 63
+Numbers sorted by the #31 rank process: 79
+Numbers sorted by the #1 rank process: 60
+Numbers sorted by the #2 rank process: 74
+Numbers sorted by the #3 rank process: 64
+Numbers sorted by the #4 rank process: 71
+Numbers sorted by the #5 rank process: 61
+Numbers sorted by the #6 rank process: 55
+Numbers sorted by the #7 rank process: 48
+Numbers sorted by the #8 rank process: 67
+Numbers sorted by the #9 rank process: 67
+Numbers sorted by the #10 rank process: 61
+Numbers sorted by the #11 rank process: 68
+Numbers sorted by the #12 rank process: 58
+Numbers sorted by the #13 rank process: 64
+Numbers sorted by the #14 rank process: 60
+Numbers sorted by the #15 rank process: 51
+Numbers sorted by the #16 rank process: 81
+Numbers sorted by the #17 rank process: 62
+Numbers sorted by the #18 rank process: 73
+Numbers sorted by the #19 rank process: 55
+Numbers sorted by the #20 rank process: 64
+Numbers sorted by the #21 rank process: 63
+Numbers sorted by the #22 rank process: 75
+Numbers sorted by the #23 rank process: 79
+Numbers sorted by the #24 rank process: 76
+Numbers sorted by the #25 rank process: 61
+Numbers sorted by the #26 rank process: 85
+Numbers sorted by the #27 rank process: 64
+Numbers sorted by the #28 rank process: 62
+Numbers sorted by the #29 rank process: 77
+Numbers sorted by the #30 rank process: 63
+Numbers sorted by the #31 rank process: 79
+Numbers sorted by the #1 rank process: 60
+Numbers sorted by the #2 rank process: 74
+Numbers sorted by the #3 rank process: 64
+Numbers sorted by the #4 rank process: 71
+Numbers sorted by the #5 rank process: 61
+Numbers sorted by the #6 rank process: 55
+Numbers sorted by the #7 rank process: 48
+Numbers sorted by the #8 rank process: 67
+Numbers sorted by the #9 rank process: 67
+Numbers sorted by the #10 rank process: 61
+Numbers sorted by the #11 rank process: 68
+Numbers sorted by the #12 rank process: 58
+Numbers sorted by the #13 rank process: 64
+Numbers sorted by the #14 rank process: 60
+Numbers sorted by the #15 rank process: 51
+Numbers sorted by the #16 rank process: 81
+Numbers sorted by the #17 rank process: 62
+Numbers sorted by the #18 rank process: 73
+Numbers sorted by the #19 rank process: 55
+Numbers sorted by the #20 rank process: 64
+Numbers sorted by the #21 rank process: 63
+Numbers sorted by the #22 rank process: 75
+Numbers sorted by the #23 rank process: 79
+Numbers sorted by the #24 rank process: 76
+Numbers sorted by the #25 rank process: 61
+Numbers sorted by the #26 rank process: 85
+Numbers sorted by the #27 rank process: 64
+Numbers sorted by the #28 rank process: 62
+Numbers sorted by the #29 rank process: 77
+Numbers sorted by the #30 rank process: 63
+Numbers sorted by the #31 rank process: 79
+Numbers sorted by the #1 rank process: 60
+Numbers sorted by the #2 rank process: 74
+Numbers sorted by the #3 rank process: 64
+Numbers sorted by the #4 rank process: 71
+Numbers sorted by the #5 rank process: 61
+Numbers sorted by the #6 rank process: 55
+Numbers sorted by the #7 rank process: 48
+Numbers sorted by the #8 rank process: 67
+Numbers sorted by the #9 rank process: 67
+Numbers sorted by the #10 rank process: 61
+Numbers sorted by the #11 rank process: 68
+Numbers sorted by the #12 rank process: 58
+Numbers sorted by the #13 rank process: 64
+Numbers sorted by the #14 rank process: 60
+Numbers sorted by the #15 rank process: 51
+Numbers sorted by the #16 rank process: 81
+Numbers sorted by the #17 rank process: 62
+Numbers sorted by the #18 rank process: 73
+Numbers sorted by the #19 rank process: 55
+Numbers sorted by the #20 rank process: 64
+Numbers sorted by the #21 rank process: 63
+Numbers sorted by the #22 rank process: 75
+Numbers sorted by the #23 rank process: 79
+Numbers sorted by the #24 rank process: 76
+Numbers sorted by the #25 rank process: 61
+Numbers sorted by the #26 rank process: 85
+Numbers sorted by the #27 rank process: 64
+Numbers sorted by the #28 rank process: 62
+Numbers sorted by the #29 rank process: 77
+Numbers sorted by the #30 rank process: 63
+Numbers sorted by the #31 rank process: 79
+Numbers sorted by the #1 rank process: 60
+Numbers sorted by the #2 rank process: 74
+Numbers sorted by the #3 rank process: 64
+Numbers sorted by the #4 rank process: 71
+Numbers sorted by the #5 rank process: 61
+Numbers sorted by the #6 rank process: 55
+Numbers sorted by the #7 rank process: 48
+Numbers sorted by the #8 rank process: 67
+Numbers sorted by the #9 rank process: 67
+Numbers sorted by the #10 rank process: 61
+Numbers sorted by the #11 rank process: 68
+Numbers sorted by the #12 rank process: 58
+Numbers sorted by the #13 rank process: 64
+Numbers sorted by the #14 rank process: 60
+Numbers sorted by the #15 rank process: 51
+Numbers sorted by the #16 rank process: 81
+Numbers sorted by the #17 rank process: 62
+Numbers sorted by the #18 rank process: 73
+Numbers sorted by the #19 rank process: 55
+Numbers sorted by the #20 rank process: 64
+Numbers sorted by the #21 rank process: 63
+Numbers sorted by the #22 rank process: 75
+Numbers sorted by the #23 rank process: 79
+Numbers sorted by the #24 rank process: 76
+Numbers sorted by the #25 rank process: 61
+Numbers sorted by the #26 rank process: 85
+Numbers sorted by the #27 rank process: 64
+Numbers sorted by the #28 rank process: 62
+Numbers sorted by the #29 rank process: 77
+Numbers sorted by the #30 rank process: 63
+Numbers sorted by the #31 rank process: 79
+Numbers sorted by the #1 rank process: 60
+Numbers sorted by the #2 rank process: 74
+Numbers sorted by the #3 rank process: 64
+Numbers sorted by the #4 rank process: 71
+Numbers sorted by the #5 rank process: 61
+Numbers sorted by the #6 rank process: 55
+Numbers sorted by the #7 rank process: 48
+Numbers sorted by the #8 rank process: 67
+Numbers sorted by the #9 rank process: 67
+Numbers sorted by the #10 rank process: 61
+Numbers sorted by the #11 rank process: 68
+Numbers sorted by the #12 rank process: 58
+Numbers sorted by the #13 rank process: 64
+Numbers sorted by the #14 rank process: 60
+Numbers sorted by the #15 rank process: 51
+Numbers sorted by the #16 rank process: 81
+Numbers sorted by the #17 rank process: 62
+Numbers sorted by the #18 rank process: 73
+Numbers sorted by the #19 rank process: 55
+Numbers sorted by the #20 rank process: 64
+Numbers sorted by the #21 rank process: 63
+Numbers sorted by the #22 rank process: 75
+Numbers sorted by the #23 rank process: 79
+Numbers sorted by the #24 rank process: 76
+Numbers sorted by the #25 rank process: 61
+Numbers sorted by the #26 rank process: 85
+Numbers sorted by the #27 rank process: 64
+Numbers sorted by the #28 rank process: 62
+Numbers sorted by the #29 rank process: 77
+Numbers sorted by the #30 rank process: 63
+Numbers sorted by the #31 rank process: 79
+Numbers sorted by the #1 rank process: 60
+Numbers sorted by the #2 rank process: 74
+Numbers sorted by the #3 rank process: 64
+Numbers sorted by the #4 rank process: 71
+Numbers sorted by the #5 rank process: 61
+Numbers sorted by the #6 rank process: 55
+Numbers sorted by the #7 rank process: 48
+Numbers sorted by the #8 rank process: 68
+Numbers sorted by the #9 rank process: 67
+Numbers sorted by the #10 rank process: 60
+Numbers sorted by the #11 rank process: 68
+Numbers sorted by the #12 rank process: 58
+Numbers sorted by the #13 rank process: 64
+Numbers sorted by the #14 rank process: 60
+Numbers sorted by the #15 rank process: 51
+Numbers sorted by the #16 rank process: 81
+Numbers sorted by the #17 rank process: 62
+Numbers sorted by the #18 rank process: 73
+Numbers sorted by the #19 rank process: 55
+Numbers sorted by the #20 rank process: 64
+Numbers sorted by the #21 rank process: 63
+Numbers sorted by the #22 rank process: 75
+Numbers sorted by the #23 rank process: 79
+Numbers sorted by the #24 rank process: 76
+Numbers sorted by the #25 rank process: 60
+Numbers sorted by the #26 rank process: 85
+Numbers sorted by the #27 rank process: 64
+Numbers sorted by the #28 rank process: 62
+Numbers sorted by the #29 rank process: 77
+Numbers sorted by the #30 rank process: 64
+Numbers sorted by the #31 rank process: 79
+Numbers sorted by the #1 rank process: 60
+Numbers sorted by the #2 rank process: 74
+Numbers sorted by the #3 rank process: 64
+Numbers sorted by the #4 rank process: 71
+Numbers sorted by the #5 rank process: 61
+Numbers sorted by the #6 rank process: 55
+Numbers sorted by the #7 rank process: 48
+Numbers sorted by the #8 rank process: 68
+Numbers sorted by the #9 rank process: 67
+Numbers sorted by the #10 rank process: 60
+Numbers sorted by the #11 rank process: 68
+Numbers sorted by the #12 rank process: 58
+Numbers sorted by the #13 rank process: 64
+Numbers sorted by the #14 rank process: 60
+Numbers sorted by the #15 rank process: 51
+Numbers sorted by the #16 rank process: 81
+Numbers sorted by the #17 rank process: 62
+Numbers sorted by the #18 rank process: 73
+Numbers sorted by the #19 rank process: 55
+Numbers sorted by the #20 rank process: 64
+Numbers sorted by the #21 rank process: 63
+Numbers sorted by the #22 rank process: 75
+Numbers sorted by the #23 rank process: 79
+Numbers sorted by the #24 rank process: 76
+Numbers sorted by the #25 rank process: 61
+Numbers sorted by the #26 rank process: 85
+Numbers sorted by the #27 rank process: 64
+Numbers sorted by the #28 rank process: 62
+Numbers sorted by the #29 rank process: 77
+Numbers sorted by the #30 rank process: 63
+Numbers sorted by the #31 rank process: 79
+
+Sizeof input 16384:
+
+#buckets: 3-1
+Execution Time: 1.126ms
+Execution Time: 1.126ms
+Execution Time: 1.23ms
+Execution Time: 1.213ms
+Execution Time: 1.207ms
+Execution Time: 166.037ms
+Execution Time: 1.204ms
+Execution Time: 1.208ms
+Estimated Communication Time: 0.364065ms
+Estimated Communication Time: 0.373125ms
+Estimated Communication Time: 0.387192ms
+Estimated Communication Time: 0.370979ms
+Estimated Communication Time: 0.374079ms
+Estimated Communication Time: 0.384808ms
+Estimated Communication Time: 0.375986ms
+Estimated Communication Time: 0.379086ms
+Numbers sorted by the #1 rank process: 8140
+Numbers sorted by the #2 rank process: 8244
+Numbers sorted by the #1 rank process: 8140
+Numbers sorted by the #2 rank process: 8244
+Numbers sorted by the #1 rank process: 8140
+Numbers sorted by the #2 rank process: 8244
+Numbers sorted by the #1 rank process: 8140
+Numbers sorted by the #2 rank process: 8244
+Numbers sorted by the #1 rank process: 8140
+Numbers sorted by the #2 rank process: 8244
+Numbers sorted by the #1 rank process: 8140
+Numbers sorted by the #2 rank process: 8244
+Numbers sorted by the #1 rank process: 8140
+Numbers sorted by the #2 rank process: 8244
+Numbers sorted by the #1 rank process: 8140
+Numbers sorted by the #2 rank process: 8244
+
+#buckets: 5-1
+Execution Time: 0.8ms
+Execution Time: 0.801ms
+Execution Time: 0.798ms
+Execution Time: 0.805ms
+Execution Time: 0.835ms
+Execution Time: 0.792ms
+Execution Time: 0.811ms
+Execution Time: 0.796ms
+Estimated Communication Time: 0.41008ms
+Estimated Communication Time: 0.422955ms
+Estimated Communication Time: 0.426054ms
+Estimated Communication Time: 0.415087ms
+Estimated Communication Time: 0.4251ms
+Estimated Communication Time: 0.439167ms
+Estimated Communication Time: 0.420094ms
+Estimated Communication Time: 0.422001ms
+Numbers sorted by the #1 rank process: 4037
+Numbers sorted by the #2 rank process: 4103
+Numbers sorted by the #3 rank process: 4129
+Numbers sorted by the #4 rank process: 4115
+Numbers sorted by the #1 rank process: 4037
+Numbers sorted by the #2 rank process: 4103
+Numbers sorted by the #3 rank process: 4129
+Numbers sorted by the #4 rank process: 4115
+Numbers sorted by the #1 rank process: 4037
+Numbers sorted by the #2 rank process: 4103
+Numbers sorted by the #3 rank process: 4129
+Numbers sorted by the #4 rank process: 4115
+Numbers sorted by the #1 rank process: 4037
+Numbers sorted by the #2 rank process: 4103
+Numbers sorted by the #3 rank process: 4129
+Numbers sorted by the #4 rank process: 4115
+Numbers sorted by the #1 rank process: 4037
+Numbers sorted by the #2 rank process: 4103
+Numbers sorted by the #3 rank process: 4129
+Numbers sorted by the #4 rank process: 4115
+Numbers sorted by the #1 rank process: 4037
+Numbers sorted by the #2 rank process: 4103
+Numbers sorted by the #3 rank process: 4129
+Numbers sorted by the #4 rank process: 4115
+Numbers sorted by the #1 rank process: 4037
+Numbers sorted by the #2 rank process: 4103
+Numbers sorted by the #3 rank process: 4129
+Numbers sorted by the #4 rank process: 4115
+Numbers sorted by the #1 rank process: 4037
+Numbers sorted by the #2 rank process: 4103
+Numbers sorted by the #3 rank process: 4129
+Numbers sorted by the #4 rank process: 4115
+
+#buckets: 9-1
+Execution Time: 0.716ms
+Execution Time: 0.706ms
+Execution Time: 0.705ms
+Execution Time: 0.739ms
+Execution Time: 0.716ms
+Execution Time: 0.724ms
+Execution Time: 0.726ms
+Execution Time: 0.71ms
+Estimated Communication Time: 0.549078ms
+Estimated Communication Time: 0.559807ms
+Estimated Communication Time: 0.547171ms
+Estimated Communication Time: 0.557184ms
+Estimated Communication Time: 0.562906ms
+Estimated Communication Time: 0.556946ms
+Estimated Communication Time: 0.551939ms
+Estimated Communication Time: 0.57292ms
+Numbers sorted by the #1 rank process: 1992
+Numbers sorted by the #2 rank process: 2045
+Numbers sorted by the #3 rank process: 2065
+Numbers sorted by the #4 rank process: 2038
+Numbers sorted by the #5 rank process: 2109
+Numbers sorted by the #6 rank process: 2020
+Numbers sorted by the #7 rank process: 2114
+Numbers sorted by the #8 rank process: 2001
+Numbers sorted by the #1 rank process: 1992
+Numbers sorted by the #2 rank process: 2045
+Numbers sorted by the #3 rank process: 2065
+Numbers sorted by the #4 rank process: 2038
+Numbers sorted by the #5 rank process: 2109
+Numbers sorted by the #6 rank process: 2020
+Numbers sorted by the #7 rank process: 2114
+Numbers sorted by the #8 rank process: 2001
+Numbers sorted by the #1 rank process: 1992
+Numbers sorted by the #2 rank process: 2045
+Numbers sorted by the #3 rank process: 2065
+Numbers sorted by the #4 rank process: 2038
+Numbers sorted by the #5 rank process: 2109
+Numbers sorted by the #6 rank process: 2020
+Numbers sorted by the #7 rank process: 2114
+Numbers sorted by the #8 rank process: 2001
+Numbers sorted by the #1 rank process: 1992
+Numbers sorted by the #2 rank process: 2045
+Numbers sorted by the #3 rank process: 2065
+Numbers sorted by the #4 rank process: 2038
+Numbers sorted by the #5 rank process: 2109
+Numbers sorted by the #6 rank process: 2020
+Numbers sorted by the #7 rank process: 2114
+Numbers sorted by the #8 rank process: 2001
+Numbers sorted by the #1 rank process: 1992
+Numbers sorted by the #2 rank process: 2045
+Numbers sorted by the #3 rank process: 2065
+Numbers sorted by the #4 rank process: 2038
+Numbers sorted by the #5 rank process: 2109
+Numbers sorted by the #6 rank process: 2020
+Numbers sorted by the #7 rank process: 2114
+Numbers sorted by the #8 rank process: 2001
+Numbers sorted by the #1 rank process: 1992
+Numbers sorted by the #2 rank process: 2045
+Numbers sorted by the #3 rank process: 2065
+Numbers sorted by the #4 rank process: 2038
+Numbers sorted by the #5 rank process: 2109
+Numbers sorted by the #6 rank process: 2020
+Numbers sorted by the #7 rank process: 2114
+Numbers sorted by the #8 rank process: 2001
+Numbers sorted by the #1 rank process: 1992
+Numbers sorted by the #2 rank process: 2045
+Numbers sorted by the #3 rank process: 2065
+Numbers sorted by the #4 rank process: 2038
+Numbers sorted by the #5 rank process: 2109
+Numbers sorted by the #6 rank process: 2020
+Numbers sorted by the #7 rank process: 2114
+Numbers sorted by the #8 rank process: 2001
+Numbers sorted by the #1 rank process: 1992
+Numbers sorted by the #2 rank process: 2045
+Numbers sorted by the #3 rank process: 2065
+Numbers sorted by the #4 rank process: 2038
+Numbers sorted by the #5 rank process: 2109
+Numbers sorted by the #6 rank process: 2020
+Numbers sorted by the #7 rank process: 2114
+Numbers sorted by the #8 rank process: 2001
+
+#buckets: 16-1
+Execution Time: 0.9ms
+Execution Time: 0.901ms
+Execution Time: 0.924ms
+Execution Time: 0.922ms
+Execution Time: 0.914ms
+Execution Time: 0.924ms
+Execution Time: 0.941ms
+Execution Time: 0.919ms
+Estimated Communication Time: 0.756979ms
+Estimated Communication Time: 0.744104ms
+Estimated Communication Time: 0.752926ms
+Estimated Communication Time: 0.763893ms
+Estimated Communication Time: 0.751972ms
+Estimated Communication Time: 0.761986ms
+Estimated Communication Time: 0.751972ms
+Estimated Communication Time: 0.765085ms
+Numbers sorted by the #1 rank process: 1068
+Numbers sorted by the #2 rank process: 1058
+Numbers sorted by the #3 rank process: 1094
+Numbers sorted by the #4 rank process: 1079
+Numbers sorted by the #5 rank process: 1127
+Numbers sorted by the #6 rank process: 1094
+Numbers sorted by the #7 rank process: 1049
+Numbers sorted by the #8 rank process: 1131
+Numbers sorted by the #9 rank process: 1118
+Numbers sorted by the #10 rank process: 1115
+Numbers sorted by the #11 rank process: 1086
+Numbers sorted by the #12 rank process: 1120
+Numbers sorted by the #13 rank process: 1112
+Numbers sorted by the #14 rank process: 1068
+Numbers sorted by the #15 rank process: 1065
+Numbers sorted by the #1 rank process: 1068
+Numbers sorted by the #2 rank process: 1058
+Numbers sorted by the #3 rank process: 1094
+Numbers sorted by the #4 rank process: 1079
+Numbers sorted by the #5 rank process: 1127
+Numbers sorted by the #6 rank process: 1094
+Numbers sorted by the #7 rank process: 1049
+Numbers sorted by the #8 rank process: 1131
+Numbers sorted by the #9 rank process: 1118
+Numbers sorted by the #10 rank process: 1115
+Numbers sorted by the #11 rank process: 1086
+Numbers sorted by the #12 rank process: 1120
+Numbers sorted by the #13 rank process: 1112
+Numbers sorted by the #14 rank process: 1068
+Numbers sorted by the #15 rank process: 1065
+Numbers sorted by the #1 rank process: 1068
+Numbers sorted by the #2 rank process: 1058
+Numbers sorted by the #3 rank process: 1094
+Numbers sorted by the #4 rank process: 1079
+Numbers sorted by the #5 rank process: 1127
+Numbers sorted by the #6 rank process: 1094
+Numbers sorted by the #7 rank process: 1049
+Numbers sorted by the #8 rank process: 1131
+Numbers sorted by the #9 rank process: 1118
+Numbers sorted by the #10 rank process: 1115
+Numbers sorted by the #11 rank process: 1086
+Numbers sorted by the #12 rank process: 1120
+Numbers sorted by the #13 rank process: 1112
+Numbers sorted by the #14 rank process: 1068
+Numbers sorted by the #15 rank process: 1065
+Numbers sorted by the #1 rank process: 1068
+Numbers sorted by the #2 rank process: 1058
+Numbers sorted by the #3 rank process: 1094
+Numbers sorted by the #4 rank process: 1079
+Numbers sorted by the #5 rank process: 1127
+Numbers sorted by the #6 rank process: 1094
+Numbers sorted by the #7 rank process: 1049
+Numbers sorted by the #8 rank process: 1131
+Numbers sorted by the #9 rank process: 1118
+Numbers sorted by the #10 rank process: 1115
+Numbers sorted by the #11 rank process: 1086
+Numbers sorted by the #12 rank process: 1120
+Numbers sorted by the #13 rank process: 1112
+Numbers sorted by the #14 rank process: 1068
+Numbers sorted by the #15 rank process: 1065
+Numbers sorted by the #1 rank process: 1068
+Numbers sorted by the #2 rank process: 1058
+Numbers sorted by the #3 rank process: 1094
+Numbers sorted by the #4 rank process: 1079
+Numbers sorted by the #5 rank process: 1127
+Numbers sorted by the #6 rank process: 1094
+Numbers sorted by the #7 rank process: 1049
+Numbers sorted by the #8 rank process: 1131
+Numbers sorted by the #9 rank process: 1118
+Numbers sorted by the #10 rank process: 1115
+Numbers sorted by the #11 rank process: 1086
+Numbers sorted by the #12 rank process: 1120
+Numbers sorted by the #13 rank process: 1112
+Numbers sorted by the #14 rank process: 1068
+Numbers sorted by the #15 rank process: 1065
+Numbers sorted by the #1 rank process: 1068
+Numbers sorted by the #2 rank process: 1058
+Numbers sorted by the #3 rank process: 1094
+Numbers sorted by the #4 rank process: 1079
+Numbers sorted by the #5 rank process: 1127
+Numbers sorted by the #6 rank process: 1094
+Numbers sorted by the #7 rank process: 1049
+Numbers sorted by the #8 rank process: 1131
+Numbers sorted by the #9 rank process: 1118
+Numbers sorted by the #10 rank process: 1115
+Numbers sorted by the #11 rank process: 1086
+Numbers sorted by the #12 rank process: 1120
+Numbers sorted by the #13 rank process: 1112
+Numbers sorted by the #14 rank process: 1068
+Numbers sorted by the #15 rank process: 1065
+Numbers sorted by the #1 rank process: 1069
+Numbers sorted by the #2 rank process: 1058
+Numbers sorted by the #3 rank process: 1094
+Numbers sorted by the #4 rank process: 1079
+Numbers sorted by the #5 rank process: 1127
+Numbers sorted by the #6 rank process: 1094
+Numbers sorted by the #7 rank process: 1049
+Numbers sorted by the #8 rank process: 1131
+Numbers sorted by the #9 rank process: 1118
+Numbers sorted by the #10 rank process: 1114
+Numbers sorted by the #11 rank process: 1086
+Numbers sorted by the #12 rank process: 1120
+Numbers sorted by the #13 rank process: 1112
+Numbers sorted by the #14 rank process: 1068
+Numbers sorted by the #15 rank process: 1065
+Numbers sorted by the #1 rank process: 1068
+Numbers sorted by the #2 rank process: 1058
+Numbers sorted by the #3 rank process: 1094
+Numbers sorted by the #4 rank process: 1079
+Numbers sorted by the #5 rank process: 1127
+Numbers sorted by the #6 rank process: 1094
+Numbers sorted by the #7 rank process: 1049
+Numbers sorted by the #8 rank process: 1131
+Numbers sorted by the #9 rank process: 1118
+Numbers sorted by the #10 rank process: 1115
+Numbers sorted by the #11 rank process: 1086
+Numbers sorted by the #12 rank process: 1120
+Numbers sorted by the #13 rank process: 1112
+Numbers sorted by the #14 rank process: 1068
+Numbers sorted by the #15 rank process: 1065
+
+#buckets: 32-1
+Execution Time: 0.863ms
+Execution Time: 0.754ms
+Execution Time: 0.879ms
+Execution Time: 0.798ms
+Execution Time: 0.758ms
+Execution Time: 0.879ms
+Execution Time: 0.851ms
+Execution Time: 0.804ms
+Estimated Communication Time: 0.610828ms
+Estimated Communication Time: 0.643969ms
+Estimated Communication Time: 0.57292ms
+Estimated Communication Time: 0.633001ms
+Estimated Communication Time: 0.658989ms
+Estimated Communication Time: 0.616074ms
+Estimated Communication Time: 0.599146ms
+Estimated Communication Time: 0.631094ms
+Numbers sorted by the #1 rank process: 521
+Numbers sorted by the #2 rank process: 511
+Numbers sorted by the #3 rank process: 520
+Numbers sorted by the #4 rank process: 504
+Numbers sorted by the #5 rank process: 532
+Numbers sorted by the #6 rank process: 523
+Numbers sorted by the #7 rank process: 517
+Numbers sorted by the #8 rank process: 543
+Numbers sorted by the #9 rank process: 527
+Numbers sorted by the #10 rank process: 549
+Numbers sorted by the #11 rank process: 523
+Numbers sorted by the #12 rank process: 545
+Numbers sorted by the #13 rank process: 501
+Numbers sorted by the #14 rank process: 501
+Numbers sorted by the #15 rank process: 534
+Numbers sorted by the #16 rank process: 569
+Numbers sorted by the #17 rank process: 547
+Numbers sorted by the #18 rank process: 531
+Numbers sorted by the #19 rank process: 538
+Numbers sorted by the #20 rank process: 535
+Numbers sorted by the #21 rank process: 540
+Numbers sorted by the #22 rank process: 526
+Numbers sorted by the #23 rank process: 505
+Numbers sorted by the #24 rank process: 535
+Numbers sorted by the #25 rank process: 561
+Numbers sorted by the #26 rank process: 532
+Numbers sorted by the #27 rank process: 554
+Numbers sorted by the #28 rank process: 511
+Numbers sorted by the #29 rank process: 517
+Numbers sorted by the #30 rank process: 518
+Numbers sorted by the #31 rank process: 514
+Numbers sorted by the #1 rank process: 520
+Numbers sorted by the #2 rank process: 511
+Numbers sorted by the #3 rank process: 520
+Numbers sorted by the #4 rank process: 505
+Numbers sorted by the #5 rank process: 532
+Numbers sorted by the #6 rank process: 523
+Numbers sorted by the #7 rank process: 517
+Numbers sorted by the #8 rank process: 543
+Numbers sorted by the #9 rank process: 527
+Numbers sorted by the #10 rank process: 549
+Numbers sorted by the #11 rank process: 523
+Numbers sorted by the #12 rank process: 544
+Numbers sorted by the #13 rank process: 501
+Numbers sorted by the #14 rank process: 501
+Numbers sorted by the #15 rank process: 534
+Numbers sorted by the #16 rank process: 569
+Numbers sorted by the #17 rank process: 547
+Numbers sorted by the #18 rank process: 531
+Numbers sorted by the #19 rank process: 538
+Numbers sorted by the #20 rank process: 536
+Numbers sorted by the #21 rank process: 540
+Numbers sorted by the #22 rank process: 526
+Numbers sorted by the #23 rank process: 505
+Numbers sorted by the #24 rank process: 535
+Numbers sorted by the #25 rank process: 561
+Numbers sorted by the #26 rank process: 532
+Numbers sorted by the #27 rank process: 554
+Numbers sorted by the #28 rank process: 511
+Numbers sorted by the #29 rank process: 517
+Numbers sorted by the #30 rank process: 518
+Numbers sorted by the #31 rank process: 514
+Numbers sorted by the #1 rank process: 520
+Numbers sorted by the #2 rank process: 511
+Numbers sorted by the #3 rank process: 520
+Numbers sorted by the #4 rank process: 505
+Numbers sorted by the #5 rank process: 532
+Numbers sorted by the #6 rank process: 523
+Numbers sorted by the #7 rank process: 517
+Numbers sorted by the #8 rank process: 543
+Numbers sorted by the #9 rank process: 527
+Numbers sorted by the #10 rank process: 549
+Numbers sorted by the #11 rank process: 523
+Numbers sorted by the #12 rank process: 544
+Numbers sorted by the #13 rank process: 501
+Numbers sorted by the #14 rank process: 501
+Numbers sorted by the #15 rank process: 534
+Numbers sorted by the #16 rank process: 569
+Numbers sorted by the #17 rank process: 547
+Numbers sorted by the #18 rank process: 531
+Numbers sorted by the #19 rank process: 538
+Numbers sorted by the #20 rank process: 536
+Numbers sorted by the #21 rank process: 540
+Numbers sorted by the #22 rank process: 526
+Numbers sorted by the #23 rank process: 505
+Numbers sorted by the #24 rank process: 535
+Numbers sorted by the #25 rank process: 561
+Numbers sorted by the #26 rank process: 532
+Numbers sorted by the #27 rank process: 554
+Numbers sorted by the #28 rank process: 511
+Numbers sorted by the #29 rank process: 517
+Numbers sorted by the #30 rank process: 518
+Numbers sorted by the #31 rank process: 514
+Numbers sorted by the #1 rank process: 520
+Numbers sorted by the #2 rank process: 511
+Numbers sorted by the #3 rank process: 520
+Numbers sorted by the #4 rank process: 505
+Numbers sorted by the #5 rank process: 532
+Numbers sorted by the #6 rank process: 523
+Numbers sorted by the #7 rank process: 517
+Numbers sorted by the #8 rank process: 543
+Numbers sorted by the #9 rank process: 527
+Numbers sorted by the #10 rank process: 549
+Numbers sorted by the #11 rank process: 523
+Numbers sorted by the #12 rank process: 544
+Numbers sorted by the #13 rank process: 501
+Numbers sorted by the #14 rank process: 501
+Numbers sorted by the #15 rank process: 534
+Numbers sorted by the #16 rank process: 569
+Numbers sorted by the #17 rank process: 547
+Numbers sorted by the #18 rank process: 531
+Numbers sorted by the #19 rank process: 538
+Numbers sorted by the #20 rank process: 536
+Numbers sorted by the #21 rank process: 540
+Numbers sorted by the #22 rank process: 526
+Numbers sorted by the #23 rank process: 505
+Numbers sorted by the #24 rank process: 535
+Numbers sorted by the #25 rank process: 561
+Numbers sorted by the #26 rank process: 532
+Numbers sorted by the #27 rank process: 554
+Numbers sorted by the #28 rank process: 511
+Numbers sorted by the #29 rank process: 517
+Numbers sorted by the #30 rank process: 518
+Numbers sorted by the #31 rank process: 514
+Numbers sorted by the #1 rank process: 520
+Numbers sorted by the #2 rank process: 511
+Numbers sorted by the #3 rank process: 520
+Numbers sorted by the #4 rank process: 505
+Numbers sorted by the #5 rank process: 532
+Numbers sorted by the #6 rank process: 523
+Numbers sorted by the #7 rank process: 517
+Numbers sorted by the #8 rank process: 543
+Numbers sorted by the #9 rank process: 527
+Numbers sorted by the #10 rank process: 549
+Numbers sorted by the #11 rank process: 523
+Numbers sorted by the #12 rank process: 544
+Numbers sorted by the #13 rank process: 501
+Numbers sorted by the #14 rank process: 501
+Numbers sorted by the #15 rank process: 534
+Numbers sorted by the #16 rank process: 569
+Numbers sorted by the #17 rank process: 547
+Numbers sorted by the #18 rank process: 531
+Numbers sorted by the #19 rank process: 538
+Numbers sorted by the #20 rank process: 536
+Numbers sorted by the #21 rank process: 540
+Numbers sorted by the #22 rank process: 526
+Numbers sorted by the #23 rank process: 505
+Numbers sorted by the #24 rank process: 535
+Numbers sorted by the #25 rank process: 561
+Numbers sorted by the #26 rank process: 532
+Numbers sorted by the #27 rank process: 554
+Numbers sorted by the #28 rank process: 511
+Numbers sorted by the #29 rank process: 517
+Numbers sorted by the #30 rank process: 518
+Numbers sorted by the #31 rank process: 514
+Numbers sorted by the #1 rank process: 520
+Numbers sorted by the #2 rank process: 511
+Numbers sorted by the #3 rank process: 520
+Numbers sorted by the #4 rank process: 505
+Numbers sorted by the #5 rank process: 532
+Numbers sorted by the #6 rank process: 523
+Numbers sorted by the #7 rank process: 517
+Numbers sorted by the #8 rank process: 543
+Numbers sorted by the #9 rank process: 527
+Numbers sorted by the #10 rank process: 549
+Numbers sorted by the #11 rank process: 523
+Numbers sorted by the #12 rank process: 544
+Numbers sorted by the #13 rank process: 501
+Numbers sorted by the #14 rank process: 501
+Numbers sorted by the #15 rank process: 534
+Numbers sorted by the #16 rank process: 569
+Numbers sorted by the #17 rank process: 547
+Numbers sorted by the #18 rank process: 531
+Numbers sorted by the #19 rank process: 538
+Numbers sorted by the #20 rank process: 536
+Numbers sorted by the #21 rank process: 540
+Numbers sorted by the #22 rank process: 526
+Numbers sorted by the #23 rank process: 505
+Numbers sorted by the #24 rank process: 535
+Numbers sorted by the #25 rank process: 561
+Numbers sorted by the #26 rank process: 532
+Numbers sorted by the #27 rank process: 554
+Numbers sorted by the #28 rank process: 511
+Numbers sorted by the #29 rank process: 517
+Numbers sorted by the #30 rank process: 518
+Numbers sorted by the #31 rank process: 514
+Numbers sorted by the #1 rank process: 521
+Numbers sorted by the #2 rank process: 511
+Numbers sorted by the #3 rank process: 520
+Numbers sorted by the #4 rank process: 504
+Numbers sorted by the #5 rank process: 532
+Numbers sorted by the #6 rank process: 523
+Numbers sorted by the #7 rank process: 517
+Numbers sorted by the #8 rank process: 543
+Numbers sorted by the #9 rank process: 527
+Numbers sorted by the #10 rank process: 549
+Numbers sorted by the #11 rank process: 523
+Numbers sorted by the #12 rank process: 545
+Numbers sorted by the #13 rank process: 501
+Numbers sorted by the #14 rank process: 501
+Numbers sorted by the #15 rank process: 534
+Numbers sorted by the #16 rank process: 569
+Numbers sorted by the #17 rank process: 547
+Numbers sorted by the #18 rank process: 531
+Numbers sorted by the #19 rank process: 538
+Numbers sorted by the #20 rank process: 535
+Numbers sorted by the #21 rank process: 540
+Numbers sorted by the #22 rank process: 526
+Numbers sorted by the #23 rank process: 505
+Numbers sorted by the #24 rank process: 535
+Numbers sorted by the #25 rank process: 561
+Numbers sorted by the #26 rank process: 532
+Numbers sorted by the #27 rank process: 554
+Numbers sorted by the #28 rank process: 511
+Numbers sorted by the #29 rank process: 517
+Numbers sorted by the #30 rank process: 518
+Numbers sorted by the #31 rank process: 514
+Numbers sorted by the #1 rank process: 520
+Numbers sorted by the #2 rank process: 511
+Numbers sorted by the #3 rank process: 520
+Numbers sorted by the #4 rank process: 505
+Numbers sorted by the #5 rank process: 532
+Numbers sorted by the #6 rank process: 523
+Numbers sorted by the #7 rank process: 517
+Numbers sorted by the #8 rank process: 543
+Numbers sorted by the #9 rank process: 527
+Numbers sorted by the #10 rank process: 549
+Numbers sorted by the #11 rank process: 523
+Numbers sorted by the #12 rank process: 544
+Numbers sorted by the #13 rank process: 501
+Numbers sorted by the #14 rank process: 501
+Numbers sorted by the #15 rank process: 534
+Numbers sorted by the #16 rank process: 569
+Numbers sorted by the #17 rank process: 547
+Numbers sorted by the #18 rank process: 531
+Numbers sorted by the #19 rank process: 538
+Numbers sorted by the #20 rank process: 536
+Numbers sorted by the #21 rank process: 540
+Numbers sorted by the #22 rank process: 526
+Numbers sorted by the #23 rank process: 505
+Numbers sorted by the #24 rank process: 535
+Numbers sorted by the #25 rank process: 561
+Numbers sorted by the #26 rank process: 532
+Numbers sorted by the #27 rank process: 554
+Numbers sorted by the #28 rank process: 511
+Numbers sorted by the #29 rank process: 517
+Numbers sorted by the #30 rank process: 518
+Numbers sorted by the #31 rank process: 514
+
+Sizeof input 1048576:
+
+#buckets: 3-1
+Execution Time: 77.603ms
+Execution Time: 77.729ms
+Execution Time: 78.615ms
+Execution Time: 78.042ms
+Execution Time: 78.478ms
+Execution Time: 78.783ms
+Execution Time: 78.513ms
+Execution Time: 78.801ms
+Estimated Communication Time: 6.22582ms
+Estimated Communication Time: 6.31881ms
+Estimated Communication Time: 6.91795ms
+Estimated Communication Time: 5.74517ms
+Estimated Communication Time: 7.25794ms
+Estimated Communication Time: 6.53791ms
+Estimated Communication Time: 6.30593ms
+Estimated Communication Time: 6.59204ms
+Numbers sorted by the #1 rank process: 524293
+Numbers sorted by the #2 rank process: 524283
+Numbers sorted by the #1 rank process: 524293
+Numbers sorted by the #2 rank process: 524283
+Numbers sorted by the #1 rank process: 524293
+Numbers sorted by the #2 rank process: 524283
+Numbers sorted by the #1 rank process: 524293
+Numbers sorted by the #2 rank process: 524283
+Numbers sorted by the #1 rank process: 524293
+Numbers sorted by the #2 rank process: 524283
+Numbers sorted by the #1 rank process: 524293
+Numbers sorted by the #2 rank process: 524283
+Numbers sorted by the #1 rank process: 524293
+Numbers sorted by the #2 rank process: 524283
+Numbers sorted by the #1 rank process: 524293
+Numbers sorted by the #2 rank process: 524283
+
+#buckets: 5-1
+Execution Time: 43.23ms
+Execution Time: 42.841ms
+Execution Time: 42.54ms
+Execution Time: 42.882ms
+Execution Time: 46.066ms
+Execution Time: 46.499ms
+Execution Time: 46ms
+Execution Time: 42.967ms
+Estimated Communication Time: 9.32503ms
+Estimated Communication Time: 7.81107ms
+Estimated Communication Time: 7.75409ms
+Estimated Communication Time: 6.58607ms
+Estimated Communication Time: 6.88887ms
+Estimated Communication Time: 7.22814ms
+Estimated Communication Time: 170.598ms
+Estimated Communication Time: 9.32097ms
+Numbers sorted by the #1 rank process: 262131
+Numbers sorted by the #2 rank process: 262162
+Numbers sorted by the #3 rank process: 262631
+Numbers sorted by the #4 rank process: 261652
+Numbers sorted by the #1 rank process: 262131
+Numbers sorted by the #2 rank process: 262162
+Numbers sorted by the #3 rank process: 262631
+Numbers sorted by the #4 rank process: 261652
+Numbers sorted by the #1 rank process: 262131
+Numbers sorted by the #2 rank process: 262162
+Numbers sorted by the #3 rank process: 262631
+Numbers sorted by the #4 rank process: 261652
+Numbers sorted by the #1 rank process: 262131
+Numbers sorted by the #2 rank process: 262162
+Numbers sorted by the #3 rank process: 262631
+Numbers sorted by the #4 rank process: 261652
+Numbers sorted by the #1 rank process: 262131
+Numbers sorted by the #2 rank process: 262162
+Numbers sorted by the #3 rank process: 262631
+Numbers sorted by the #4 rank process: 261652
+Numbers sorted by the #1 rank process: 262131
+Numbers sorted by the #2 rank process: 262162
+Numbers sorted by the #3 rank process: 262631
+Numbers sorted by the #4 rank process: 261652
+Numbers sorted by the #1 rank process: 262131
+Numbers sorted by the #2 rank process: 262162
+Numbers sorted by the #3 rank process: 262631
+Numbers sorted by the #4 rank process: 261652
+Numbers sorted by the #1 rank process: 262131
+Numbers sorted by the #2 rank process: 262162
+Numbers sorted by the #3 rank process: 262631
+Numbers sorted by the #4 rank process: 261652
+
+#buckets: 9-1
+Execution Time: 29.224ms
+Execution Time: 29.506ms
+Execution Time: 29.301ms
+Execution Time: 29.404ms
+Execution Time: 29.536ms
+Execution Time: 29.499ms
+Execution Time: 29.373ms
+Execution Time: 29.412ms
+Estimated Communication Time: 9.06301ms
+Estimated Communication Time: 8.7378ms
+Estimated Communication Time: 8.86202ms
+Estimated Communication Time: 9.08589ms
+Estimated Communication Time: 9.03296ms
+Estimated Communication Time: 8.811ms
+Estimated Communication Time: 9.05108ms
+Estimated Communication Time: 8.72684ms
+Numbers sorted by the #1 rank process: 130908
+Numbers sorted by the #2 rank process: 131223
+Numbers sorted by the #3 rank process: 131245
+Numbers sorted by the #4 rank process: 130916
+Numbers sorted by the #5 rank process: 131353
+Numbers sorted by the #6 rank process: 131278
+Numbers sorted by the #7 rank process: 130845
+Numbers sorted by the #8 rank process: 130808
+Numbers sorted by the #1 rank process: 130908
+Numbers sorted by the #2 rank process: 131223
+Numbers sorted by the #3 rank process: 131245
+Numbers sorted by the #4 rank process: 130917
+Numbers sorted by the #5 rank process: 131353
+Numbers sorted by the #6 rank process: 131278
+Numbers sorted by the #7 rank process: 130844
+Numbers sorted by the #8 rank process: 130808
+Numbers sorted by the #1 rank process: 130908
+Numbers sorted by the #2 rank process: 131223
+Numbers sorted by the #3 rank process: 131245
+Numbers sorted by the #4 rank process: 130916
+Numbers sorted by the #5 rank process: 131353
+Numbers sorted by the #6 rank process: 131278
+Numbers sorted by the #7 rank process: 130844
+Numbers sorted by the #8 rank process: 130809
+Numbers sorted by the #1 rank process: 130908
+Numbers sorted by the #2 rank process: 131223
+Numbers sorted by the #3 rank process: 131245
+Numbers sorted by the #4 rank process: 130917
+Numbers sorted by the #5 rank process: 131353
+Numbers sorted by the #6 rank process: 131278
+Numbers sorted by the #7 rank process: 130844
+Numbers sorted by the #8 rank process: 130808
+Numbers sorted by the #1 rank process: 130908
+Numbers sorted by the #2 rank process: 131223
+Numbers sorted by the #3 rank process: 131245
+Numbers sorted by the #4 rank process: 130917
+Numbers sorted by the #5 rank process: 131353
+Numbers sorted by the #6 rank process: 131278
+Numbers sorted by the #7 rank process: 130844
+Numbers sorted by the #8 rank process: 130808
+Numbers sorted by the #1 rank process: 130908
+Numbers sorted by the #2 rank process: 131223
+Numbers sorted by the #3 rank process: 131245
+Numbers sorted by the #4 rank process: 130917
+Numbers sorted by the #5 rank process: 131353
+Numbers sorted by the #6 rank process: 131278
+Numbers sorted by the #7 rank process: 130844
+Numbers sorted by the #8 rank process: 130808
+Numbers sorted by the #1 rank process: 130908
+Numbers sorted by the #2 rank process: 131223
+Numbers sorted by the #3 rank process: 131245
+Numbers sorted by the #4 rank process: 130917
+Numbers sorted by the #5 rank process: 131353
+Numbers sorted by the #6 rank process: 131278
+Numbers sorted by the #7 rank process: 130844
+Numbers sorted by the #8 rank process: 130808
+Numbers sorted by the #1 rank process: 130908
+Numbers sorted by the #2 rank process: 131223
+Numbers sorted by the #3 rank process: 131245
+Numbers sorted by the #4 rank process: 130917
+Numbers sorted by the #5 rank process: 131353
+Numbers sorted by the #6 rank process: 131278
+Numbers sorted by the #7 rank process: 130844
+Numbers sorted by the #8 rank process: 130808
+
+#buckets: 16-1
+Execution Time: 28.214ms
+Execution Time: 28.392ms
+Execution Time: 28.382ms
+Execution Time: 28.605ms
+Execution Time: 28.445ms
+Execution Time: 29.303ms
+Execution Time: 28.451ms
+Execution Time: 44.801ms
+Estimated Communication Time: 13.278ms
+Estimated Communication Time: 13.593ms
+Estimated Communication Time: 12.908ms
+Estimated Communication Time: 13.623ms
+Estimated Communication Time: 13.3359ms
+Estimated Communication Time: 13.344ms
+Estimated Communication Time: 19.1059ms
+Estimated Communication Time: 12.3689ms
+Numbers sorted by the #1 rank process: 69600
+Numbers sorted by the #2 rank process: 70194
+Numbers sorted by the #3 rank process: 70069
+Numbers sorted by the #4 rank process: 69886
+Numbers sorted by the #5 rank process: 69881
+Numbers sorted by the #6 rank process: 70003
+Numbers sorted by the #7 rank process: 69922
+Numbers sorted by the #8 rank process: 70030
+Numbers sorted by the #9 rank process: 70063
+Numbers sorted by the #10 rank process: 70210
+Numbers sorted by the #11 rank process: 69698
+Numbers sorted by the #12 rank process: 69810
+Numbers sorted by the #13 rank process: 69702
+Numbers sorted by the #14 rank process: 69850
+Numbers sorted by the #15 rank process: 69658
+Numbers sorted by the #1 rank process: 69600
+Numbers sorted by the #2 rank process: 70194
+Numbers sorted by the #3 rank process: 70069
+Numbers sorted by the #4 rank process: 69886
+Numbers sorted by the #5 rank process: 69881
+Numbers sorted by the #6 rank process: 70003
+Numbers sorted by the #7 rank process: 69922
+Numbers sorted by the #8 rank process: 70030
+Numbers sorted by the #9 rank process: 70063
+Numbers sorted by the #10 rank process: 70210
+Numbers sorted by the #11 rank process: 69698
+Numbers sorted by the #12 rank process: 69810
+Numbers sorted by the #13 rank process: 69702
+Numbers sorted by the #14 rank process: 69850
+Numbers sorted by the #15 rank process: 69658
+Numbers sorted by the #1 rank process: 69600
+Numbers sorted by the #2 rank process: 70194
+Numbers sorted by the #3 rank process: 70069
+Numbers sorted by the #4 rank process: 69886
+Numbers sorted by the #5 rank process: 69881
+Numbers sorted by the #6 rank process: 70003
+Numbers sorted by the #7 rank process: 69922
+Numbers sorted by the #8 rank process: 70030
+Numbers sorted by the #9 rank process: 70063
+Numbers sorted by the #10 rank process: 70210
+Numbers sorted by the #11 rank process: 69698
+Numbers sorted by the #12 rank process: 69810
+Numbers sorted by the #13 rank process: 69702
+Numbers sorted by the #14 rank process: 69850
+Numbers sorted by the #15 rank process: 69658
+Numbers sorted by the #1 rank process: 69600
+Numbers sorted by the #2 rank process: 70194
+Numbers sorted by the #3 rank process: 70069
+Numbers sorted by the #4 rank process: 69886
+Numbers sorted by the #5 rank process: 69881
+Numbers sorted by the #6 rank process: 70003
+Numbers sorted by the #7 rank process: 69922
+Numbers sorted by the #8 rank process: 70030
+Numbers sorted by the #9 rank process: 70063
+Numbers sorted by the #10 rank process: 70210
+Numbers sorted by the #11 rank process: 69698
+Numbers sorted by the #12 rank process: 69810
+Numbers sorted by the #13 rank process: 69702
+Numbers sorted by the #14 rank process: 69850
+Numbers sorted by the #15 rank process: 69658
+Numbers sorted by the #1 rank process: 69600
+Numbers sorted by the #2 rank process: 70194
+Numbers sorted by the #3 rank process: 70069
+Numbers sorted by the #4 rank process: 69886
+Numbers sorted by the #5 rank process: 69881
+Numbers sorted by the #6 rank process: 70003
+Numbers sorted by the #7 rank process: 69922
+Numbers sorted by the #8 rank process: 70030
+Numbers sorted by the #9 rank process: 70063
+Numbers sorted by the #10 rank process: 70210
+Numbers sorted by the #11 rank process: 69698
+Numbers sorted by the #12 rank process: 69810
+Numbers sorted by the #13 rank process: 69702
+Numbers sorted by the #14 rank process: 69850
+Numbers sorted by the #15 rank process: 69658
+Numbers sorted by the #1 rank process: 69599
+Numbers sorted by the #2 rank process: 70195
+Numbers sorted by the #3 rank process: 70069
+Numbers sorted by the #4 rank process: 69886
+Numbers sorted by the #5 rank process: 69881
+Numbers sorted by the #6 rank process: 70003
+Numbers sorted by the #7 rank process: 69921
+Numbers sorted by the #8 rank process: 70030
+Numbers sorted by the #9 rank process: 70063
+Numbers sorted by the #10 rank process: 70210
+Numbers sorted by the #11 rank process: 69698
+Numbers sorted by the #12 rank process: 69810
+Numbers sorted by the #13 rank process: 69702
+Numbers sorted by the #14 rank process: 69851
+Numbers sorted by the #15 rank process: 69658
+Numbers sorted by the #1 rank process: 69600
+Numbers sorted by the #2 rank process: 70194
+Numbers sorted by the #3 rank process: 70069
+Numbers sorted by the #4 rank process: 69886
+Numbers sorted by the #5 rank process: 69881
+Numbers sorted by the #6 rank process: 70003
+Numbers sorted by the #7 rank process: 69922
+Numbers sorted by the #8 rank process: 70030
+Numbers sorted by the #9 rank process: 70063
+Numbers sorted by the #10 rank process: 70210
+Numbers sorted by the #11 rank process: 69698
+Numbers sorted by the #12 rank process: 69810
+Numbers sorted by the #13 rank process: 69702
+Numbers sorted by the #14 rank process: 69850
+Numbers sorted by the #15 rank process: 69658
+Numbers sorted by the #1 rank process: 69600
+Numbers sorted by the #2 rank process: 70194
+Numbers sorted by the #3 rank process: 70069
+Numbers sorted by the #4 rank process: 69886
+Numbers sorted by the #5 rank process: 69881
+Numbers sorted by the #6 rank process: 70003
+Numbers sorted by the #7 rank process: 69922
+Numbers sorted by the #8 rank process: 70030
+Numbers sorted by the #9 rank process: 70063
+Numbers sorted by the #10 rank process: 70210
+Numbers sorted by the #11 rank process: 69698
+Numbers sorted by the #12 rank process: 69810
+Numbers sorted by the #13 rank process: 69702
+Numbers sorted by the #14 rank process: 69850
+Numbers sorted by the #15 rank process: 69658
+
+#buckets: 32-1
+Execution Time: 68.887ms
+Execution Time: 59.446ms
+Execution Time: 60.993ms
+Execution Time: 57.087ms
+Execution Time: 54.847ms
+Execution Time: 53.081ms
+Execution Time: 76.82ms
+Execution Time: 60.585ms
+Estimated Communication Time: 29.026ms
+Estimated Communication Time: 49.5062ms
+Estimated Communication Time: 56.124ms
+Estimated Communication Time: 100.648ms
+Estimated Communication Time: 41.2221ms
+Estimated Communication Time: 44.116ms
+Estimated Communication Time: 45.4381ms
+Estimated Communication Time: 93.5271ms
+Numbers sorted by the #1 rank process: 33709
+Numbers sorted by the #2 rank process: 33700
+Numbers sorted by the #3 rank process: 33783
+Numbers sorted by the #4 rank process: 33982
+Numbers sorted by the #5 rank process: 34245
+Numbers sorted by the #6 rank process: 33709
+Numbers sorted by the #7 rank process: 33612
+Numbers sorted by the #8 rank process: 33939
+Numbers sorted by the #9 rank process: 33892
+Numbers sorted by the #10 rank process: 33820
+Numbers sorted by the #11 rank process: 33639
+Numbers sorted by the #12 rank process: 34049
+Numbers sorted by the #13 rank process: 33838
+Numbers sorted by the #14 rank process: 33823
+Numbers sorted by the #15 rank process: 33950
+Numbers sorted by the #16 rank process: 33584
+Numbers sorted by the #17 rank process: 34254
+Numbers sorted by the #18 rank process: 33769
+Numbers sorted by the #19 rank process: 33764
+Numbers sorted by the #20 rank process: 33943
+Numbers sorted by the #21 rank process: 34168
+Numbers sorted by the #22 rank process: 33684
+Numbers sorted by the #23 rank process: 33588
+Numbers sorted by the #24 rank process: 33914
+Numbers sorted by the #25 rank process: 33787
+Numbers sorted by the #26 rank process: 33868
+Numbers sorted by the #27 rank process: 33565
+Numbers sorted by the #28 rank process: 33887
+Numbers sorted by the #29 rank process: 33714
+Numbers sorted by the #30 rank process: 33662
+Numbers sorted by the #31 rank process: 33735
+Numbers sorted by the #1 rank process: 33709
+Numbers sorted by the #2 rank process: 33700
+Numbers sorted by the #3 rank process: 33783
+Numbers sorted by the #4 rank process: 33982
+Numbers sorted by the #5 rank process: 34245
+Numbers sorted by the #6 rank process: 33709
+Numbers sorted by the #7 rank process: 33612
+Numbers sorted by the #8 rank process: 33939
+Numbers sorted by the #9 rank process: 33892
+Numbers sorted by the #10 rank process: 33820
+Numbers sorted by the #11 rank process: 33639
+Numbers sorted by the #12 rank process: 34049
+Numbers sorted by the #13 rank process: 33838
+Numbers sorted by the #14 rank process: 33823
+Numbers sorted by the #15 rank process: 33950
+Numbers sorted by the #16 rank process: 33584
+Numbers sorted by the #17 rank process: 34254
+Numbers sorted by the #18 rank process: 33769
+Numbers sorted by the #19 rank process: 33764
+Numbers sorted by the #20 rank process: 33943
+Numbers sorted by the #21 rank process: 34168
+Numbers sorted by the #22 rank process: 33684
+Numbers sorted by the #23 rank process: 33588
+Numbers sorted by the #24 rank process: 33914
+Numbers sorted by the #25 rank process: 33787
+Numbers sorted by the #26 rank process: 33868
+Numbers sorted by the #27 rank process: 33565
+Numbers sorted by the #28 rank process: 33887
+Numbers sorted by the #29 rank process: 33714
+Numbers sorted by the #30 rank process: 33662
+Numbers sorted by the #31 rank process: 33735
+Numbers sorted by the #1 rank process: 33709
+Numbers sorted by the #2 rank process: 33700
+Numbers sorted by the #3 rank process: 33783
+Numbers sorted by the #4 rank process: 33982
+Numbers sorted by the #5 rank process: 34245
+Numbers sorted by the #6 rank process: 33709
+Numbers sorted by the #7 rank process: 33612
+Numbers sorted by the #8 rank process: 33939
+Numbers sorted by the #9 rank process: 33892
+Numbers sorted by the #10 rank process: 33820
+Numbers sorted by the #11 rank process: 33639
+Numbers sorted by the #12 rank process: 34049
+Numbers sorted by the #13 rank process: 33838
+Numbers sorted by the #14 rank process: 33823
+Numbers sorted by the #15 rank process: 33950
+Numbers sorted by the #16 rank process: 33584
+Numbers sorted by the #17 rank process: 34254
+Numbers sorted by the #18 rank process: 33769
+Numbers sorted by the #19 rank process: 33764
+Numbers sorted by the #20 rank process: 33943
+Numbers sorted by the #21 rank process: 34168
+Numbers sorted by the #22 rank process: 33684
+Numbers sorted by the #23 rank process: 33588
+Numbers sorted by the #24 rank process: 33914
+Numbers sorted by the #25 rank process: 33787
+Numbers sorted by the #26 rank process: 33868
+Numbers sorted by the #27 rank process: 33565
+Numbers sorted by the #28 rank process: 33887
+Numbers sorted by the #29 rank process: 33714
+Numbers sorted by the #30 rank process: 33662
+Numbers sorted by the #31 rank process: 33735
+Numbers sorted by the #1 rank process: 33709
+Numbers sorted by the #2 rank process: 33700
+Numbers sorted by the #3 rank process: 33783
+Numbers sorted by the #4 rank process: 33982
+Numbers sorted by the #5 rank process: 34245
+Numbers sorted by the #6 rank process: 33709
+Numbers sorted by the #7 rank process: 33612
+Numbers sorted by the #8 rank process: 33939
+Numbers sorted by the #9 rank process: 33892
+Numbers sorted by the #10 rank process: 33820
+Numbers sorted by the #11 rank process: 33639
+Numbers sorted by the #12 rank process: 34049
+Numbers sorted by the #13 rank process: 33838
+Numbers sorted by the #14 rank process: 33823
+Numbers sorted by the #15 rank process: 33950
+Numbers sorted by the #16 rank process: 33584
+Numbers sorted by the #17 rank process: 34254
+Numbers sorted by the #18 rank process: 33769
+Numbers sorted by the #19 rank process: 33764
+Numbers sorted by the #20 rank process: 33943
+Numbers sorted by the #21 rank process: 34168
+Numbers sorted by the #22 rank process: 33684
+Numbers sorted by the #23 rank process: 33588
+Numbers sorted by the #24 rank process: 33914
+Numbers sorted by the #25 rank process: 33787
+Numbers sorted by the #26 rank process: 33868
+Numbers sorted by the #27 rank process: 33565
+Numbers sorted by the #28 rank process: 33887
+Numbers sorted by the #29 rank process: 33714
+Numbers sorted by the #30 rank process: 33662
+Numbers sorted by the #31 rank process: 33735
+Numbers sorted by the #1 rank process: 33709
+Numbers sorted by the #2 rank process: 33700
+Numbers sorted by the #3 rank process: 33783
+Numbers sorted by the #4 rank process: 33982
+Numbers sorted by the #5 rank process: 34245
+Numbers sorted by the #6 rank process: 33709
+Numbers sorted by the #7 rank process: 33612
+Numbers sorted by the #8 rank process: 33939
+Numbers sorted by the #9 rank process: 33892
+Numbers sorted by the #10 rank process: 33820
+Numbers sorted by the #11 rank process: 33639
+Numbers sorted by the #12 rank process: 34049
+Numbers sorted by the #13 rank process: 33838
+Numbers sorted by the #14 rank process: 33823
+Numbers sorted by the #15 rank process: 33950
+Numbers sorted by the #16 rank process: 33584
+Numbers sorted by the #17 rank process: 34254
+Numbers sorted by the #18 rank process: 33769
+Numbers sorted by the #19 rank process: 33764
+Numbers sorted by the #20 rank process: 33943
+Numbers sorted by the #21 rank process: 34168
+Numbers sorted by the #22 rank process: 33684
+Numbers sorted by the #23 rank process: 33588
+Numbers sorted by the #24 rank process: 33914
+Numbers sorted by the #25 rank process: 33787
+Numbers sorted by the #26 rank process: 33868
+Numbers sorted by the #27 rank process: 33565
+Numbers sorted by the #28 rank process: 33887
+Numbers sorted by the #29 rank process: 33714
+Numbers sorted by the #30 rank process: 33662
+Numbers sorted by the #31 rank process: 33735
+Numbers sorted by the #1 rank process: 33709
+Numbers sorted by the #2 rank process: 33700
+Numbers sorted by the #3 rank process: 33783
+Numbers sorted by the #4 rank process: 33982
+Numbers sorted by the #5 rank process: 34245
+Numbers sorted by the #6 rank process: 33709
+Numbers sorted by the #7 rank process: 33612
+Numbers sorted by the #8 rank process: 33939
+Numbers sorted by the #9 rank process: 33892
+Numbers sorted by the #10 rank process: 33820
+Numbers sorted by the #11 rank process: 33639
+Numbers sorted by the #12 rank process: 34049
+Numbers sorted by the #13 rank process: 33838
+Numbers sorted by the #14 rank process: 33823
+Numbers sorted by the #15 rank process: 33950
+Numbers sorted by the #16 rank process: 33584
+Numbers sorted by the #17 rank process: 34254
+Numbers sorted by the #18 rank process: 33769
+Numbers sorted by the #19 rank process: 33764
+Numbers sorted by the #20 rank process: 33943
+Numbers sorted by the #21 rank process: 34168
+Numbers sorted by the #22 rank process: 33684
+Numbers sorted by the #23 rank process: 33588
+Numbers sorted by the #24 rank process: 33914
+Numbers sorted by the #25 rank process: 33787
+Numbers sorted by the #26 rank process: 33868
+Numbers sorted by the #27 rank process: 33565
+Numbers sorted by the #28 rank process: 33887
+Numbers sorted by the #29 rank process: 33714
+Numbers sorted by the #30 rank process: 33662
+Numbers sorted by the #31 rank process: 33735
+Numbers sorted by the #1 rank process: 33709
+Numbers sorted by the #2 rank process: 33700
+Numbers sorted by the #3 rank process: 33783
+Numbers sorted by the #4 rank process: 33982
+Numbers sorted by the #5 rank process: 34245
+Numbers sorted by the #6 rank process: 33709
+Numbers sorted by the #7 rank process: 33612
+Numbers sorted by the #8 rank process: 33939
+Numbers sorted by the #9 rank process: 33892
+Numbers sorted by the #10 rank process: 33820
+Numbers sorted by the #11 rank process: 33639
+Numbers sorted by the #12 rank process: 34049
+Numbers sorted by the #13 rank process: 33838
+Numbers sorted by the #14 rank process: 33823
+Numbers sorted by the #15 rank process: 33950
+Numbers sorted by the #16 rank process: 33584
+Numbers sorted by the #17 rank process: 34254
+Numbers sorted by the #18 rank process: 33769
+Numbers sorted by the #19 rank process: 33764
+Numbers sorted by the #20 rank process: 33943
+Numbers sorted by the #21 rank process: 34168
+Numbers sorted by the #22 rank process: 33684
+Numbers sorted by the #23 rank process: 33588
+Numbers sorted by the #24 rank process: 33914
+Numbers sorted by the #25 rank process: 33787
+Numbers sorted by the #26 rank process: 33868
+Numbers sorted by the #27 rank process: 33565
+Numbers sorted by the #28 rank process: 33887
+Numbers sorted by the #29 rank process: 33714
+Numbers sorted by the #30 rank process: 33662
+Numbers sorted by the #31 rank process: 33735
+Numbers sorted by the #1 rank process: 33709
+Numbers sorted by the #2 rank process: 33700
+Numbers sorted by the #3 rank process: 33783
+Numbers sorted by the #4 rank process: 33982
+Numbers sorted by the #5 rank process: 34245
+Numbers sorted by the #6 rank process: 33709
+Numbers sorted by the #7 rank process: 33612
+Numbers sorted by the #8 rank process: 33939
+Numbers sorted by the #9 rank process: 33892
+Numbers sorted by the #10 rank process: 33820
+Numbers sorted by the #11 rank process: 33639
+Numbers sorted by the #12 rank process: 34049
+Numbers sorted by the #13 rank process: 33838
+Numbers sorted by the #14 rank process: 33823
+Numbers sorted by the #15 rank process: 33950
+Numbers sorted by the #16 rank process: 33584
+Numbers sorted by the #17 rank process: 34254
+Numbers sorted by the #18 rank process: 33769
+Numbers sorted by the #19 rank process: 33764
+Numbers sorted by the #20 rank process: 33943
+Numbers sorted by the #21 rank process: 34168
+Numbers sorted by the #22 rank process: 33684
+Numbers sorted by the #23 rank process: 33588
+Numbers sorted by the #24 rank process: 33914
+Numbers sorted by the #25 rank process: 33787
+Numbers sorted by the #26 rank process: 33868
+Numbers sorted by the #27 rank process: 33565
+Numbers sorted by the #28 rank process: 33887
+Numbers sorted by the #29 rank process: 33714
+Numbers sorted by the #30 rank process: 33662
+Numbers sorted by the #31 rank process: 33735
+
+Sizeof input 2097152:
+
+#buckets: 3-1
+Execution Time: 132.274ms
+Execution Time: 130.619ms
+Execution Time: 131.948ms
+Execution Time: 159.27ms
+Execution Time: 161.343ms
+Execution Time: 161.246ms
+Execution Time: 159.371ms
+Execution Time: 161.022ms
+Estimated Communication Time: 10.627ms
+Estimated Communication Time: 10.4771ms
+Estimated Communication Time: 10.462ms
+Estimated Communication Time: 9.76682ms
+Estimated Communication Time: 9.99498ms
+Estimated Communication Time: 11.086ms
+Estimated Communication Time: 10.288ms
+Estimated Communication Time: 10.3319ms
+Numbers sorted by the #1 rank process: 1048481
+Numbers sorted by the #2 rank process: 1048671
+Numbers sorted by the #1 rank process: 1048481
+Numbers sorted by the #2 rank process: 1048671
+Numbers sorted by the #1 rank process: 1048481
+Numbers sorted by the #2 rank process: 1048671
+Numbers sorted by the #1 rank process: 1048481
+Numbers sorted by the #2 rank process: 1048671
+Numbers sorted by the #1 rank process: 1048481
+Numbers sorted by the #2 rank process: 1048671
+Numbers sorted by the #1 rank process: 1048481
+Numbers sorted by the #2 rank process: 1048671
+Numbers sorted by the #1 rank process: 1048481
+Numbers sorted by the #2 rank process: 1048671
+Numbers sorted by the #1 rank process: 1048481
+Numbers sorted by the #2 rank process: 1048671
+
+#buckets: 5-1
+Execution Time: 89.301ms
+Execution Time: 89.013ms
+Execution Time: 89.442ms
+Execution Time: 89.413ms
+Execution Time: 88.735ms
+Execution Time: 88.308ms
+Execution Time: 89.08ms
+Execution Time: 88.474ms
+Estimated Communication Time: 12.4722ms
+Estimated Communication Time: 13.5028ms
+Estimated Communication Time: 12.2628ms
+Estimated Communication Time: 12.7358ms
+Estimated Communication Time: 12.475ms
+Estimated Communication Time: 13.345ms
+Estimated Communication Time: 11.342ms
+Estimated Communication Time: 12.5899ms
+Numbers sorted by the #1 rank process: 523862
+Numbers sorted by the #2 rank process: 524619
+Numbers sorted by the #3 rank process: 523997
+Numbers sorted by the #4 rank process: 524674
+Numbers sorted by the #1 rank process: 523862
+Numbers sorted by the #2 rank process: 524619
+Numbers sorted by the #3 rank process: 523997
+Numbers sorted by the #4 rank process: 524674
+Numbers sorted by the #1 rank process: 523862
+Numbers sorted by the #2 rank process: 524619
+Numbers sorted by the #3 rank process: 523997
+Numbers sorted by the #4 rank process: 524674
+Numbers sorted by the #1 rank process: 523862
+Numbers sorted by the #2 rank process: 524619
+Numbers sorted by the #3 rank process: 523997
+Numbers sorted by the #4 rank process: 524674
+Numbers sorted by the #1 rank process: 523862
+Numbers sorted by the #2 rank process: 524619
+Numbers sorted by the #3 rank process: 523997
+Numbers sorted by the #4 rank process: 524674
+Numbers sorted by the #1 rank process: 523862
+Numbers sorted by the #2 rank process: 524619
+Numbers sorted by the #3 rank process: 523997
+Numbers sorted by the #4 rank process: 524674
+Numbers sorted by the #1 rank process: 523862
+Numbers sorted by the #2 rank process: 524619
+Numbers sorted by the #3 rank process: 523997
+Numbers sorted by the #4 rank process: 524674
+Numbers sorted by the #1 rank process: 523862
+Numbers sorted by the #2 rank process: 524619
+Numbers sorted by the #3 rank process: 523997
+Numbers sorted by the #4 rank process: 524674
+
+#buckets: 9-1
+Execution Time: 54.047ms
+Execution Time: 53.327ms
+Execution Time: 53.532ms
+Execution Time: 53.875ms
+Execution Time: 58.02ms
+Execution Time: 53.023ms
+Execution Time: 53.465ms
+Execution Time: 53.435ms
+Estimated Communication Time: 17.2379ms
+Estimated Communication Time: 17.1189ms
+Estimated Communication Time: 14.3981ms
+Estimated Communication Time: 17.7441ms
+Estimated Communication Time: 182.411ms
+Estimated Communication Time: 16.9401ms
+Estimated Communication Time: 16.9289ms
+Estimated Communication Time: 13.8669ms
+Numbers sorted by the #1 rank process: 261955
+Numbers sorted by the #2 rank process: 261907
+Numbers sorted by the #3 rank process: 263236
+Numbers sorted by the #4 rank process: 261383
+Numbers sorted by the #5 rank process: 262118
+Numbers sorted by the #6 rank process: 261879
+Numbers sorted by the #7 rank process: 262006
+Numbers sorted by the #8 rank process: 262668
+Numbers sorted by the #1 rank process: 261955
+Numbers sorted by the #2 rank process: 261907
+Numbers sorted by the #3 rank process: 263236
+Numbers sorted by the #4 rank process: 261383
+Numbers sorted by the #5 rank process: 262118
+Numbers sorted by the #6 rank process: 261879
+Numbers sorted by the #7 rank process: 262006
+Numbers sorted by the #8 rank process: 262668
+Numbers sorted by the #1 rank process: 261955
+Numbers sorted by the #2 rank process: 261907
+Numbers sorted by the #3 rank process: 263236
+Numbers sorted by the #4 rank process: 261383
+Numbers sorted by the #5 rank process: 262118
+Numbers sorted by the #6 rank process: 261879
+Numbers sorted by the #7 rank process: 262006
+Numbers sorted by the #8 rank process: 262668
+Numbers sorted by the #1 rank process: 261955
+Numbers sorted by the #2 rank process: 261906
+Numbers sorted by the #3 rank process: 263236
+Numbers sorted by the #4 rank process: 261383
+Numbers sorted by the #5 rank process: 262119
+Numbers sorted by the #6 rank process: 261879
+Numbers sorted by the #7 rank process: 262006
+Numbers sorted by the #8 rank process: 262668
+Numbers sorted by the #1 rank process: 261955
+Numbers sorted by the #2 rank process: 261907
+Numbers sorted by the #3 rank process: 263236
+Numbers sorted by the #4 rank process: 261383
+Numbers sorted by the #5 rank process: 262118
+Numbers sorted by the #6 rank process: 261879
+Numbers sorted by the #7 rank process: 262006
+Numbers sorted by the #8 rank process: 262668
+Numbers sorted by the #1 rank process: 261955
+Numbers sorted by the #2 rank process: 261907
+Numbers sorted by the #3 rank process: 263236
+Numbers sorted by the #4 rank process: 261383
+Numbers sorted by the #5 rank process: 262118
+Numbers sorted by the #6 rank process: 261879
+Numbers sorted by the #7 rank process: 262006
+Numbers sorted by the #8 rank process: 262668
+Numbers sorted by the #1 rank process: 261955
+Numbers sorted by the #2 rank process: 261907
+Numbers sorted by the #3 rank process: 263236
+Numbers sorted by the #4 rank process: 261383
+Numbers sorted by the #5 rank process: 262118
+Numbers sorted by the #6 rank process: 261879
+Numbers sorted by the #7 rank process: 262006
+Numbers sorted by the #8 rank process: 262668
+Numbers sorted by the #1 rank process: 261955
+Numbers sorted by the #2 rank process: 261907
+Numbers sorted by the #3 rank process: 263236
+Numbers sorted by the #4 rank process: 261383
+Numbers sorted by the #5 rank process: 262118
+Numbers sorted by the #6 rank process: 261879
+Numbers sorted by the #7 rank process: 262006
+Numbers sorted by the #8 rank process: 262668
+
+#buckets: 16-1
+Execution Time: 44.282ms
+Execution Time: 210.169ms
+Execution Time: 39.488ms
+Execution Time: 40.377ms
+Execution Time: 39.112ms
+Execution Time: 39.037ms
+Execution Time: 39.99ms
+Execution Time: 39.356ms
+Estimated Communication Time: 15.3451ms
+Estimated Communication Time: 23.5329ms
+Estimated Communication Time: 16.9129ms
+Estimated Communication Time: 17.38ms
+Estimated Communication Time: 17.211ms
+Estimated Communication Time: 17.9889ms
+Estimated Communication Time: 55.366ms
+Estimated Communication Time: 23.2491ms
+Numbers sorted by the #1 rank process: 139787
+Numbers sorted by the #2 rank process: 139563
+Numbers sorted by the #3 rank process: 139684
+Numbers sorted by the #4 rank process: 139956
+Numbers sorted by the #5 rank process: 140634
+Numbers sorted by the #6 rank process: 139929
+Numbers sorted by the #7 rank process: 139363
+Numbers sorted by the #8 rank process: 139528
+Numbers sorted by the #9 rank process: 139758
+Numbers sorted by the #10 rank process: 139224
+Numbers sorted by the #11 rank process: 140167
+Numbers sorted by the #12 rank process: 139781
+Numbers sorted by the #13 rank process: 139854
+Numbers sorted by the #14 rank process: 139923
+Numbers sorted by the #15 rank process: 140001
+Numbers sorted by the #1 rank process: 139787
+Numbers sorted by the #2 rank process: 139563
+Numbers sorted by the #3 rank process: 139684
+Numbers sorted by the #4 rank process: 139956
+Numbers sorted by the #5 rank process: 140634
+Numbers sorted by the #6 rank process: 139929
+Numbers sorted by the #7 rank process: 139363
+Numbers sorted by the #8 rank process: 139528
+Numbers sorted by the #9 rank process: 139758
+Numbers sorted by the #10 rank process: 139224
+Numbers sorted by the #11 rank process: 140167
+Numbers sorted by the #12 rank process: 139781
+Numbers sorted by the #13 rank process: 139854
+Numbers sorted by the #14 rank process: 139923
+Numbers sorted by the #15 rank process: 140001
+Numbers sorted by the #1 rank process: 139787
+Numbers sorted by the #2 rank process: 139563
+Numbers sorted by the #3 rank process: 139684
+Numbers sorted by the #4 rank process: 139956
+Numbers sorted by the #5 rank process: 140634
+Numbers sorted by the #6 rank process: 139929
+Numbers sorted by the #7 rank process: 139363
+Numbers sorted by the #8 rank process: 139528
+Numbers sorted by the #9 rank process: 139758
+Numbers sorted by the #10 rank process: 139224
+Numbers sorted by the #11 rank process: 140167
+Numbers sorted by the #12 rank process: 139781
+Numbers sorted by the #13 rank process: 139854
+Numbers sorted by the #14 rank process: 139923
+Numbers sorted by the #15 rank process: 140001
+Numbers sorted by the #1 rank process: 139787
+Numbers sorted by the #2 rank process: 139563
+Numbers sorted by the #3 rank process: 139684
+Numbers sorted by the #4 rank process: 139956
+Numbers sorted by the #5 rank process: 140634
+Numbers sorted by the #6 rank process: 139929
+Numbers sorted by the #7 rank process: 139363
+Numbers sorted by the #8 rank process: 139528
+Numbers sorted by the #9 rank process: 139758
+Numbers sorted by the #10 rank process: 139224
+Numbers sorted by the #11 rank process: 140167
+Numbers sorted by the #12 rank process: 139781
+Numbers sorted by the #13 rank process: 139854
+Numbers sorted by the #14 rank process: 139923
+Numbers sorted by the #15 rank process: 140001
+Numbers sorted by the #1 rank process: 139787
+Numbers sorted by the #2 rank process: 139563
+Numbers sorted by the #3 rank process: 139684
+Numbers sorted by the #4 rank process: 139956
+Numbers sorted by the #5 rank process: 140634
+Numbers sorted by the #6 rank process: 139929
+Numbers sorted by the #7 rank process: 139363
+Numbers sorted by the #8 rank process: 139528
+Numbers sorted by the #9 rank process: 139758
+Numbers sorted by the #10 rank process: 139224
+Numbers sorted by the #11 rank process: 140167
+Numbers sorted by the #12 rank process: 139781
+Numbers sorted by the #13 rank process: 139854
+Numbers sorted by the #14 rank process: 139923
+Numbers sorted by the #15 rank process: 140001
+Numbers sorted by the #1 rank process: 139787
+Numbers sorted by the #2 rank process: 139563
+Numbers sorted by the #3 rank process: 139684
+Numbers sorted by the #4 rank process: 139955
+Numbers sorted by the #5 rank process: 140634
+Numbers sorted by the #6 rank process: 139928
+Numbers sorted by the #7 rank process: 139363
+Numbers sorted by the #8 rank process: 139528
+Numbers sorted by the #9 rank process: 139759
+Numbers sorted by the #10 rank process: 139224
+Numbers sorted by the #11 rank process: 140167
+Numbers sorted by the #12 rank process: 139781
+Numbers sorted by the #13 rank process: 139854
+Numbers sorted by the #14 rank process: 139923
+Numbers sorted by the #15 rank process: 140002
+Numbers sorted by the #1 rank process: 139787
+Numbers sorted by the #2 rank process: 139563
+Numbers sorted by the #3 rank process: 139684
+Numbers sorted by the #4 rank process: 139956
+Numbers sorted by the #5 rank process: 140634
+Numbers sorted by the #6 rank process: 139929
+Numbers sorted by the #7 rank process: 139363
+Numbers sorted by the #8 rank process: 139528
+Numbers sorted by the #9 rank process: 139758
+Numbers sorted by the #10 rank process: 139224
+Numbers sorted by the #11 rank process: 140167
+Numbers sorted by the #12 rank process: 139781
+Numbers sorted by the #13 rank process: 139854
+Numbers sorted by the #14 rank process: 139923
+Numbers sorted by the #15 rank process: 140001
+Numbers sorted by the #1 rank process: 139787
+Numbers sorted by the #2 rank process: 139563
+Numbers sorted by the #3 rank process: 139684
+Numbers sorted by the #4 rank process: 139956
+Numbers sorted by the #5 rank process: 140634
+Numbers sorted by the #6 rank process: 139929
+Numbers sorted by the #7 rank process: 139363
+Numbers sorted by the #8 rank process: 139528
+Numbers sorted by the #9 rank process: 139758
+Numbers sorted by the #10 rank process: 139224
+Numbers sorted by the #11 rank process: 140167
+Numbers sorted by the #12 rank process: 139781
+Numbers sorted by the #13 rank process: 139854
+Numbers sorted by the #14 rank process: 139923
+Numbers sorted by the #15 rank process: 140001
+
+#buckets: 32-1
+Execution Time: 64.618ms
+Execution Time: 138.54ms
+Execution Time: 78.37ms
+Execution Time: 335.279ms
+Execution Time: 69.141ms
+Execution Time: 107.845ms
+Execution Time: 68.451ms
+Execution Time: 99.451ms
+Estimated Communication Time: 283.057ms
+Estimated Communication Time: 48.1241ms
+Estimated Communication Time: 65.6669ms
+Estimated Communication Time: 47.5149ms
+Estimated Communication Time: 41.415ms
+Estimated Communication Time: 53.652ms
+Estimated Communication Time: 31.0259ms
+Estimated Communication Time: 41.2521ms
+Numbers sorted by the #1 rank process: 67680
+Numbers sorted by the #2 rank process: 67477
+Numbers sorted by the #3 rank process: 67529
+Numbers sorted by the #4 rank process: 67804
+Numbers sorted by the #5 rank process: 67392
+Numbers sorted by the #6 rank process: 67663
+Numbers sorted by the #7 rank process: 67622
+Numbers sorted by the #8 rank process: 67634
+Numbers sorted by the #9 rank process: 67981
+Numbers sorted by the #10 rank process: 68169
+Numbers sorted by the #11 rank process: 67734
+Numbers sorted by the #12 rank process: 67764
+Numbers sorted by the #13 rank process: 67755
+Numbers sorted by the #14 rank process: 67461
+Numbers sorted by the #15 rank process: 67120
+Numbers sorted by the #16 rank process: 67571
+Numbers sorted by the #17 rank process: 67798
+Numbers sorted by the #18 rank process: 67438
+Numbers sorted by the #19 rank process: 67444
+Numbers sorted by the #20 rank process: 67863
+Numbers sorted by the #21 rank process: 67191
+Numbers sorted by the #22 rank process: 67969
+Numbers sorted by the #23 rank process: 67696
+Numbers sorted by the #24 rank process: 67494
+Numbers sorted by the #25 rank process: 67488
+Numbers sorted by the #26 rank process: 67863
+Numbers sorted by the #27 rank process: 67478
+Numbers sorted by the #28 rank process: 67751
+Numbers sorted by the #29 rank process: 67862
+Numbers sorted by the #30 rank process: 68058
+Numbers sorted by the #31 rank process: 67403
+Numbers sorted by the #1 rank process: 67680
+Numbers sorted by the #2 rank process: 67477
+Numbers sorted by the #3 rank process: 67529
+Numbers sorted by the #4 rank process: 67804
+Numbers sorted by the #5 rank process: 67392
+Numbers sorted by the #6 rank process: 67663
+Numbers sorted by the #7 rank process: 67622
+Numbers sorted by the #8 rank process: 67634
+Numbers sorted by the #9 rank process: 67981
+Numbers sorted by the #10 rank process: 68169
+Numbers sorted by the #11 rank process: 67734
+Numbers sorted by the #12 rank process: 67764
+Numbers sorted by the #13 rank process: 67755
+Numbers sorted by the #14 rank process: 67461
+Numbers sorted by the #15 rank process: 67120
+Numbers sorted by the #16 rank process: 67571
+Numbers sorted by the #17 rank process: 67798
+Numbers sorted by the #18 rank process: 67438
+Numbers sorted by the #19 rank process: 67444
+Numbers sorted by the #20 rank process: 67863
+Numbers sorted by the #21 rank process: 67191
+Numbers sorted by the #22 rank process: 67969
+Numbers sorted by the #23 rank process: 67696
+Numbers sorted by the #24 rank process: 67494
+Numbers sorted by the #25 rank process: 67488
+Numbers sorted by the #26 rank process: 67863
+Numbers sorted by the #27 rank process: 67478
+Numbers sorted by the #28 rank process: 67751
+Numbers sorted by the #29 rank process: 67862
+Numbers sorted by the #30 rank process: 68058
+Numbers sorted by the #31 rank process: 67403
+Numbers sorted by the #1 rank process: 67680
+Numbers sorted by the #2 rank process: 67477
+Numbers sorted by the #3 rank process: 67529
+Numbers sorted by the #4 rank process: 67804
+Numbers sorted by the #5 rank process: 67392
+Numbers sorted by the #6 rank process: 67663
+Numbers sorted by the #7 rank process: 67622
+Numbers sorted by the #8 rank process: 67634
+Numbers sorted by the #9 rank process: 67981
+Numbers sorted by the #10 rank process: 68169
+Numbers sorted by the #11 rank process: 67734
+Numbers sorted by the #12 rank process: 67764
+Numbers sorted by the #13 rank process: 67755
+Numbers sorted by the #14 rank process: 67461
+Numbers sorted by the #15 rank process: 67120
+Numbers sorted by the #16 rank process: 67571
+Numbers sorted by the #17 rank process: 67798
+Numbers sorted by the #18 rank process: 67438
+Numbers sorted by the #19 rank process: 67444
+Numbers sorted by the #20 rank process: 67863
+Numbers sorted by the #21 rank process: 67191
+Numbers sorted by the #22 rank process: 67969
+Numbers sorted by the #23 rank process: 67696
+Numbers sorted by the #24 rank process: 67494
+Numbers sorted by the #25 rank process: 67488
+Numbers sorted by the #26 rank process: 67863
+Numbers sorted by the #27 rank process: 67478
+Numbers sorted by the #28 rank process: 67751
+Numbers sorted by the #29 rank process: 67862
+Numbers sorted by the #30 rank process: 68058
+Numbers sorted by the #31 rank process: 67403
+Numbers sorted by the #1 rank process: 67680
+Numbers sorted by the #2 rank process: 67477
+Numbers sorted by the #3 rank process: 67529
+Numbers sorted by the #4 rank process: 67804
+Numbers sorted by the #5 rank process: 67392
+Numbers sorted by the #6 rank process: 67663
+Numbers sorted by the #7 rank process: 67622
+Numbers sorted by the #8 rank process: 67634
+Numbers sorted by the #9 rank process: 67981
+Numbers sorted by the #10 rank process: 68169
+Numbers sorted by the #11 rank process: 67734
+Numbers sorted by the #12 rank process: 67764
+Numbers sorted by the #13 rank process: 67755
+Numbers sorted by the #14 rank process: 67461
+Numbers sorted by the #15 rank process: 67120
+Numbers sorted by the #16 rank process: 67571
+Numbers sorted by the #17 rank process: 67798
+Numbers sorted by the #18 rank process: 67438
+Numbers sorted by the #19 rank process: 67444
+Numbers sorted by the #20 rank process: 67863
+Numbers sorted by the #21 rank process: 67191
+Numbers sorted by the #22 rank process: 67969
+Numbers sorted by the #23 rank process: 67696
+Numbers sorted by the #24 rank process: 67494
+Numbers sorted by the #25 rank process: 67488
+Numbers sorted by the #26 rank process: 67863
+Numbers sorted by the #27 rank process: 67478
+Numbers sorted by the #28 rank process: 67751
+Numbers sorted by the #29 rank process: 67862
+Numbers sorted by the #30 rank process: 68058
+Numbers sorted by the #31 rank process: 67403
+Numbers sorted by the #1 rank process: 67680
+Numbers sorted by the #2 rank process: 67477
+Numbers sorted by the #3 rank process: 67529
+Numbers sorted by the #4 rank process: 67804
+Numbers sorted by the #5 rank process: 67392
+Numbers sorted by the #6 rank process: 67663
+Numbers sorted by the #7 rank process: 67622
+Numbers sorted by the #8 rank process: 67634
+Numbers sorted by the #9 rank process: 67981
+Numbers sorted by the #10 rank process: 68169
+Numbers sorted by the #11 rank process: 67734
+Numbers sorted by the #12 rank process: 67764
+Numbers sorted by the #13 rank process: 67755
+Numbers sorted by the #14 rank process: 67461
+Numbers sorted by the #15 rank process: 67120
+Numbers sorted by the #16 rank process: 67571
+Numbers sorted by the #17 rank process: 67798
+Numbers sorted by the #18 rank process: 67438
+Numbers sorted by the #19 rank process: 67444
+Numbers sorted by the #20 rank process: 67863
+Numbers sorted by the #21 rank process: 67191
+Numbers sorted by the #22 rank process: 67969
+Numbers sorted by the #23 rank process: 67696
+Numbers sorted by the #24 rank process: 67494
+Numbers sorted by the #25 rank process: 67488
+Numbers sorted by the #26 rank process: 67863
+Numbers sorted by the #27 rank process: 67478
+Numbers sorted by the #28 rank process: 67751
+Numbers sorted by the #29 rank process: 67862
+Numbers sorted by the #30 rank process: 68058
+Numbers sorted by the #31 rank process: 67403
+Numbers sorted by the #1 rank process: 67680
+Numbers sorted by the #2 rank process: 67477
+Numbers sorted by the #3 rank process: 67529
+Numbers sorted by the #4 rank process: 67804
+Numbers sorted by the #5 rank process: 67392
+Numbers sorted by the #6 rank process: 67663
+Numbers sorted by the #7 rank process: 67622
+Numbers sorted by the #8 rank process: 67634
+Numbers sorted by the #9 rank process: 67981
+Numbers sorted by the #10 rank process: 68169
+Numbers sorted by the #11 rank process: 67734
+Numbers sorted by the #12 rank process: 67764
+Numbers sorted by the #13 rank process: 67755
+Numbers sorted by the #14 rank process: 67461
+Numbers sorted by the #15 rank process: 67120
+Numbers sorted by the #16 rank process: 67571
+Numbers sorted by the #17 rank process: 67798
+Numbers sorted by the #18 rank process: 67438
+Numbers sorted by the #19 rank process: 67444
+Numbers sorted by the #20 rank process: 67863
+Numbers sorted by the #21 rank process: 67191
+Numbers sorted by the #22 rank process: 67969
+Numbers sorted by the #23 rank process: 67696
+Numbers sorted by the #24 rank process: 67494
+Numbers sorted by the #25 rank process: 67488
+Numbers sorted by the #26 rank process: 67863
+Numbers sorted by the #27 rank process: 67478
+Numbers sorted by the #28 rank process: 67751
+Numbers sorted by the #29 rank process: 67862
+Numbers sorted by the #30 rank process: 68058
+Numbers sorted by the #31 rank process: 67403
+Numbers sorted by the #1 rank process: 67680
+Numbers sorted by the #2 rank process: 67477
+Numbers sorted by the #3 rank process: 67529
+Numbers sorted by the #4 rank process: 67804
+Numbers sorted by the #5 rank process: 67392
+Numbers sorted by the #6 rank process: 67663
+Numbers sorted by the #7 rank process: 67622
+Numbers sorted by the #8 rank process: 67634
+Numbers sorted by the #9 rank process: 67981
+Numbers sorted by the #10 rank process: 68169
+Numbers sorted by the #11 rank process: 67734
+Numbers sorted by the #12 rank process: 67764
+Numbers sorted by the #13 rank process: 67755
+Numbers sorted by the #14 rank process: 67461
+Numbers sorted by the #15 rank process: 67120
+Numbers sorted by the #16 rank process: 67571
+Numbers sorted by the #17 rank process: 67798
+Numbers sorted by the #18 rank process: 67438
+Numbers sorted by the #19 rank process: 67444
+Numbers sorted by the #20 rank process: 67863
+Numbers sorted by the #21 rank process: 67191
+Numbers sorted by the #22 rank process: 67969
+Numbers sorted by the #23 rank process: 67696
+Numbers sorted by the #24 rank process: 67494
+Numbers sorted by the #25 rank process: 67488
+Numbers sorted by the #26 rank process: 67863
+Numbers sorted by the #27 rank process: 67478
+Numbers sorted by the #28 rank process: 67751
+Numbers sorted by the #29 rank process: 67862
+Numbers sorted by the #30 rank process: 68058
+Numbers sorted by the #31 rank process: 67403
+Numbers sorted by the #1 rank process: 67680
+Numbers sorted by the #2 rank process: 67477
+Numbers sorted by the #3 rank process: 67529
+Numbers sorted by the #4 rank process: 67804
+Numbers sorted by the #5 rank process: 67392
+Numbers sorted by the #6 rank process: 67663
+Numbers sorted by the #7 rank process: 67622
+Numbers sorted by the #8 rank process: 67634
+Numbers sorted by the #9 rank process: 67981
+Numbers sorted by the #10 rank process: 68169
+Numbers sorted by the #11 rank process: 67734
+Numbers sorted by the #12 rank process: 67764
+Numbers sorted by the #13 rank process: 67755
+Numbers sorted by the #14 rank process: 67461
+Numbers sorted by the #15 rank process: 67120
+Numbers sorted by the #16 rank process: 67571
+Numbers sorted by the #17 rank process: 67798
+Numbers sorted by the #18 rank process: 67438
+Numbers sorted by the #19 rank process: 67444
+Numbers sorted by the #20 rank process: 67863
+Numbers sorted by the #21 rank process: 67191
+Numbers sorted by the #22 rank process: 67969
+Numbers sorted by the #23 rank process: 67696
+Numbers sorted by the #24 rank process: 67494
+Numbers sorted by the #25 rank process: 67488
+Numbers sorted by the #26 rank process: 67863
+Numbers sorted by the #27 rank process: 67478
+Numbers sorted by the #28 rank process: 67751
+Numbers sorted by the #29 rank process: 67862
+Numbers sorted by the #30 rank process: 68058
+Numbers sorted by the #31 rank process: 67403

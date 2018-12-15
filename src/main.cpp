@@ -2,12 +2,12 @@
 #include <mpi.h>
 #include "../include/utils.h"
 #include "../include/mergeSort.h"
-//#include "../include/bucketsort.h"
 
 using std::cout;
 using std::endl;
 
 int n, p, *input_array;
+char *opt;
 
 void print_array(int *array, int n) {
     for(int i = 0; i < n; i++){
@@ -30,41 +30,16 @@ void bucketsort_placement(int *input_array, int *buckets, int *counters, int n, 
     }
 }
 
-/*
-void bucketsort(int *input_array, int n, int p) {
-    range = n/p;
-    buckets = (int *) _mm_malloc(n*p*sizeof(int), 32);
-    counters = (int *) _mm_malloc(n*sizeof(int), 32);
-
-    bucketsort_init(n);
-    bucketsort_placement(input_array, n, p);
-
-    for (int i = 0; i < p; i++){
-        mergesort(&buckets[i*n], counters[i]);
-    }
-
-}
-*/
-
 int main (int argc, char *argv[]){
     int rank;
     MPI_Status status;
 
-    if(argc < 2)
-        cout << "usage: bin/main size_of_input_array " << endl;
+    if(argc < 3)
+        cout << "usage: bin/main size_of_input_array options(time|cc|wl)" << endl;
     else {
         n = atoi(argv[1]);
+        opt = strdup(argv[2]);
     }
-    #ifdef PAPI
-    if(argc < 2)
-        cout << "usage: bin/main size_of_input_array papi_measurement(l1mr|l2mr|l3mr|flops|vflops)" << endl;
-    else 
-        utils_setup_papi(1, argv[2]);    
-    #endif
-    
-    #ifdef PAPI
-    utils_start_papi();
-    #endif
 
     if(MPI_Init(&argc, &argv) != MPI_SUCCESS) {
         fprintf(stderr, "Unable to initialize MPI!\n");
@@ -83,11 +58,19 @@ int main (int argc, char *argv[]){
         counters = (int *) _mm_malloc(n*sizeof(int), 32);
 
         utils_init (&input_array, n);
+        utils_setup(opt, 1);
         utils_clear_cache();
-        utils_start_timer();
+        
+        if(!strcmp(opt, "time"))
+            utils_start_timer();
 
         bucketsort_init(counters, n);
         bucketsort_placement(input_array, buckets, counters, n, p);
+
+        if(!strcmp(opt, "cc"))
+            utils_start_timer();
+        else if(!strcmp(opt, "wl"))
+            utils_measure_wl(counters, p);
 
         for(int i = 0; i < p; i++) {
             MPI_Send(&counters[i], 1, MPI_INT, i + 1, 0, MPI_COMM_WORLD);
@@ -103,12 +86,9 @@ int main (int argc, char *argv[]){
                 input_array[it++] = bucket[j];
             }
         }
-    
-        #ifdef PAPI
-        utils_stop_papi(1);
-        #endif
 
         utils_stop_timer();
+        
         utils_clean (input_array);
 
     } else {
@@ -118,7 +98,8 @@ int main (int argc, char *argv[]){
         
         MPI_Recv(&size, 1, MPI_INT, 0, 0, MPI_COMM_WORLD, &status);
         MPI_Recv(bucket, size, MPI_INT, 0, 0, MPI_COMM_WORLD, &status);
-        mergesort(bucket, size);
+        if(strcmp(opt, "cc"))
+            mergesort(bucket, size);
         MPI_Send(bucket, size, MPI_INT, 0, 0, MPI_COMM_WORLD);
     }
    

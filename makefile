@@ -9,7 +9,7 @@ LD  = icpc
 #-fopenmp/-openmp for GNU/Intel
 #-L/share/apps/papi/5.5.0/lib -I/share/apps/papi/5.5.0/include -lpapi for Papi counters
 
-CXXFLAGS = -O3 -Wall -Wextra -fopenmp -std=c++11 -Wno-unused-parameter -fopt-info-missed=logs/vec_report.dat
+CXXFLAGS = -O3 -Wall -Wextra -fopenmp -std=c++11 -Wno-unused-parameter
 #CXXFLAGS    = -O3 -Wall -Wextra -qopenmp -std=c++11 -Wno-unused-parameter -qopt-report=3
 
 ifeq ($(PAPI),yes)

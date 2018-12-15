@@ -5,13 +5,32 @@ vector<long long unsigned> time_measurements;
 long long unsigned initial_time;
 timeval t;
 
-#ifdef PAPI
-long long **values;
-int *events;
-int numEvents;
-int eventSet = PAPI_NULL;
-const char *type;
-#endif
+double mpi_initial_time;
+vector<double> mpi_time_measurements;
+
+vector<int> wl_measurements;
+
+char *type;
+int repetitions;
+
+float getWorkLoad () {
+	int min, max, tot = 0, best = 0;
+
+	for (auto i : wl_measurements) {
+		if (i < best || !best) {
+			best = i;
+            tot += i;
+        }
+	}
+    min = best;
+    for (auto i : wl_measurements) {
+		if (i > best || !best)
+			best = i;
+	}
+    max = best;
+    float wl = (float)((float)(max - min)/(float)tot) * (float)100;
+	return wl;
+}
 
 void utils_clear_cache (void) {
 	for (unsigned i = 0; i < 30000000; ++i)
@@ -29,98 +48,68 @@ void utils_init (int **input_array, int size) {
 }
 
 void utils_start_timer (void) {
-	gettimeofday(&t, NULL);
-	initial_time = t.tv_sec * TIME_RESOLUTION + t.tv_usec;
+	
+    if(!strcmp(type, "time")) {
+        gettimeofday(&t, NULL);
+	    initial_time = t.tv_sec * TIME_RESOLUTION + t.tv_usec;
+
+    } else if(!strcmp(type, "cc")) {
+        
+        mpi_initial_time = MPI_Wtime();
+    }
 }
 
 void utils_stop_timer (void) {
-	gettimeofday(&t, NULL);
-	long long unsigned final_time = t.tv_sec * TIME_RESOLUTION + t.tv_usec;
-	time_measurements.push_back(final_time - initial_time);
+    
+    if(!strcmp(type, "time")) {
+        
+        gettimeofday(&t, NULL);
+	    long long unsigned final_time = t.tv_sec * TIME_RESOLUTION + t.tv_usec;
+        time_measurements.push_back(final_time - initial_time);
+
+    } else if(!strcmp(type, "cc")) {
+	    
+        double final_time = MPI_Wtime();
+	    mpi_time_measurements.push_back(final_time - mpi_initial_time);
+    }
 }
 
-#ifdef PAPI
-void utils_setup_papi (int reps, const char *t) {
-    type = strdup(t);
-    if (!strcmp(type, "l1mr")) {
-        numEvents = 2;
-        events = (int *)malloc(numEvents * sizeof(int));
-        events[0] = PAPI_L1_DCM;
-        events[1] = PAPI_LD_INS;
+void utils_measure_wl(int *counters, int p) {
+    for(int i = 0; i < p; i++) {
+        wl_measurements.push_back(counters[i]);
     }
-    else if (!strcmp(type, "l2mr")) {
-        numEvents = 2;
-        events = (int *)malloc(numEvents * sizeof(int));
-        events[0] = PAPI_L2_TCM;
-        events[1] = PAPI_L1_DCM;
-    }
-    else if (!strcmp(type, "l3mr")) {
-        numEvents = 2;
-        events = (int *)malloc(numEvents * sizeof(int));
-        events[0] = PAPI_L3_TCM;
-        events[1] = PAPI_L2_TCM;
-    }
-    else if (!strcmp(type, "flops")) {
-        numEvents = 1;
-        events = (int *)malloc(numEvents * sizeof(int));
-        events[0] = PAPI_FP_OPS;
-    }
-    else if (!strcmp(type, "vflops")) {
-        numEvents = 1;
-        events = (int *)malloc(numEvents * sizeof(int));
-        events[0] = PAPI_VEC_SP;
-    }
-    
-    values = (long long **)malloc(sizeof(long long) * reps);
-    for (int i = 0; i < reps; i++) {
-        values[i] = (long long *)malloc(sizeof(long long) * numEvents);
-    }
-    
-    PAPI_library_init(PAPI_VER_CURRENT);
-    PAPI_create_eventset(&eventSet);
-    PAPI_add_events(eventSet, events, numEvents); /* Start the counters */
 }
-#endif
+
+void utils_setup(char *t, int r) {
+    
+    repetitions = r;
+    
+    if(!strcmp(t, "time")) {
+        type = strdup(t);
+    } else if(!strcmp(t, "cc")) {
+        type = strdup(t);
+    } else if(!strcmp(t, "wl")) {
+        type = strdup(t);
+    } else {
+        cout << "Invalid Option! Please select between time, cc or wl" << endl;
+    }
+}
 
 void utils_results (void) {
-    int repetitions = time_measurements.size();
-    
+
     for (int i = 0; i < repetitions; i++) {
-        
-        #ifdef PAPI
-        
-        if (!strcmp(type, "l1mr")) {
-            cout << values[i][0] <<";"<<values[i][1] << endl;
+        if(!strcmp(type, "time")) {
+            double tm = time_measurements.at(i) / (double)1000;
+            cout << "Execution Time: " << tm << "ms" << endl;
+        } else if(!strcmp(type, "cc")) {
+            double tm = mpi_time_measurements.at(i) * (double)1000;
+            cout << "Estimated Communication Time: " << tm << "ms" << endl;
+        } else if(!strcmp(type, "wl")) {
+            float avg_wl = getWorkLoad();
+            cout << "Difference between the maximum and minimum of elements sorted by each bucket: " << avg_wl << endl;
         }
-        else if (!strcmp(type, "l2mr")) {
-            cout << values[i][0] <<";"<<values[i][1] << endl;
-        }
-        else if (!strcmp(type, "l3mr")) {
-            cout << values[i][0] <<";"<<values[i][1] << endl;
-        }
-        else if (!strcmp(type, "flops")) {
-            cout << values[i][0] << endl;
-        }
-        else if (!strcmp(type, "vflops")) {
-            cout << values[i][0] << endl;
-        }
-        
-        #else
-        double tm = time_measurements.at(i) / (double)1000;
-        cout << "Execution Time #" << i << ": " << tm << "ms" << endl;
-        #endif
     }
 }
-
-#ifdef PAPI
-void utils_start_papi (void) {
-    PAPI_start(eventSet);        
-}
-
-void utils_stop_papi (int rep) {
-    PAPI_stop(eventSet, values[rep]);
-}
-#endif
 
 int utils_clean (int *input_array) {
     if(input_array!=NULL)
