@@ -35,10 +35,12 @@ int main (int argc, char *argv[]){
     MPI_Status status;
 
     if(argc < 3)
-        cout << "usage: bin/main size_of_input_array options(time|cc|wl)" << endl;
+        cout << "usage: bin/main size_of_input_array options(time|cc|wl|mappings)" << endl;
     else {
         n = atoi(argv[1]);
         opt = strdup(argv[2]);
+        if(!strcmp(opt, "mappings"))
+            return 0;
     }
 
     if(MPI_Init(&argc, &argv) != MPI_SUCCESS) {
