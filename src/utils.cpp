@@ -41,6 +41,8 @@ void utils_init (int **input_array, int size) {
     
     *input_array = (int*) _mm_malloc(size*sizeof(int), 32);
 
+    srand(time(NULL));
+    
     for(int i = 0; i < size; i++) {
         (*input_array)[i] = ((int) rand()) % ((int) size);
     }

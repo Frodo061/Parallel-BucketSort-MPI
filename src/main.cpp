@@ -32,15 +32,12 @@ void bucketsort_placement(int *input_array, int *buckets, int *counters, int n, 
 
 int main (int argc, char *argv[]){
     int rank;
-    MPI_Status status;
 
     if(argc < 3)
-        cout << "usage: bin/main size_of_input_array options(time|cc|wl|mappings)" << endl;
+        cout << "usage: bin/main size_of_input_array options(time|cc|wl)" << endl;
     else {
         n = atoi(argv[1]);
         opt = strdup(argv[2]);
-        if(!strcmp(opt, "mappings"))
-            return 0;
     }
 
     if(MPI_Init(&argc, &argv) != MPI_SUCCESS) {
@@ -50,59 +47,54 @@ int main (int argc, char *argv[]){
 
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &p);
-    p--;
 
     if(rank == 0) {
-        
-        int *counters, *buckets;
-        
-        buckets = (int *) _mm_malloc(n*p*sizeof(int), 32);
-        counters = (int *) _mm_malloc(n*sizeof(int), 32);
-
         utils_init (&input_array, n);
         utils_setup(opt, 1);
         utils_clear_cache();
         
         if(!strcmp(opt, "time"))
             utils_start_timer();
+    }
 
-        bucketsort_init(counters, n);
+    int *counters=NULL, *buckets=NULL;
+
+    if(rank == 0) {
+        
+        buckets = (int *) _mm_malloc(n*p*sizeof(int), 32);
+        counters = (int *) _mm_malloc(n*sizeof(int), 32);
+
+        bucketsort_init(counters, p);
         bucketsort_placement(input_array, buckets, counters, n, p);
 
         if(!strcmp(opt, "cc"))
             utils_start_timer();
         else if(!strcmp(opt, "wl"))
-            utils_measure_wl(counters, p);
+            utils_measure_wl(counters, p);            
+    }
 
-        for(int i = 0; i < p; i++) {
-            MPI_Send(&counters[i], 1, MPI_INT, i + 1, 0, MPI_COMM_WORLD);
-            MPI_Send(&buckets[i * n], counters[i], MPI_INT, i + 1, 0, MPI_COMM_WORLD);
-        }
+    int *bucket = (int *) _mm_malloc(n * sizeof(int), 32);
+    int counter = 0;
 
-        int it = 0; 
+    MPI_Scatter(counters, 1, MPI_INT, &counter, 1, MPI_INT, 0, MPI_COMM_WORLD);
+    MPI_Scatter(buckets, n, MPI_INT, bucket, n, MPI_INT, 0, MPI_COMM_WORLD);
 
-        for(int i = 0; i < p; i++) {
-            int *bucket = (int *) _mm_malloc(n*sizeof(int), 32);
-            MPI_Recv(bucket, counters[i], MPI_INT, i + 1, 0, MPI_COMM_WORLD, &status);
-            for(int j = 0; j < counters[i]; j++) {
-                input_array[it++] = bucket[j];
-            }
-        }
+    mergesort(bucket, counter);
+    
+    int *offset = (int *) _mm_malloc(sizeof(int) * p, 32);
 
+    if(rank == 0) {
+
+        offset[0] = 0;
+        for(int i = 1; i < p+1; ++i)
+            offset[i] = offset[i-1] + counters[i-1];
+    }
+
+    MPI_Gatherv(bucket, counter, MPI_INT, input_array, counters, offset, MPI_INT, 0, MPI_COMM_WORLD);
+
+    if(rank == 0) {
         utils_stop_timer();
-        
         utils_clean (input_array);
-
-    } else {
-        
-        int size;
-        int *bucket = (int *) _mm_malloc(n*sizeof(int), 32);
-        
-        MPI_Recv(&size, 1, MPI_INT, 0, 0, MPI_COMM_WORLD, &status);
-        MPI_Recv(bucket, size, MPI_INT, 0, 0, MPI_COMM_WORLD, &status);
-        if(strcmp(opt, "cc"))
-            mergesort(bucket, size);
-        MPI_Send(bucket, size, MPI_INT, 0, 0, MPI_COMM_WORLD);
     }
    
     MPI_Finalize();

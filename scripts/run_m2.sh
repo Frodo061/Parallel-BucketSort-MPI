@@ -25,10 +25,10 @@ do
     echo ""
     echo "mapping: $mapping"
     
-    for p in 3 5 9 17 32
+    for p in 2 4 8 16 32
     do
         echo ""
-        echo "#buckets: $p-1"
+        echo "#buckets: $p"
 
         for size in 2048 16384 1048576 2097152
         do
@@ -40,7 +40,7 @@ do
 
                 for i in {0..7}
                 do
-                    if [ $p > 16 && "$mapping" == "--map-by core" ]; then
+                    if [ "$p" -gt 16 && "$mapping" == "--map-by core" ]; then
                         mpirun -np $p ppr:1:core -report-bindings -mca btl self,sm,tcp ./bin/main $size $opt
                     else
                         mpirun -np $p $mapping -report-bindings -mca btl self,sm,tcp ./bin/main $size $opt

@@ -9,1804 +9,1798 @@ mpic++ -o bin/main build/main.o build/mergeSort.o build/utils.o -lm -O3 -Wall -W
 
 mapping: --map-by core
 
-#buckets: 3-1
+#buckets: 2
 
-[compute-641-15.local:24206] MCW rank 2 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
-[compute-641-15.local:24206] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-15.local:24206] MCW rank 1 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-
-Sizeof input 2048:
-Execution Time: 0.339ms
-Execution Time: 0.293ms
-Execution Time: 0.302ms
-Execution Time: 0.323ms
-Execution Time: 0.302ms
-Execution Time: 0.296ms
-Execution Time: 0.297ms
-Execution Time: 0.48ms
-Estimated Communication Time: 0.201941ms
-Estimated Communication Time: 0.187874ms
-Estimated Communication Time: 0.184059ms
-Estimated Communication Time: 0.190973ms
-Estimated Communication Time: 0.19002ms
-Estimated Communication Time: 0.196934ms
-Estimated Communication Time: 0.19002ms
-Estimated Communication Time: 0.24581ms
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-
-Sizeof input 16384:
-Execution Time: 1.437ms
-Execution Time: 1.43ms
-Execution Time: 1.433ms
-Execution Time: 1.434ms
-Execution Time: 1.466ms
-Execution Time: 1.444ms
-Execution Time: 1.432ms
-Execution Time: 1.465ms
-Estimated Communication Time: 0.570059ms
-Estimated Communication Time: 0.437975ms
-Estimated Communication Time: 0.47493ms
-Estimated Communication Time: 0.403881ms
-Estimated Communication Time: 0.429153ms
-Estimated Communication Time: 0.442028ms
-Estimated Communication Time: 0.428915ms
-Estimated Communication Time: 0.429869ms
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-
-Sizeof input 1048576:
-Execution Time: 93.962ms
-Execution Time: 92.872ms
-Execution Time: 93.726ms
-Execution Time: 93.541ms
-Execution Time: 93.467ms
-Execution Time: 93.294ms
-Execution Time: 94.556ms
-Execution Time: 94.655ms
-Estimated Communication Time: 6.44684ms
-Estimated Communication Time: 6.54888ms
-Estimated Communication Time: 7.0281ms
-Estimated Communication Time: 6.40297ms
-Estimated Communication Time: 6.56295ms
-Estimated Communication Time: 7.44009ms
-Estimated Communication Time: 5.93114ms
-Estimated Communication Time: 6.88386ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-
-Sizeof input 2097152:
-Execution Time: 193.677ms
-Execution Time: 193.131ms
-Execution Time: 194.12ms
-Execution Time: 193.399ms
-Execution Time: 194.267ms
-Execution Time: 192.581ms
-Execution Time: 194.099ms
-Execution Time: 193.522ms
-Estimated Communication Time: 10.6449ms
-Estimated Communication Time: 10.7608ms
-Estimated Communication Time: 11.3339ms
-Estimated Communication Time: 10.915ms
-Estimated Communication Time: 11.045ms
-Estimated Communication Time: 11.8232ms
-Estimated Communication Time: 10.3278ms
-Estimated Communication Time: 11.2791ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-
-#buckets: 5-1
-
-[compute-641-15.local:25012] MCW rank 2 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
-[compute-641-15.local:25012] MCW rank 3 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
-[compute-641-15.local:25012] MCW rank 4 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
-[compute-641-15.local:25012] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-15.local:25012] MCW rank 1 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-8.local:23238] MCW rank 1 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-8.local:23238] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
 
 Sizeof input 2048:
-Execution Time: 0.265ms
-Execution Time: 0.246ms
-Execution Time: 0.255ms
-Execution Time: 0.243ms
-Execution Time: 0.257ms
-Execution Time: 0.238ms
-Execution Time: 0.262ms
-Execution Time: 0.24ms
-Estimated Communication Time: 0.140905ms
-Estimated Communication Time: 0.137091ms
-Estimated Communication Time: 0.154018ms
-Estimated Communication Time: 0.160933ms
-Estimated Communication Time: 0.170946ms
-Estimated Communication Time: 0.138998ms
-Estimated Communication Time: 0.1688ms
-Estimated Communication Time: 0.144958ms
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-Difference between the maximum and minimum of elements sorted by each bucket: 12.5514
+Execution Time: 0.254ms
+Execution Time: 0.254ms
+Execution Time: 0.261ms
+Execution Time: 0.261ms
+Execution Time: 0.26ms
+Execution Time: 0.258ms
+Execution Time: 0.261ms
+Execution Time: 0.285ms
+Estimated Communication Time: 0.236988ms
+Estimated Communication Time: 0.22912ms
+Estimated Communication Time: 0.225067ms
+Estimated Communication Time: 0.227928ms
+Estimated Communication Time: 0.233173ms
+Estimated Communication Time: 0.231028ms
+Estimated Communication Time: 0.234842ms
+Estimated Communication Time: 0.235081ms
+Difference between the maximum and minimum of elements sorted by each bucket: 3.71094
+Difference between the maximum and minimum of elements sorted by each bucket: 0.587659
+Difference between the maximum and minimum of elements sorted by each bucket: 0.587659
+Difference between the maximum and minimum of elements sorted by each bucket: 0.78125
+Difference between the maximum and minimum of elements sorted by each bucket: 1.97239
+Difference between the maximum and minimum of elements sorted by each bucket: 1.97239
+Difference between the maximum and minimum of elements sorted by each bucket: 0.195312
+Difference between the maximum and minimum of elements sorted by each bucket: 0.195312
 
 Sizeof input 16384:
-Execution Time: 1.081ms
-Execution Time: 0.978ms
-Execution Time: 0.966ms
-Execution Time: 0.977ms
-Execution Time: 1.796ms
-Execution Time: 0.979ms
-Execution Time: 0.967ms
-Execution Time: 0.957ms
-Estimated Communication Time: 0.539064ms
-Estimated Communication Time: 0.594139ms
-Estimated Communication Time: 0.47493ms
-Estimated Communication Time: 0.540018ms
-Estimated Communication Time: 0.504017ms
-Estimated Communication Time: 0.524044ms
-Estimated Communication Time: 0.530005ms
-Estimated Communication Time: 0.52309ms
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.27892
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-
-Sizeof input 1048576:
-Execution Time: 54.302ms
-Execution Time: 52.074ms
-Execution Time: 54.666ms
-Execution Time: 54.944ms
-Execution Time: 52.348ms
-Execution Time: 51.508ms
-Execution Time: 51.475ms
-Execution Time: 54.874ms
-Estimated Communication Time: 7.59292ms
-Estimated Communication Time: 7.93695ms
-Estimated Communication Time: 7.67803ms
-Estimated Communication Time: 8.94594ms
-Estimated Communication Time: 8.85391ms
-Estimated Communication Time: 8.64291ms
-Estimated Communication Time: 7.70497ms
-Estimated Communication Time: 7.77411ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-
-Sizeof input 2097152:
-Execution Time: 106.353ms
-Execution Time: 107.24ms
-Execution Time: 106.361ms
-Execution Time: 109.096ms
-Execution Time: 107.219ms
-Execution Time: 107.451ms
-Execution Time: 107.126ms
-Execution Time: 108.776ms
-Estimated Communication Time: 13.54ms
-Estimated Communication Time: 12.6078ms
-Estimated Communication Time: 13.1929ms
-Estimated Communication Time: 12.8889ms
-Estimated Communication Time: 14.2589ms
-Estimated Communication Time: 14.137ms
-Estimated Communication Time: 13.186ms
-Estimated Communication Time: 14.564ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-
-#buckets: 9-1
-
-[compute-641-15.local:26687] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-15.local:26687] MCW rank 1 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-[compute-641-15.local:26687] MCW rank 2 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
-[compute-641-15.local:26687] MCW rank 3 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
-[compute-641-15.local:26687] MCW rank 4 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
-[compute-641-15.local:26687] MCW rank 5 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
-[compute-641-15.local:26687] MCW rank 6 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
-[compute-641-15.local:26687] MCW rank 7 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
-[compute-641-15.local:26687] MCW rank 8 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
-
-Sizeof input 2048:
-Execution Time: 0.231ms
-Execution Time: 0.24ms
-Execution Time: 0.281ms
-Execution Time: 0.239ms
-Execution Time: 0.255ms
-Execution Time: 0.255ms
-Execution Time: 0.243ms
-Execution Time: 0.247ms
-Estimated Communication Time: 0.18096ms
-Estimated Communication Time: 0.197172ms
-Estimated Communication Time: 0.182867ms
-Estimated Communication Time: 0.196934ms
-Estimated Communication Time: 0.197887ms
-Estimated Communication Time: 0.194073ms
-Estimated Communication Time: 0.194788ms
-Estimated Communication Time: 0.175953ms
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-
-Sizeof input 16384:
-Execution Time: 1.073ms
-Execution Time: 1.051ms
-Execution Time: 1.003ms
-Execution Time: 0.983ms
-Execution Time: 1.06ms
-Execution Time: 0.966ms
-Execution Time: 0.971ms
-Execution Time: 1.032ms
-Estimated Communication Time: 0.7689ms
-Estimated Communication Time: 0.892162ms
-Estimated Communication Time: 0.715017ms
-Estimated Communication Time: 0.874043ms
-Estimated Communication Time: 0.880003ms
-Estimated Communication Time: 1.11508ms
-Estimated Communication Time: 0.909805ms
-Estimated Communication Time: 0.893116ms
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-
-Sizeof input 1048576:
-Execution Time: 34.836ms
-Execution Time: 41.442ms
-Execution Time: 35.325ms
-Execution Time: 35.133ms
-Execution Time: 41.377ms
-Execution Time: 35.377ms
-Execution Time: 38.4ms
-Execution Time: 34.969ms
-Estimated Communication Time: 10.2248ms
-Estimated Communication Time: 13.659ms
-Estimated Communication Time: 13.6681ms
-Estimated Communication Time: 9.67312ms
-Estimated Communication Time: 10.828ms
-Estimated Communication Time: 10.509ms
-Estimated Communication Time: 9.53603ms
-Estimated Communication Time: 9.41896ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-
-Sizeof input 2097152:
-Execution Time: 65.381ms
-Execution Time: 71.946ms
-Execution Time: 64.512ms
-Execution Time: 66.299ms
-Execution Time: 71.962ms
-Execution Time: 71.557ms
-Execution Time: 67.585ms
-Execution Time: 72.116ms
-Estimated Communication Time: 17.9ms
-Estimated Communication Time: 18.034ms
-Estimated Communication Time: 20.1709ms
-Estimated Communication Time: 18.647ms
-Estimated Communication Time: 14.5571ms
-Estimated Communication Time: 14.8749ms
-Estimated Communication Time: 18.965ms
-Estimated Communication Time: 15.1181ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235978
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235977
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235978
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235978
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235978
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235978
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235978
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235978
-
-#buckets: 16-1
-
-[compute-641-15.local:28467] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-15.local:28467] MCW rank 1 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-[compute-641-15.local:28467] MCW rank 2 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
-[compute-641-15.local:28467] MCW rank 3 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
-[compute-641-15.local:28467] MCW rank 4 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
-[compute-641-15.local:28467] MCW rank 5 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
-[compute-641-15.local:28467] MCW rank 6 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
-[compute-641-15.local:28467] MCW rank 7 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
-[compute-641-15.local:28467] MCW rank 8 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
-[compute-641-15.local:28467] MCW rank 9 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
-[compute-641-15.local:28467] MCW rank 10 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
-[compute-641-15.local:28467] MCW rank 11 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
-[compute-641-15.local:28467] MCW rank 12 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
-[compute-641-15.local:28467] MCW rank 13 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
-[compute-641-15.local:28501] MCW rank 14 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
-[compute-641-15.local:28501] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
-
-Sizeof input 2048:
-Execution Time: 0.321ms
-Execution Time: 0.317ms
-Execution Time: 0.334ms
-Execution Time: 0.341ms
-Execution Time: 0.336ms
-Execution Time: 0.323ms
-Execution Time: 0.358ms
-Execution Time: 0.313ms
-Estimated Communication Time: 0.319004ms
-Estimated Communication Time: 0.797033ms
-Estimated Communication Time: 0.31805ms
-Estimated Communication Time: 0.422955ms
-Estimated Communication Time: 0.29397ms
-Estimated Communication Time: 0.29397ms
-Estimated Communication Time: 0.284195ms
-Estimated Communication Time: 0.245094ms
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-
-Sizeof input 16384:
-Execution Time: 1.201ms
-Execution Time: 1.197ms
-Execution Time: 1.576ms
-Execution Time: 1.475ms
-Execution Time: 1.549ms
-Execution Time: 1.39ms
-Execution Time: 1.422ms
-Execution Time: 1.494ms
-Estimated Communication Time: 1.32799ms
-Estimated Communication Time: 1.30987ms
-Estimated Communication Time: 1.31297ms
-Estimated Communication Time: 1.54996ms
-Estimated Communication Time: 1.33419ms
-Estimated Communication Time: 0.979185ms
+Execution Time: 1.163ms
+Execution Time: 1.176ms
+Execution Time: 1.174ms
+Execution Time: 1.181ms
+Execution Time: 1.19ms
+Execution Time: 1.181ms
+Execution Time: 1.191ms
+Execution Time: 1.167ms
+Estimated Communication Time: 1.06001ms
+Estimated Communication Time: 1.06001ms
+Estimated Communication Time: 1.06192ms
+Estimated Communication Time: 1.08695ms
+Estimated Communication Time: 1.06311ms
 Estimated Communication Time: 1.055ms
-Estimated Communication Time: 1.68085ms
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58186
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58268
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58186
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58268
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58186
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58186
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58186
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58186
+Estimated Communication Time: 1.06215ms
+Estimated Communication Time: 1.05405ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.231934
+Difference between the maximum and minimum of elements sorted by each bucket: 1.40135
+Difference between the maximum and minimum of elements sorted by each bucket: 1.0498
+Difference between the maximum and minimum of elements sorted by each bucket: 1.0498
+Difference between the maximum and minimum of elements sorted by each bucket: 0.685938
+Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
+Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
+Difference between the maximum and minimum of elements sorted by each bucket: 0.907419
 
 Sizeof input 1048576:
-Execution Time: 34.857ms
-Execution Time: 34.162ms
-Execution Time: 32.145ms
-Execution Time: 42.637ms
-Execution Time: 34.1ms
-Execution Time: 32.657ms
-Execution Time: 44.874ms
-Execution Time: 34.143ms
-Estimated Communication Time: 15.728ms
-Estimated Communication Time: 15.008ms
-Estimated Communication Time: 15.4409ms
-Estimated Communication Time: 14.08ms
-Estimated Communication Time: 16.155ms
-Estimated Communication Time: 14.5142ms
-Estimated Communication Time: 21.5042ms
-Estimated Communication Time: 14.6999ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
+Execution Time: 78.587ms
+Execution Time: 78.468ms
+Execution Time: 78.703ms
+Execution Time: 78.428ms
+Execution Time: 78.356ms
+Execution Time: 78.447ms
+Execution Time: 78.43ms
+Execution Time: 78.479ms
+Estimated Communication Time: 72.5729ms
+Estimated Communication Time: 72.026ms
+Estimated Communication Time: 72.0279ms
+Estimated Communication Time: 72.5939ms
+Estimated Communication Time: 72.7069ms
+Estimated Communication Time: 72.4518ms
+Estimated Communication Time: 72.618ms
+Estimated Communication Time: 72.7179ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0476837
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0709534
+Difference between the maximum and minimum of elements sorted by each bucket: 0.163402
+Difference between the maximum and minimum of elements sorted by each bucket: 0.278479
+Difference between the maximum and minimum of elements sorted by each bucket: 0.170326
+Difference between the maximum and minimum of elements sorted by each bucket: 0.170326
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0751778
+Difference between the maximum and minimum of elements sorted by each bucket: 0.211906
 
 Sizeof input 2097152:
-Execution Time: 55.21ms
-Execution Time: 56.413ms
-Execution Time: 53.217ms
-Execution Time: 67.081ms
-Execution Time: 54.444ms
-Execution Time: 55.435ms
-Execution Time: 66.794ms
-Execution Time: 66.525ms
-Estimated Communication Time: 25.521ms
-Estimated Communication Time: 28.0089ms
-Estimated Communication Time: 19.8572ms
-Estimated Communication Time: 19.7871ms
-Estimated Communication Time: 21.1232ms
-Estimated Communication Time: 19.748ms
-Estimated Communication Time: 20.0222ms
-Estimated Communication Time: 21.4388ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
+Execution Time: 162.19ms
+Execution Time: 162.23ms
+Execution Time: 162.338ms
+Execution Time: 162.432ms
+Execution Time: 161.486ms
+Execution Time: 162.125ms
+Execution Time: 162.22ms
+Execution Time: 162.283ms
+Estimated Communication Time: 151.392ms
+Estimated Communication Time: 152.111ms
+Estimated Communication Time: 151.787ms
+Estimated Communication Time: 151.131ms
+Estimated Communication Time: 151.769ms
+Estimated Communication Time: 151.599ms
+Estimated Communication Time: 151.575ms
+Estimated Communication Time: 151.97ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0973221
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0480652
+Difference between the maximum and minimum of elements sorted by each bucket: 0.103814
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0125885
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0330925
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0465501
+Difference between the maximum and minimum of elements sorted by each bucket: 0.201237
+Difference between the maximum and minimum of elements sorted by each bucket: 0.201237
 
-#buckets: 32-1
+#buckets: 4
 
-[compute-641-15.local:02212] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-15.local:02212] MCW rank 1 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-[compute-641-15.local:02212] MCW rank 2 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
-[compute-641-15.local:02212] MCW rank 3 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
-[compute-641-15.local:02212] MCW rank 4 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
-[compute-641-15.local:02212] MCW rank 5 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
-[compute-641-15.local:02212] MCW rank 6 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
-[compute-641-15.local:02212] MCW rank 7 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
-[compute-641-15.local:02212] MCW rank 8 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
-[compute-641-15.local:02212] MCW rank 9 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
-[compute-641-15.local:02212] MCW rank 10 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
-[compute-641-15.local:02212] MCW rank 11 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
-[compute-641-15.local:02212] MCW rank 12 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
-[compute-641-15.local:02212] MCW rank 13 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
-[compute-641-14.local:12993] MCW rank 16 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-14.local:12993] MCW rank 17 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-[compute-641-14.local:12993] MCW rank 18 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
-[compute-641-14.local:12993] MCW rank 19 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
-[compute-641-14.local:12993] MCW rank 20 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
-[compute-641-14.local:12993] MCW rank 21 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
-[compute-641-14.local:12993] MCW rank 22 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
-[compute-641-14.local:12993] MCW rank 23 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
-[compute-641-14.local:12993] MCW rank 24 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
-[compute-641-14.local:12993] MCW rank 25 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
-[compute-641-14.local:12993] MCW rank 26 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
-[compute-641-14.local:12993] MCW rank 27 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
-[compute-641-14.local:12993] MCW rank 28 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
-[compute-641-14.local:12993] MCW rank 29 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
-[compute-641-14.local:12993] MCW rank 30 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
-[compute-641-14.local:12993] MCW rank 31 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-8.local:23929] MCW rank 1 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-8.local:23929] MCW rank 2 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-8.local:23929] MCW rank 3 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-8.local:23929] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
 
 Sizeof input 2048:
-Execution Time: 3.561ms
-Execution Time: 3.395ms
-Execution Time: 3.501ms
-Execution Time: 3.436ms
-Execution Time: 3.636ms
-Execution Time: 3.515ms
-Execution Time: 3.265ms
-Execution Time: 3.4ms
-Estimated Communication Time: 3.40509ms
-Estimated Communication Time: 3.28898ms
-Estimated Communication Time: 3.36385ms
-Estimated Communication Time: 3.32808ms
-Estimated Communication Time: 3.30806ms
-Estimated Communication Time: 3.23796ms
-Estimated Communication Time: 3.53003ms
-Estimated Communication Time: 3.41392ms
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
+Execution Time: 0.248ms
+Execution Time: 0.258ms
+Execution Time: 0.26ms
+Execution Time: 0.258ms
+Execution Time: 0.253ms
+Execution Time: 0.265ms
+Execution Time: 0.255ms
+Execution Time: 0.252ms
+Estimated Communication Time: 0.221968ms
+Estimated Communication Time: 0.22912ms
+Estimated Communication Time: 0.241995ms
+Estimated Communication Time: 0.221968ms
+Estimated Communication Time: 0.226021ms
+Estimated Communication Time: 0.219107ms
+Estimated Communication Time: 0.226974ms
+Estimated Communication Time: 0.228882ms
+Difference between the maximum and minimum of elements sorted by each bucket: 1.87933
+Difference between the maximum and minimum of elements sorted by each bucket: 1.87933
+Difference between the maximum and minimum of elements sorted by each bucket: 5.32129
+Difference between the maximum and minimum of elements sorted by each bucket: 5.36779
+Difference between the maximum and minimum of elements sorted by each bucket: 5.36779
+Difference between the maximum and minimum of elements sorted by each bucket: 7.22394
+Difference between the maximum and minimum of elements sorted by each bucket: 2.7541
+Difference between the maximum and minimum of elements sorted by each bucket: 2.7541
 
 Sizeof input 16384:
-Execution Time: 4.968ms
-Execution Time: 5.052ms
-Execution Time: 4.993ms
-Execution Time: 5.334ms
-Execution Time: 5.08ms
-Execution Time: 4.621ms
-Execution Time: 4.7ms
-Execution Time: 5.206ms
-Estimated Communication Time: 4.38905ms
-Estimated Communication Time: 4.25196ms
-Estimated Communication Time: 4.55689ms
-Estimated Communication Time: 4.49204ms
-Estimated Communication Time: 4.65417ms
-Estimated Communication Time: 4.55904ms
-Estimated Communication Time: 4.21405ms
-Estimated Communication Time: 4.22406ms
-Difference between the maximum and minimum of elements sorted by each bucket: 3.28915
-Difference between the maximum and minimum of elements sorted by each bucket: 3.3366
-Difference between the maximum and minimum of elements sorted by each bucket: 3.28915
-Difference between the maximum and minimum of elements sorted by each bucket: 3.3366
-Difference between the maximum and minimum of elements sorted by each bucket: 3.3366
-Difference between the maximum and minimum of elements sorted by each bucket: 3.3366
-Difference between the maximum and minimum of elements sorted by each bucket: 3.3366
-Difference between the maximum and minimum of elements sorted by each bucket: 3.3366
+Execution Time: 0.952ms
+Execution Time: 0.939ms
+Execution Time: 0.939ms
+Execution Time: 0.946ms
+Execution Time: 0.968ms
+Execution Time: 0.954ms
+Execution Time: 0.952ms
+Execution Time: 0.958ms
+Estimated Communication Time: 0.823975ms
+Estimated Communication Time: 0.82612ms
+Estimated Communication Time: 0.834942ms
+Estimated Communication Time: 0.846148ms
+Estimated Communication Time: 0.824213ms
+Estimated Communication Time: 0.83518ms
+Estimated Communication Time: 0.831127ms
+Estimated Communication Time: 0.823021ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.489836
+Difference between the maximum and minimum of elements sorted by each bucket: 0.489836
+Difference between the maximum and minimum of elements sorted by each bucket: 2.17391
+Difference between the maximum and minimum of elements sorted by each bucket: 1.46066
+Difference between the maximum and minimum of elements sorted by each bucket: 1.46066
+Difference between the maximum and minimum of elements sorted by each bucket: 3.1746
+Difference between the maximum and minimum of elements sorted by each bucket: 3.1746
+Difference between the maximum and minimum of elements sorted by each bucket: 1.31385
 
 Sizeof input 1048576:
-Execution Time: 86.923ms
-Execution Time: 88.315ms
-Execution Time: 87.573ms
-Execution Time: 83.905ms
-Execution Time: 86.958ms
-Execution Time: 85.828ms
-Execution Time: 86.52ms
-Execution Time: 86.356ms
-Estimated Communication Time: 65.6021ms
-Estimated Communication Time: 65.5119ms
-Estimated Communication Time: 65.4581ms
-Estimated Communication Time: 64.3842ms
-Estimated Communication Time: 64.1692ms
-Estimated Communication Time: 66.3481ms
-Estimated Communication Time: 73.9689ms
-Estimated Communication Time: 64.7049ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
+Execution Time: 49.154ms
+Execution Time: 48.971ms
+Execution Time: 49.288ms
+Execution Time: 47.739ms
+Execution Time: 49.204ms
+Execution Time: 49.193ms
+Execution Time: 49.218ms
+Execution Time: 49.159ms
+Estimated Communication Time: 41.3358ms
+Estimated Communication Time: 41.1701ms
+Estimated Communication Time: 42.794ms
+Estimated Communication Time: 50.7388ms
+Estimated Communication Time: 41.326ms
+Estimated Communication Time: 46.7858ms
+Estimated Communication Time: 41.2459ms
+Estimated Communication Time: 42.3701ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.206783
+Difference between the maximum and minimum of elements sorted by each bucket: 0.104966
+Difference between the maximum and minimum of elements sorted by each bucket: 0.190986
+Difference between the maximum and minimum of elements sorted by each bucket: 0.190986
+Difference between the maximum and minimum of elements sorted by each bucket: 0.285811
+Difference between the maximum and minimum of elements sorted by each bucket: 0.10975
+Difference between the maximum and minimum of elements sorted by each bucket: 0.198992
+Difference between the maximum and minimum of elements sorted by each bucket: 0.198992
 
 Sizeof input 2097152:
-Execution Time: 136.877ms
-Execution Time: 140.642ms
-Execution Time: 135.956ms
-Execution Time: 139.331ms
-Execution Time: 163.086ms
-Execution Time: 137.929ms
-Execution Time: 138.311ms
-Execution Time: 138.641ms
-Estimated Communication Time: 108.526ms
-Estimated Communication Time: 106.508ms
-Estimated Communication Time: 108.94ms
-Estimated Communication Time: 107.409ms
-Estimated Communication Time: 116.032ms
-Estimated Communication Time: 111.566ms
-Estimated Communication Time: 111.622ms
-Estimated Communication Time: 107.245ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
+Execution Time: 99.107ms
+Execution Time: 131.393ms
+Execution Time: 97.917ms
+Execution Time: 98.827ms
+Execution Time: 97.179ms
+Execution Time: 99.613ms
+Execution Time: 98.95ms
+Execution Time: 97.607ms
+Estimated Communication Time: 86.8311ms
+Estimated Communication Time: 86.0741ms
+Estimated Communication Time: 85.464ms
+Estimated Communication Time: 86.6041ms
+Estimated Communication Time: 87.2321ms
+Estimated Communication Time: 87.404ms
+Estimated Communication Time: 87.5642ms
+Estimated Communication Time: 88.114ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.173253
+Difference between the maximum and minimum of elements sorted by each bucket: 0.100828
+Difference between the maximum and minimum of elements sorted by each bucket: 0.3151
+Difference between the maximum and minimum of elements sorted by each bucket: 0.3151
+Difference between the maximum and minimum of elements sorted by each bucket: 0.351577
+Difference between the maximum and minimum of elements sorted by each bucket: 0.155903
+Difference between the maximum and minimum of elements sorted by each bucket: 0.117496
+Difference between the maximum and minimum of elements sorted by each bucket: 0.141398
+
+#buckets: 8
+
+[compute-641-8.local:25109] MCW rank 7 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-641-8.local:25109] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-8.local:25109] MCW rank 1 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-8.local:25109] MCW rank 2 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-8.local:25109] MCW rank 3 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-8.local:25109] MCW rank 4 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-8.local:25109] MCW rank 5 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-8.local:25109] MCW rank 6 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+
+Sizeof input 2048:
+Execution Time: 0.384ms
+Execution Time: 0.401ms
+Execution Time: 0.411ms
+Execution Time: 0.405ms
+Execution Time: 0.396ms
+Execution Time: 0.399ms
+Execution Time: 0.372ms
+Execution Time: 0.413ms
+Estimated Communication Time: 0.380993ms
+Estimated Communication Time: 0.360966ms
+Estimated Communication Time: 0.352144ms
+Estimated Communication Time: 0.353813ms
+Estimated Communication Time: 0.347137ms
+Estimated Communication Time: 0.370026ms
+Estimated Communication Time: 0.368118ms
+Estimated Communication Time: 0.353098ms
+Difference between the maximum and minimum of elements sorted by each bucket: 5.99201
+Difference between the maximum and minimum of elements sorted by each bucket: 6.06469
+Difference between the maximum and minimum of elements sorted by each bucket: 6.06469
+Difference between the maximum and minimum of elements sorted by each bucket: 10.395
+Difference between the maximum and minimum of elements sorted by each bucket: 8.40164
+Difference between the maximum and minimum of elements sorted by each bucket: 8.40164
+Difference between the maximum and minimum of elements sorted by each bucket: 4.66667
+Difference between the maximum and minimum of elements sorted by each bucket: 4.22961
+
+Sizeof input 16384:
+Execution Time: 1.111ms
+Execution Time: 1.122ms
+Execution Time: 1.094ms
+Execution Time: 1.104ms
+Execution Time: 1.091ms
+Execution Time: 1.115ms
+Execution Time: 1.11ms
+Execution Time: 1.108ms
+Estimated Communication Time: 0.986099ms
+Estimated Communication Time: 1.00279ms
+Estimated Communication Time: 0.967979ms
+Estimated Communication Time: 0.993967ms
+Estimated Communication Time: 0.993013ms
+Estimated Communication Time: 1.00493ms
+Estimated Communication Time: 0.995874ms
+Estimated Communication Time: 1.44219ms
+Difference between the maximum and minimum of elements sorted by each bucket: 2.50745
+Difference between the maximum and minimum of elements sorted by each bucket: 4.98504
+Difference between the maximum and minimum of elements sorted by each bucket: 4.98504
+Difference between the maximum and minimum of elements sorted by each bucket: 2.17644
+Difference between the maximum and minimum of elements sorted by each bucket: 3.81814
+Difference between the maximum and minimum of elements sorted by each bucket: 3.81814
+Difference between the maximum and minimum of elements sorted by each bucket: 2.12977
+Difference between the maximum and minimum of elements sorted by each bucket: 2.00464
+
+Sizeof input 1048576:
+Execution Time: 43.297ms
+Execution Time: 42.977ms
+Execution Time: 42.629ms
+Execution Time: 44.22ms
+Execution Time: 44.261ms
+Execution Time: 42.966ms
+Execution Time: 42.44ms
+Execution Time: 43.787ms
+Estimated Communication Time: 36.0579ms
+Estimated Communication Time: 36.5949ms
+Estimated Communication Time: 36.5429ms
+Estimated Communication Time: 35.1069ms
+Estimated Communication Time: 36.0799ms
+Estimated Communication Time: 36.6681ms
+Estimated Communication Time: 35.4528ms
+Estimated Communication Time: 35.176ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.264067
+Difference between the maximum and minimum of elements sorted by each bucket: 0.728938
+Difference between the maximum and minimum of elements sorted by each bucket: 0.503649
+Difference between the maximum and minimum of elements sorted by each bucket: 0.503649
+Difference between the maximum and minimum of elements sorted by each bucket: 0.46955
+Difference between the maximum and minimum of elements sorted by each bucket: 0.172071
+Difference between the maximum and minimum of elements sorted by each bucket: 0.608273
+Difference between the maximum and minimum of elements sorted by each bucket: 0.608273
+
+Sizeof input 2097152:
+Execution Time: 80.037ms
+Execution Time: 85.523ms
+Execution Time: 82.579ms
+Execution Time: 81.761ms
+Execution Time: 84.608ms
+Execution Time: 84.322ms
+Execution Time: 83.718ms
+Execution Time: 80.62ms
+Estimated Communication Time: 71.9619ms
+Estimated Communication Time: 67.697ms
+Estimated Communication Time: 69.2749ms
+Estimated Communication Time: 68.4612ms
+Estimated Communication Time: 72.011ms
+Estimated Communication Time: 69.2129ms
+Estimated Communication Time: 67.384ms
+Estimated Communication Time: 69.304ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.349864
+Difference between the maximum and minimum of elements sorted by each bucket: 0.264977
+Difference between the maximum and minimum of elements sorted by each bucket: 0.264977
+Difference between the maximum and minimum of elements sorted by each bucket: 0.197496
+Difference between the maximum and minimum of elements sorted by each bucket: 0.323121
+Difference between the maximum and minimum of elements sorted by each bucket: 0.319452
+Difference between the maximum and minimum of elements sorted by each bucket: 0.14257
+Difference between the maximum and minimum of elements sorted by each bucket: 0.14257
+
+#buckets: 16
+
+[compute-641-8.local:26791] MCW rank 14 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-641-8.local:26791] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-8.local:26791] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-8.local:26791] MCW rank 1 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-8.local:26791] MCW rank 2 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-8.local:26791] MCW rank 3 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-8.local:26791] MCW rank 4 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-8.local:26791] MCW rank 5 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-8.local:26791] MCW rank 6 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-641-8.local:26791] MCW rank 7 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-641-8.local:26791] MCW rank 8 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-8.local:26791] MCW rank 9 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-8.local:26791] MCW rank 10 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-8.local:26791] MCW rank 11 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-8.local:26791] MCW rank 12 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-641-8.local:26791] MCW rank 13 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+
+Sizeof input 2048:
+Execution Time: 0.622ms
+Execution Time: 0.612ms
+Execution Time: 0.643ms
+Execution Time: 0.61ms
+Execution Time: 0.621ms
+Execution Time: 0.614ms
+Execution Time: 0.61ms
+Execution Time: 0.601ms
+Estimated Communication Time: 0.565052ms
+Estimated Communication Time: 0.561953ms
+Estimated Communication Time: 0.577927ms
+Estimated Communication Time: 0.552177ms
+Estimated Communication Time: 0.574112ms
+Estimated Communication Time: 0.586033ms
+Estimated Communication Time: 0.577211ms
+Estimated Communication Time: 0.550985ms
+Difference between the maximum and minimum of elements sorted by each bucket: 12.5348
+Difference between the maximum and minimum of elements sorted by each bucket: 12.5348
+Difference between the maximum and minimum of elements sorted by each bucket: 13.5
+Difference between the maximum and minimum of elements sorted by each bucket: 5.87302
+Difference between the maximum and minimum of elements sorted by each bucket: 7.25127
+Difference between the maximum and minimum of elements sorted by each bucket: 7.25127
+Difference between the maximum and minimum of elements sorted by each bucket: 15.6805
+Difference between the maximum and minimum of elements sorted by each bucket: 8.78187
+
+Sizeof input 16384:
+Execution Time: 1.687ms
+Execution Time: 1.693ms
+Execution Time: 1.691ms
+Execution Time: 1.677ms
+Execution Time: 1.695ms
+Execution Time: 1.695ms
+Execution Time: 1.675ms
+Execution Time: 1.681ms
+Estimated Communication Time: 1.57499ms
+Estimated Communication Time: 1.55902ms
+Estimated Communication Time: 1.55902ms
+Estimated Communication Time: 1.64008ms
+Estimated Communication Time: 1.54305ms
+Estimated Communication Time: 1.58811ms
+Estimated Communication Time: 1.53708ms
+Estimated Communication Time: 2.87914ms
+Difference between the maximum and minimum of elements sorted by each bucket: 2.23058
+Difference between the maximum and minimum of elements sorted by each bucket: 2.23058
+Difference between the maximum and minimum of elements sorted by each bucket: 2.8524
+Difference between the maximum and minimum of elements sorted by each bucket: 3.86834
+Difference between the maximum and minimum of elements sorted by each bucket: 8.62069
+Difference between the maximum and minimum of elements sorted by each bucket: 8.62069
+Difference between the maximum and minimum of elements sorted by each bucket: 9.60744
+Difference between the maximum and minimum of elements sorted by each bucket: 4.54244
+
+Sizeof input 1048576:
+Execution Time: 58.194ms
+Execution Time: 55.712ms
+Execution Time: 60.153ms
+Execution Time: 56.878ms
+Execution Time: 56.951ms
+Execution Time: 59.72ms
+Execution Time: 59.841ms
+Execution Time: 59.906ms
+Estimated Communication Time: 48.2779ms
+Estimated Communication Time: 47.447ms
+Estimated Communication Time: 46.1879ms
+Estimated Communication Time: 46.917ms
+Estimated Communication Time: 48.784ms
+Estimated Communication Time: 47.081ms
+Estimated Communication Time: 47.7991ms
+Estimated Communication Time: 48.8529ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.408986
+Difference between the maximum and minimum of elements sorted by each bucket: 0.379274
+Difference between the maximum and minimum of elements sorted by each bucket: 0.583008
+Difference between the maximum and minimum of elements sorted by each bucket: 0.234815
+Difference between the maximum and minimum of elements sorted by each bucket: 0.234815
+Difference between the maximum and minimum of elements sorted by each bucket: 0.456068
+Difference between the maximum and minimum of elements sorted by each bucket: 0.155783
+Difference between the maximum and minimum of elements sorted by each bucket: 0.563434
+
+Sizeof input 2097152:
+Execution Time: 113.132ms
+Execution Time: 109.549ms
+Execution Time: 110.121ms
+Execution Time: 101.303ms
+Execution Time: 99.247ms
+Execution Time: 102.615ms
+Execution Time: 97.974ms
+Execution Time: 96.798ms
+Estimated Communication Time: 89.7961ms
+Estimated Communication Time: 83.796ms
+Estimated Communication Time: 89.3819ms
+Estimated Communication Time: 85.0329ms
+Estimated Communication Time: 80.1342ms
+Estimated Communication Time: 89.572ms
+Estimated Communication Time: 86.3469ms
+Estimated Communication Time: 83.616ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.403973
+Difference between the maximum and minimum of elements sorted by each bucket: 0.190816
+Difference between the maximum and minimum of elements sorted by each bucket: 0.190816
+Difference between the maximum and minimum of elements sorted by each bucket: 0.233253
+Difference between the maximum and minimum of elements sorted by each bucket: 0.396886
+Difference between the maximum and minimum of elements sorted by each bucket: 0.554093
+Difference between the maximum and minimum of elements sorted by each bucket: 0.341168
+Difference between the maximum and minimum of elements sorted by each bucket: 0.307309
+
+#buckets: 32
+
+[compute-641-8.local:30168] MCW rank 14 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-641-8.local:30168] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-8.local:30168] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-8.local:30168] MCW rank 1 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-8.local:30168] MCW rank 2 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-8.local:30168] MCW rank 3 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-8.local:30168] MCW rank 4 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-8.local:30168] MCW rank 5 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-8.local:30168] MCW rank 6 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-641-8.local:30168] MCW rank 7 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-641-8.local:30168] MCW rank 8 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-8.local:30168] MCW rank 9 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-8.local:30168] MCW rank 10 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-8.local:30168] MCW rank 11 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-8.local:30168] MCW rank 12 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-641-8.local:30168] MCW rank 13 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-641-20.local:32737] MCW rank 20 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-20.local:32737] MCW rank 21 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-20.local:32737] MCW rank 22 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-641-20.local:32737] MCW rank 23 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-641-20.local:32737] MCW rank 24 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-20.local:32737] MCW rank 25 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-20.local:32737] MCW rank 26 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-20.local:32737] MCW rank 27 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-20.local:32737] MCW rank 28 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-641-20.local:32737] MCW rank 29 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-641-20.local:32737] MCW rank 30 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-641-20.local:32737] MCW rank 31 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-20.local:32737] MCW rank 16 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-20.local:32737] MCW rank 17 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-20.local:32737] MCW rank 18 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-20.local:32737] MCW rank 19 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+
+Sizeof input 2048:
+Execution Time: 16.972ms
+Execution Time: 17.963ms
+Execution Time: 18.164ms
+Execution Time: 17.711ms
+Execution Time: 17.751ms
+Execution Time: 17.368ms
+Execution Time: 18.445ms
+Execution Time: 17.322ms
+Estimated Communication Time: 17.41ms
+Estimated Communication Time: 17.4811ms
+Estimated Communication Time: 17.766ms
+Estimated Communication Time: 17.411ms
+Estimated Communication Time: 17.7021ms
+Estimated Communication Time: 17.5409ms
+Estimated Communication Time: 17.452ms
+Estimated Communication Time: 17.3521ms
+Difference between the maximum and minimum of elements sorted by each bucket: 16.5919
+Difference between the maximum and minimum of elements sorted by each bucket: 17.3516
+Difference between the maximum and minimum of elements sorted by each bucket: 12.0879
+Difference between the maximum and minimum of elements sorted by each bucket: 20
+Difference between the maximum and minimum of elements sorted by each bucket: 18.75
+Difference between the maximum and minimum of elements sorted by each bucket: 20.3593
+Difference between the maximum and minimum of elements sorted by each bucket: 20.3593
+Difference between the maximum and minimum of elements sorted by each bucket: 18.125
+
+Sizeof input 16384:
+Execution Time: 93.199ms
+Execution Time: 93.048ms
+Execution Time: 93.227ms
+Execution Time: 105.386ms
+Execution Time: 93.136ms
+Execution Time: 92.943ms
+Execution Time: 93.05ms
+Execution Time: 93.386ms
+Estimated Communication Time: 93.0061ms
+Estimated Communication Time: 92.8509ms
+Estimated Communication Time: 92.7558ms
+Estimated Communication Time: 93.2741ms
+Estimated Communication Time: 93.1299ms
+Estimated Communication Time: 93.3011ms
+Estimated Communication Time: 92.813ms
+Estimated Communication Time: 93.3361ms
+Difference between the maximum and minimum of elements sorted by each bucket: 6.36678
+Difference between the maximum and minimum of elements sorted by each bucket: 4.45808
+Difference between the maximum and minimum of elements sorted by each bucket: 7.38112
+Difference between the maximum and minimum of elements sorted by each bucket: 17.7083
+Difference between the maximum and minimum of elements sorted by each bucket: 2.978
+Difference between the maximum and minimum of elements sorted by each bucket: 4.3849
+Difference between the maximum and minimum of elements sorted by each bucket: 6.92521
+Difference between the maximum and minimum of elements sorted by each bucket: 4.55852
+
+Sizeof input 1048576:
+Execution Time: 5928.37ms
+Execution Time: 5923.92ms
+Execution Time: 5924.78ms
+Execution Time: 5922.53ms
+Execution Time: 5922.57ms
+Execution Time: 5923.38ms
+Execution Time: 6130.72ms
+Execution Time: 5924.3ms
+Estimated Communication Time: 5907.98ms
+Estimated Communication Time: 5909.5ms
+Estimated Communication Time: 5908.07ms
+Estimated Communication Time: 5921.34ms
+Estimated Communication Time: 5908.83ms
+Estimated Communication Time: 5918.93ms
+Estimated Communication Time: 5907.51ms
+Estimated Communication Time: 5907.42ms
+Difference between the maximum and minimum of elements sorted by each bucket: 1.11003
+Difference between the maximum and minimum of elements sorted by each bucket: 0.359906
+Difference between the maximum and minimum of elements sorted by each bucket: 0.753355
+Difference between the maximum and minimum of elements sorted by each bucket: 0.709444
+Difference between the maximum and minimum of elements sorted by each bucket: 2.3466
+Difference between the maximum and minimum of elements sorted by each bucket: 0.647186
+Difference between the maximum and minimum of elements sorted by each bucket: 0.572637
+Difference between the maximum and minimum of elements sorted by each bucket: 0.324818
+
+Sizeof input 2097152:
+Execution Time: 11859.5ms
+Execution Time: 12594.9ms
+Execution Time: 12366.1ms
+Execution Time: 12847.5ms
+Execution Time: 12853.3ms
+Execution Time: 13600.3ms
+Execution Time: 13355.6ms
+Execution Time: 13345.5ms
+Estimated Communication Time: 13080.3ms
+Estimated Communication Time: 15065.2ms
+Estimated Communication Time: 14577.8ms
+Estimated Communication Time: 15153.8ms
+Estimated Communication Time: 14607.9ms
+Estimated Communication Time: 13835.8ms
+Estimated Communication Time: 13326ms
+Estimated Communication Time: 13576.4ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.552218
+Difference between the maximum and minimum of elements sorted by each bucket: 0.847523
+Difference between the maximum and minimum of elements sorted by each bucket: 0.376815
+Difference between the maximum and minimum of elements sorted by each bucket: 0.479171
+Difference between the maximum and minimum of elements sorted by each bucket: 0.334913
+Difference between the maximum and minimum of elements sorted by each bucket: 1.82009
+Difference between the maximum and minimum of elements sorted by each bucket: 0.24163
+Difference between the maximum and minimum of elements sorted by each bucket: 0.24129
 
 mapping: --map-by node
 
-#buckets: 3-1
+#buckets: 2
 
-[compute-641-15.local:02415] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-15.local:02415] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-[compute-641-14.local:13125] MCW rank 1 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-
-Sizeof input 2048:
-Execution Time: 0.697ms
-Execution Time: 0.679ms
-Execution Time: 0.671ms
-Execution Time: 0.709ms
-Execution Time: 0.7ms
-Execution Time: 0.715ms
-Execution Time: 0.705ms
-Execution Time: 0.698ms
-Estimated Communication Time: 0.579119ms
-Estimated Communication Time: 0.597ms
-Estimated Communication Time: 0.592947ms
-Estimated Communication Time: 0.580072ms
-Estimated Communication Time: 0.599861ms
-Estimated Communication Time: 0.579834ms
-Estimated Communication Time: 0.567913ms
-Estimated Communication Time: 0.591993ms
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-
-Sizeof input 16384:
-Execution Time: 2.611ms
-Execution Time: 2.586ms
-Execution Time: 2.661ms
-Execution Time: 2.553ms
-Execution Time: 2.581ms
-Execution Time: 2.662ms
-Execution Time: 2.493ms
-Execution Time: 2.678ms
-Estimated Communication Time: 1.60599ms
-Estimated Communication Time: 1.72496ms
-Estimated Communication Time: 1.87898ms
-Estimated Communication Time: 1.67489ms
-Estimated Communication Time: 1.69396ms
-Estimated Communication Time: 1.75714ms
-Estimated Communication Time: 1.71804ms
-Estimated Communication Time: 1.62697ms
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-
-Sizeof input 1048576:
-Execution Time: 115.844ms
-Execution Time: 114.821ms
-Execution Time: 117.498ms
-Execution Time: 116.818ms
-Execution Time: 115.56ms
-Execution Time: 114.602ms
-Execution Time: 116.184ms
-Execution Time: 115.908ms
-Estimated Communication Time: 40.1671ms
-Estimated Communication Time: 41.3451ms
-Estimated Communication Time: 41.842ms
-Estimated Communication Time: 41.0011ms
-Estimated Communication Time: 40.1611ms
-Estimated Communication Time: 40.2379ms
-Estimated Communication Time: 40.2031ms
-Estimated Communication Time: 41.2791ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-
-Sizeof input 2097152:
-Execution Time: 235.617ms
-Execution Time: 237.571ms
-Execution Time: 235.674ms
-Execution Time: 235.403ms
-Execution Time: 235.671ms
-Execution Time: 236.363ms
-Execution Time: 234.887ms
-Execution Time: 234.912ms
-Estimated Communication Time: 78.5441ms
-Estimated Communication Time: 78.5398ms
-Estimated Communication Time: 80.6949ms
-Estimated Communication Time: 78.017ms
-Estimated Communication Time: 78.295ms
-Estimated Communication Time: 78.1691ms
-Estimated Communication Time: 78.7919ms
-Estimated Communication Time: 78.877ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-
-#buckets: 5-1
-
-[compute-641-15.local:03622] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-15.local:03622] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-[compute-641-15.local:03622] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
-[compute-641-14.local:13693] MCW rank 3 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-[compute-641-14.local:13693] MCW rank 1 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-8.local:01183] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-20.local:03758] MCW rank 1 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
 
 Sizeof input 2048:
-Execution Time: 0.86ms
-Execution Time: 0.855ms
-Execution Time: 0.913ms
-Execution Time: 1.006ms
-Execution Time: 0.904ms
-Execution Time: 0.879ms
-Execution Time: 0.901ms
-Execution Time: 0.907ms
-Estimated Communication Time: 0.895023ms
-Estimated Communication Time: 0.828028ms
-Estimated Communication Time: 0.756025ms
-Estimated Communication Time: 0.725031ms
-Estimated Communication Time: 0.905037ms
-Estimated Communication Time: 0.847101ms
-Estimated Communication Time: 0.810862ms
-Estimated Communication Time: 0.816107ms
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-Difference between the maximum and minimum of elements sorted by each bucket: 12.5514
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-Difference between the maximum and minimum of elements sorted by each bucket: 12.5514
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-
-Sizeof input 16384:
-Execution Time: 2.269ms
-Execution Time: 1.9ms
-Execution Time: 2.277ms
-Execution Time: 2.09ms
-Execution Time: 1.93ms
-Execution Time: 1.92ms
-Execution Time: 2.3ms
-Execution Time: 2.124ms
-Estimated Communication Time: 1.5831ms
-Estimated Communication Time: 1.56093ms
-Estimated Communication Time: 1.81913ms
-Estimated Communication Time: 1.8661ms
-Estimated Communication Time: 1.42908ms
-Estimated Communication Time: 2.0299ms
-Estimated Communication Time: 1.77217ms
-Estimated Communication Time: 1.54901ms
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-
-Sizeof input 1048576:
-Execution Time: 73.41ms
-Execution Time: 74.373ms
-Execution Time: 73.795ms
-Execution Time: 72.422ms
-Execution Time: 73.864ms
-Execution Time: 76.066ms
-Execution Time: 77.271ms
-Execution Time: 75.856ms
-Estimated Communication Time: 41.7039ms
-Estimated Communication Time: 43.154ms
-Estimated Communication Time: 43.134ms
-Estimated Communication Time: 42.151ms
-Estimated Communication Time: 42.762ms
-Estimated Communication Time: 40.3678ms
-Estimated Communication Time: 41.6369ms
-Estimated Communication Time: 42.0339ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-
-Sizeof input 2097152:
-Execution Time: 149.116ms
-Execution Time: 145.642ms
-Execution Time: 146.983ms
-Execution Time: 145.212ms
-Execution Time: 147.234ms
-Execution Time: 148.248ms
-Execution Time: 146.032ms
-Execution Time: 149.416ms
-Estimated Communication Time: 79.51ms
-Estimated Communication Time: 79.2871ms
-Estimated Communication Time: 80.524ms
-Estimated Communication Time: 82.437ms
-Estimated Communication Time: 79.005ms
-Estimated Communication Time: 79.525ms
-Estimated Communication Time: 80.179ms
-Estimated Communication Time: 81.4319ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155003
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-
-#buckets: 9-1
-
-[compute-641-15.local:04910] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
-[compute-641-15.local:04910] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-15.local:04910] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-[compute-641-15.local:04910] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
-[compute-641-15.local:04910] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
-[compute-641-14.local:14626] MCW rank 1 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-14.local:14626] MCW rank 3 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-[compute-641-14.local:14626] MCW rank 5 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
-[compute-641-14.local:14626] MCW rank 7 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
-
-Sizeof input 2048:
-Execution Time: 1.9ms
-Execution Time: 1.394ms
-Execution Time: 1.337ms
-Execution Time: 1.212ms
-Execution Time: 1.216ms
-Execution Time: 1.353ms
-Execution Time: 1.287ms
-Execution Time: 1.266ms
-Estimated Communication Time: 1.14512ms
-Estimated Communication Time: 1.17517ms
-Estimated Communication Time: 1.24288ms
-Estimated Communication Time: 1.24192ms
-Estimated Communication Time: 1.18494ms
-Estimated Communication Time: 1.30987ms
-Estimated Communication Time: 1.20497ms
-Estimated Communication Time: 1.18589ms
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-Difference between the maximum and minimum of elements sorted by each bucket: 9.87654
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-
-Sizeof input 16384:
-Execution Time: 2.227ms
-Execution Time: 2.16ms
-Execution Time: 2.238ms
-Execution Time: 2.167ms
-Execution Time: 2.047ms
-Execution Time: 2.042ms
-Execution Time: 2.158ms
-Execution Time: 2.262ms
-Estimated Communication Time: 1.79791ms
-Estimated Communication Time: 2.07591ms
-Estimated Communication Time: 1.77503ms
-Estimated Communication Time: 1.86491ms
-Estimated Communication Time: 1.827ms
-Estimated Communication Time: 1.90496ms
-Estimated Communication Time: 2.72012ms
-Estimated Communication Time: 1.71018ms
-Difference between the maximum and minimum of elements sorted by each bucket: 6.1245
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-
-Sizeof input 1048576:
-Execution Time: 58.891ms
-Execution Time: 64.009ms
-Execution Time: 56.52ms
-Execution Time: 56.236ms
-Execution Time: 57.015ms
-Execution Time: 56.93ms
-Execution Time: 56.825ms
-Execution Time: 57.605ms
-Estimated Communication Time: 44.2441ms
-Estimated Communication Time: 44.0559ms
-Estimated Communication Time: 45.8081ms
-Estimated Communication Time: 46.555ms
-Estimated Communication Time: 44.9519ms
-Estimated Communication Time: 45.2631ms
-Estimated Communication Time: 46.4249ms
-Estimated Communication Time: 45.1069ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-
-Sizeof input 2097152:
-Execution Time: 107.414ms
-Execution Time: 108.242ms
-Execution Time: 100.619ms
-Execution Time: 101.509ms
-Execution Time: 105.589ms
-Execution Time: 112.458ms
-Execution Time: 104.879ms
-Execution Time: 110.887ms
-Estimated Communication Time: 85.134ms
-Estimated Communication Time: 83.765ms
-Estimated Communication Time: 81.975ms
-Estimated Communication Time: 84.7449ms
-Estimated Communication Time: 84.8191ms
-Estimated Communication Time: 81.7111ms
-Estimated Communication Time: 82.088ms
-Estimated Communication Time: 86.606ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235978
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235978
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235978
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235978
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235978
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235978
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235978
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235977
-
-#buckets: 16-1
-
-[compute-641-15.local:05547] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-15.local:05547] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-[compute-641-15.local:05547] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
-[compute-641-15.local:05547] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
-[compute-641-15.local:05547] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
-[compute-641-15.local:05547] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
-[compute-641-15.local:05547] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
-[compute-641-15.local:05547] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
-[compute-641-14.local:15181] MCW rank 1 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-14.local:15181] MCW rank 3 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-[compute-641-14.local:15181] MCW rank 5 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
-[compute-641-14.local:15181] MCW rank 7 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
-[compute-641-14.local:15181] MCW rank 9 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
-[compute-641-14.local:15181] MCW rank 11 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
-[compute-641-14.local:15181] MCW rank 13 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
-[compute-641-14.local:15181] MCW rank 15 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
-
-Sizeof input 2048:
-Execution Time: 1.954ms
-Execution Time: 2.013ms
+Execution Time: 2.006ms
+Execution Time: 1.851ms
+Execution Time: 1.915ms
+Execution Time: 1.844ms
 Execution Time: 1.903ms
-Execution Time: 2.081ms
-Execution Time: 2.175ms
-Execution Time: 1.985ms
-Execution Time: 2.052ms
-Execution Time: 2.005ms
-Estimated Communication Time: 2.07281ms
-Estimated Communication Time: 2.01607ms
-Estimated Communication Time: 2.35415ms
-Estimated Communication Time: 1.84894ms
-Estimated Communication Time: 2.04682ms
-Estimated Communication Time: 2.06494ms
-Estimated Communication Time: 2.01702ms
-Estimated Communication Time: 1.98817ms
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
+Execution Time: 1.927ms
+Execution Time: 2.106ms
+Execution Time: 2.159ms
+Estimated Communication Time: 2.14601ms
+Estimated Communication Time: 1.77097ms
+Estimated Communication Time: 2.11191ms
+Estimated Communication Time: 1.88088ms
+Estimated Communication Time: 1.79005ms
+Estimated Communication Time: 1.79195ms
+Estimated Communication Time: 1.86491ms
+Estimated Communication Time: 1.97887ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.587659
+Difference between the maximum and minimum of elements sorted by each bucket: 0.488281
+Difference between the maximum and minimum of elements sorted by each bucket: 1.5625
+Difference between the maximum and minimum of elements sorted by each bucket: 1.5625
+Difference between the maximum and minimum of elements sorted by each bucket: 8.55397
+Difference between the maximum and minimum of elements sorted by each bucket: 0.78125
+Difference between the maximum and minimum of elements sorted by each bucket: 2.24609
+Difference between the maximum and minimum of elements sorted by each bucket: 2.24609
 
 Sizeof input 16384:
-Execution Time: 3.135ms
-Execution Time: 3.04ms
-Execution Time: 2.914ms
-Execution Time: 2.943ms
-Execution Time: 3.117ms
-Execution Time: 3.248ms
-Execution Time: 3.322ms
-Execution Time: 2.899ms
-Estimated Communication Time: 2.44093ms
-Estimated Communication Time: 2.8708ms
-Estimated Communication Time: 2.67386ms
-Estimated Communication Time: 2.67696ms
-Estimated Communication Time: 2.99096ms
-Estimated Communication Time: 3.09396ms
-Estimated Communication Time: 2.74301ms
-Estimated Communication Time: 2.666ms
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58186
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58186
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58186
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58186
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58186
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58186
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58186
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58186
+Execution Time: 10.369ms
+Execution Time: 10.146ms
+Execution Time: 10.245ms
+Execution Time: 10.374ms
+Execution Time: 10.249ms
+Execution Time: 10.255ms
+Execution Time: 10.318ms
+Execution Time: 10.305ms
+Estimated Communication Time: 10.1631ms
+Estimated Communication Time: 10.1449ms
+Estimated Communication Time: 10.2301ms
+Estimated Communication Time: 10.231ms
+Estimated Communication Time: 10.231ms
+Estimated Communication Time: 10.309ms
+Estimated Communication Time: 10.4501ms
+Estimated Communication Time: 10.3669ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.981354
+Difference between the maximum and minimum of elements sorted by each bucket: 0.981354
+Difference between the maximum and minimum of elements sorted by each bucket: 0.12207
+Difference between the maximum and minimum of elements sorted by each bucket: 0.524902
+Difference between the maximum and minimum of elements sorted by each bucket: 3.65444
+Difference between the maximum and minimum of elements sorted by each bucket: 3.65444
+Difference between the maximum and minimum of elements sorted by each bucket: 0.524902
+Difference between the maximum and minimum of elements sorted by each bucket: 0.391389
 
 Sizeof input 1048576:
-Execution Time: 67.648ms
-Execution Time: 66.982ms
-Execution Time: 77.164ms
-Execution Time: 78.043ms
-Execution Time: 66.09ms
-Execution Time: 76.383ms
-Execution Time: 66.706ms
-Execution Time: 66.311ms
-Estimated Communication Time: 52.825ms
-Estimated Communication Time: 57.1311ms
-Estimated Communication Time: 52.155ms
-Estimated Communication Time: 53.334ms
-Estimated Communication Time: 52.9571ms
-Estimated Communication Time: 52.582ms
-Estimated Communication Time: 52.2652ms
-Estimated Communication Time: 54.3079ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
+Execution Time: 611.738ms
+Execution Time: 611.036ms
+Execution Time: 612.002ms
+Execution Time: 611.352ms
+Execution Time: 611.317ms
+Execution Time: 611.58ms
+Execution Time: 611.764ms
+Execution Time: 612.524ms
+Estimated Communication Time: 848.157ms
+Estimated Communication Time: 606.41ms
+Estimated Communication Time: 605.672ms
+Estimated Communication Time: 606.095ms
+Estimated Communication Time: 605.169ms
+Estimated Communication Time: 605.281ms
+Estimated Communication Time: 849.639ms
+Estimated Communication Time: 604.702ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0778501
+Difference between the maximum and minimum of elements sorted by each bucket: 0.14801
+Difference between the maximum and minimum of elements sorted by each bucket: 0.182891
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0276566
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0152588
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0883102
+Difference between the maximum and minimum of elements sorted by each bucket: 0.387177
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0543594
 
 Sizeof input 2097152:
-Execution Time: 127.173ms
-Execution Time: 125.387ms
-Execution Time: 113.525ms
-Execution Time: 117.469ms
-Execution Time: 128.28ms
-Execution Time: 123.979ms
-Execution Time: 118.055ms
-Execution Time: 111.29ms
-Estimated Communication Time: 93.3042ms
-Estimated Communication Time: 102.007ms
-Estimated Communication Time: 96.5519ms
-Estimated Communication Time: 98.809ms
-Estimated Communication Time: 91.9371ms
-Estimated Communication Time: 95.264ms
-Estimated Communication Time: 92.432ms
-Estimated Communication Time: 90.555ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
+Execution Time: 1209.54ms
+Execution Time: 1227.74ms
+Execution Time: 1226.33ms
+Execution Time: 1209.77ms
+Execution Time: 1208.77ms
+Execution Time: 1226.07ms
+Execution Time: 1226.94ms
+Execution Time: 1226.34ms
+Estimated Communication Time: 1197.85ms
+Estimated Communication Time: 1218.13ms
+Estimated Communication Time: 1215.89ms
+Estimated Communication Time: 1215.83ms
+Estimated Communication Time: 1215.65ms
+Estimated Communication Time: 1217.2ms
+Estimated Communication Time: 1215.44ms
+Estimated Communication Time: 1216.64ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0165953
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0160217
+Difference between the maximum and minimum of elements sorted by each bucket: 0.118708
+Difference between the maximum and minimum of elements sorted by each bucket: 0.108396
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0580788
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0877765
+Difference between the maximum and minimum of elements sorted by each bucket: 0.183464
+Difference between the maximum and minimum of elements sorted by each bucket: 0.177159
 
-#buckets: 32-1
+#buckets: 4
 
-[compute-641-15.local:07053] MCW rank 28 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
-[compute-641-15.local:07053] MCW rank 30 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
-[compute-641-15.local:07053] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-15.local:07053] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-[compute-641-15.local:07053] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
-[compute-641-15.local:07053] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
-[compute-641-15.local:07053] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
-[compute-641-15.local:07053] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
-[compute-641-15.local:07053] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
-[compute-641-15.local:07053] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
-[compute-641-15.local:07053] MCW rank 16 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
-[compute-641-15.local:07053] MCW rank 18 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
-[compute-641-15.local:07053] MCW rank 20 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
-[compute-641-15.local:07053] MCW rank 22 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
-[compute-641-15.local:07053] MCW rank 24 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
-[compute-641-15.local:07053] MCW rank 26 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
-[compute-641-14.local:16607] MCW rank 1 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-14.local:16607] MCW rank 3 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-[compute-641-14.local:16607] MCW rank 5 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
-[compute-641-14.local:16607] MCW rank 7 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
-[compute-641-14.local:16607] MCW rank 9 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
-[compute-641-14.local:16607] MCW rank 11 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
-[compute-641-14.local:16607] MCW rank 13 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
-[compute-641-14.local:16607] MCW rank 15 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
-[compute-641-14.local:16607] MCW rank 17 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
-[compute-641-14.local:16607] MCW rank 19 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
-[compute-641-14.local:16607] MCW rank 21 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
-[compute-641-14.local:16607] MCW rank 23 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
-[compute-641-14.local:16607] MCW rank 25 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
-[compute-641-14.local:16607] MCW rank 27 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
-[compute-641-14.local:16607] MCW rank 29 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
-[compute-641-14.local:16607] MCW rank 31 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-8.local:01800] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-8.local:01800] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-20.local:04271] MCW rank 3 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-20.local:04271] MCW rank 1 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
 
 Sizeof input 2048:
-Execution Time: 3.341ms
-Execution Time: 3.522ms
-Execution Time: 3.513ms
-Execution Time: 3.307ms
-Execution Time: 3.611ms
-Execution Time: 3.584ms
-Execution Time: 3.379ms
-Execution Time: 3.471ms
-Estimated Communication Time: 3.31998ms
-Estimated Communication Time: 3.32093ms
-Estimated Communication Time: 3.36099ms
-Estimated Communication Time: 3.39198ms
-Estimated Communication Time: 3.18384ms
-Estimated Communication Time: 3.58319ms
-Estimated Communication Time: 3.17812ms
-Estimated Communication Time: 3.35002ms
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
+Execution Time: 3.076ms
+Execution Time: 2.752ms
+Execution Time: 2.771ms
+Execution Time: 2.86ms
+Execution Time: 2.911ms
+Execution Time: 2.996ms
+Execution Time: 2.832ms
+Execution Time: 3.036ms
+Estimated Communication Time: 2.81596ms
+Estimated Communication Time: 2.96092ms
+Estimated Communication Time: 3.10397ms
+Estimated Communication Time: 2.92087ms
+Estimated Communication Time: 2.9459ms
+Estimated Communication Time: 2.98786ms
+Estimated Communication Time: 2.90895ms
+Estimated Communication Time: 2.84696ms
+Difference between the maximum and minimum of elements sorted by each bucket: 8.08081
+Difference between the maximum and minimum of elements sorted by each bucket: 18.319
+Difference between the maximum and minimum of elements sorted by each bucket: 0.391389
+Difference between the maximum and minimum of elements sorted by each bucket: 3.52394
+Difference between the maximum and minimum of elements sorted by each bucket: 3.52394
+Difference between the maximum and minimum of elements sorted by each bucket: 4.15567
+Difference between the maximum and minimum of elements sorted by each bucket: 2.0915
+Difference between the maximum and minimum of elements sorted by each bucket: 5.67376
 
 Sizeof input 16384:
-Execution Time: 5.004ms
-Execution Time: 4.549ms
-Execution Time: 4.793ms
-Execution Time: 4.606ms
-Execution Time: 4.838ms
-Execution Time: 5.947ms
-Execution Time: 4.709ms
-Execution Time: 4.621ms
-Estimated Communication Time: 4.03309ms
-Estimated Communication Time: 4.06504ms
-Estimated Communication Time: 4.07004ms
-Estimated Communication Time: 5.3699ms
-Estimated Communication Time: 4.29082ms
-Estimated Communication Time: 4.54998ms
-Estimated Communication Time: 4.07696ms
-Estimated Communication Time: 4.1461ms
-Difference between the maximum and minimum of elements sorted by each bucket: 3.3366
-Difference between the maximum and minimum of elements sorted by each bucket: 3.3366
-Difference between the maximum and minimum of elements sorted by each bucket: 3.3366
-Difference between the maximum and minimum of elements sorted by each bucket: 3.3366
-Difference between the maximum and minimum of elements sorted by each bucket: 3.3366
-Difference between the maximum and minimum of elements sorted by each bucket: 3.3366
-Difference between the maximum and minimum of elements sorted by each bucket: 3.3366
-Difference between the maximum and minimum of elements sorted by each bucket: 3.28915
+Execution Time: 14.791ms
+Execution Time: 14.565ms
+Execution Time: 14.54ms
+Execution Time: 14.738ms
+Execution Time: 14.647ms
+Execution Time: 14.49ms
+Execution Time: 14.758ms
+Execution Time: 14.46ms
+Estimated Communication Time: 14.3909ms
+Estimated Communication Time: 14.472ms
+Estimated Communication Time: 14.6098ms
+Estimated Communication Time: 14.4241ms
+Estimated Communication Time: 14.4429ms
+Estimated Communication Time: 14.931ms
+Estimated Communication Time: 14.3371ms
+Estimated Communication Time: 14.7519ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.854631
+Difference between the maximum and minimum of elements sorted by each bucket: 0.854631
+Difference between the maximum and minimum of elements sorted by each bucket: 1.1131
+Difference between the maximum and minimum of elements sorted by each bucket: 3.10636
+Difference between the maximum and minimum of elements sorted by each bucket: 4.76309
+Difference between the maximum and minimum of elements sorted by each bucket: 0.661711
+Difference between the maximum and minimum of elements sorted by each bucket: 0.661711
+Difference between the maximum and minimum of elements sorted by each bucket: 1.31127
 
 Sizeof input 1048576:
-Execution Time: 85.642ms
-Execution Time: 84.573ms
-Execution Time: 84.59ms
-Execution Time: 86.612ms
-Execution Time: 84.164ms
-Execution Time: 85.091ms
-Execution Time: 84.405ms
-Execution Time: 84.386ms
-Estimated Communication Time: 62.8481ms
-Estimated Communication Time: 63.1521ms
-Estimated Communication Time: 62.669ms
-Estimated Communication Time: 62.7689ms
-Estimated Communication Time: 62.597ms
-Estimated Communication Time: 62.392ms
-Estimated Communication Time: 63.21ms
-Estimated Communication Time: 65.2819ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
+Execution Time: 916.078ms
+Execution Time: 909.324ms
+Execution Time: 913.16ms
+Execution Time: 1052.98ms
+Execution Time: 908.635ms
+Execution Time: 905.536ms
+Execution Time: 906.936ms
+Execution Time: 913.642ms
+Estimated Communication Time: 907.276ms
+Estimated Communication Time: 901.289ms
+Estimated Communication Time: 899.842ms
+Estimated Communication Time: 900.553ms
+Estimated Communication Time: 901.114ms
+Estimated Communication Time: 902.036ms
+Estimated Communication Time: 907.039ms
+Estimated Communication Time: 907.472ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.205583
+Difference between the maximum and minimum of elements sorted by each bucket: 0.72991
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0740358
+Difference between the maximum and minimum of elements sorted by each bucket: 0.216196
+Difference between the maximum and minimum of elements sorted by each bucket: 0.208754
+Difference between the maximum and minimum of elements sorted by each bucket: 0.16977
+Difference between the maximum and minimum of elements sorted by each bucket: 0.170413
+Difference between the maximum and minimum of elements sorted by each bucket: 0.194006
 
 Sizeof input 2097152:
-Execution Time: 137.379ms
-Execution Time: 159.77ms
-Execution Time: 138.505ms
-Execution Time: 138.999ms
-Execution Time: 138.467ms
-Execution Time: 137.039ms
-Execution Time: 138.697ms
-Execution Time: 136.002ms
-Estimated Communication Time: 105.997ms
-Estimated Communication Time: 105.525ms
-Estimated Communication Time: 107.666ms
-Estimated Communication Time: 104.278ms
-Estimated Communication Time: 102.678ms
-Estimated Communication Time: 106.342ms
-Estimated Communication Time: 104.339ms
-Estimated Communication Time: 118.431ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
+Execution Time: 2080.51ms
+Execution Time: 1840.7ms
+Execution Time: 1838.86ms
+Execution Time: 1839.78ms
+Execution Time: 1841.09ms
+Execution Time: 1840.62ms
+Execution Time: 1838.78ms
+Execution Time: 1835.39ms
+Estimated Communication Time: 1841.39ms
+Estimated Communication Time: 1827.25ms
+Estimated Communication Time: 1827.92ms
+Estimated Communication Time: 1827.71ms
+Estimated Communication Time: 1826.65ms
+Estimated Communication Time: 1828.25ms
+Estimated Communication Time: 1825.95ms
+Estimated Communication Time: 1827.01ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.115531
+Difference between the maximum and minimum of elements sorted by each bucket: 0.186786
+Difference between the maximum and minimum of elements sorted by each bucket: 0.228749
+Difference between the maximum and minimum of elements sorted by each bucket: 0.193621
+Difference between the maximum and minimum of elements sorted by each bucket: 0.100259
+Difference between the maximum and minimum of elements sorted by each bucket: 0.215786
+Difference between the maximum and minimum of elements sorted by each bucket: 0.137002
+Difference between the maximum and minimum of elements sorted by each bucket: 0.189228
+
+#buckets: 8
+
+[compute-641-8.local:02053] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-8.local:02053] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-8.local:02053] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-8.local:02053] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-20.local:04488] MCW rank 1 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-20.local:04488] MCW rank 3 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-20.local:04488] MCW rank 5 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-20.local:04488] MCW rank 7 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+
+Sizeof input 2048:
+Execution Time: 4.939ms
+Execution Time: 5.039ms
+Execution Time: 4.749ms
+Execution Time: 4.856ms
+Execution Time: 4.686ms
+Execution Time: 5.017ms
+Execution Time: 5.109ms
+Execution Time: 4.729ms
+Estimated Communication Time: 4.71592ms
+Estimated Communication Time: 4.8728ms
+Estimated Communication Time: 4.84991ms
+Estimated Communication Time: 4.78792ms
+Estimated Communication Time: 4.84395ms
+Estimated Communication Time: 4.73404ms
+Estimated Communication Time: 5.17011ms
+Estimated Communication Time: 5.96619ms
+Difference between the maximum and minimum of elements sorted by each bucket: 8.06452
+Difference between the maximum and minimum of elements sorted by each bucket: 8.06452
+Difference between the maximum and minimum of elements sorted by each bucket: 4.8718
+Difference between the maximum and minimum of elements sorted by each bucket: 5.64516
+Difference between the maximum and minimum of elements sorted by each bucket: 23.1092
+Difference between the maximum and minimum of elements sorted by each bucket: 13.8528
+Difference between the maximum and minimum of elements sorted by each bucket: 13.8528
+Difference between the maximum and minimum of elements sorted by each bucket: 3.30189
+
+Sizeof input 16384:
+Execution Time: 25.834ms
+Execution Time: 25.742ms
+Execution Time: 25.919ms
+Execution Time: 25.688ms
+Execution Time: 25.707ms
+Execution Time: 25.657ms
+Execution Time: 25.958ms
+Execution Time: 25.818ms
+Estimated Communication Time: 25.6882ms
+Estimated Communication Time: 25.6739ms
+Estimated Communication Time: 25.718ms
+Estimated Communication Time: 25.5721ms
+Estimated Communication Time: 25.8539ms
+Estimated Communication Time: 25.6541ms
+Estimated Communication Time: 25.7089ms
+Estimated Communication Time: 25.9261ms
+Difference between the maximum and minimum of elements sorted by each bucket: 2.29008
+Difference between the maximum and minimum of elements sorted by each bucket: 2.65414
+Difference between the maximum and minimum of elements sorted by each bucket: 2.65414
+Difference between the maximum and minimum of elements sorted by each bucket: 8.75251
+Difference between the maximum and minimum of elements sorted by each bucket: 1.45679
+Difference between the maximum and minimum of elements sorted by each bucket: 1.37338
+Difference between the maximum and minimum of elements sorted by each bucket: 3.70185
+Difference between the maximum and minimum of elements sorted by each bucket: 3.70185
+
+Sizeof input 1048576:
+Execution Time: 1705.55ms
+Execution Time: 1615.78ms
+Execution Time: 1704.69ms
+Execution Time: 1614.79ms
+Execution Time: 1616.11ms
+Execution Time: 1609.26ms
+Execution Time: 1611.4ms
+Execution Time: 1705.17ms
+Estimated Communication Time: 1603.28ms
+Estimated Communication Time: 1698.05ms
+Estimated Communication Time: 1601.95ms
+Estimated Communication Time: 1603.08ms
+Estimated Communication Time: 1602.68ms
+Estimated Communication Time: 1603.9ms
+Estimated Communication Time: 1697.78ms
+Estimated Communication Time: 1604.32ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.234321
+Difference between the maximum and minimum of elements sorted by each bucket: 0.408833
+Difference between the maximum and minimum of elements sorted by each bucket: 0.284952
+Difference between the maximum and minimum of elements sorted by each bucket: 0.357226
+Difference between the maximum and minimum of elements sorted by each bucket: 0.139116
+Difference between the maximum and minimum of elements sorted by each bucket: 0.197838
+Difference between the maximum and minimum of elements sorted by each bucket: 0.139747
+Difference between the maximum and minimum of elements sorted by each bucket: 0.457065
+
+Sizeof input 2097152:
+Execution Time: 3242.1ms
+Execution Time: 3237.29ms
+Execution Time: 3237.42ms
+Execution Time: 3237.29ms
+Execution Time: 3241.2ms
+Execution Time: 3239.95ms
+Execution Time: 3241.98ms
+Execution Time: 3237.67ms
+Estimated Communication Time: 3228.7ms
+Estimated Communication Time: 3227.12ms
+Estimated Communication Time: 3226.22ms
+Estimated Communication Time: 3225.92ms
+Estimated Communication Time: 3228.25ms
+Estimated Communication Time: 3228.8ms
+Estimated Communication Time: 3224.87ms
+Estimated Communication Time: 3229.08ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.233478
+Difference between the maximum and minimum of elements sorted by each bucket: 0.30405
+Difference between the maximum and minimum of elements sorted by each bucket: 0.114531
+Difference between the maximum and minimum of elements sorted by each bucket: 0.54567
+Difference between the maximum and minimum of elements sorted by each bucket: 0.205251
+Difference between the maximum and minimum of elements sorted by each bucket: 0.16323
+Difference between the maximum and minimum of elements sorted by each bucket: 0.146067
+Difference between the maximum and minimum of elements sorted by each bucket: 0.116155
+
+#buckets: 16
+
+[compute-641-8.local:03204] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-8.local:03204] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-8.local:03204] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-8.local:03204] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-8.local:03204] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-8.local:03204] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-8.local:03204] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-641-8.local:03204] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-641-20.local:05363] MCW rank 5 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-20.local:05363] MCW rank 7 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-20.local:05363] MCW rank 9 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-20.local:05363] MCW rank 11 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-20.local:05363] MCW rank 13 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-641-20.local:05363] MCW rank 15 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-641-20.local:05363] MCW rank 1 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-20.local:05363] MCW rank 3 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+
+Sizeof input 2048:
+Execution Time: 9.894ms
+Execution Time: 10.184ms
+Execution Time: 9.464ms
+Execution Time: 9.488ms
+Execution Time: 9.573ms
+Execution Time: 9.904ms
+Execution Time: 9.993ms
+Execution Time: 9.497ms
+Estimated Communication Time: 9.95302ms
+Estimated Communication Time: 9.76896ms
+Estimated Communication Time: 10.0451ms
+Estimated Communication Time: 9.84406ms
+Estimated Communication Time: 9.64999ms
+Estimated Communication Time: 9.88603ms
+Estimated Communication Time: 9.42492ms
+Estimated Communication Time: 9.39178ms
+Difference between the maximum and minimum of elements sorted by each bucket: 11.7647
+Difference between the maximum and minimum of elements sorted by each bucket: 10.7735
+Difference between the maximum and minimum of elements sorted by each bucket: 14.4737
+Difference between the maximum and minimum of elements sorted by each bucket: 56.6038
+Difference between the maximum and minimum of elements sorted by each bucket: 18.4685
+Difference between the maximum and minimum of elements sorted by each bucket: 18.4685
+Difference between the maximum and minimum of elements sorted by each bucket: 8.44828
+Difference between the maximum and minimum of elements sorted by each bucket: 11.1429
+
+Sizeof input 16384:
+Execution Time: 46.895ms
+Execution Time: 46.73ms
+Execution Time: 46.715ms
+Execution Time: 46.811ms
+Execution Time: 46.763ms
+Execution Time: 46.867ms
+Execution Time: 46.668ms
+Execution Time: 46.828ms
+Estimated Communication Time: 46.762ms
+Estimated Communication Time: 46.5431ms
+Estimated Communication Time: 46.808ms
+Estimated Communication Time: 46.514ms
+Estimated Communication Time: 47.5171ms
+Estimated Communication Time: 46.803ms
+Estimated Communication Time: 46.715ms
+Estimated Communication Time: 46.4351ms
+Difference between the maximum and minimum of elements sorted by each bucket: 2.11012
+Difference between the maximum and minimum of elements sorted by each bucket: 1.99684
+Difference between the maximum and minimum of elements sorted by each bucket: 1.99684
+Difference between the maximum and minimum of elements sorted by each bucket: 2.2655
+Difference between the maximum and minimum of elements sorted by each bucket: 2.41814
+Difference between the maximum and minimum of elements sorted by each bucket: 1.68137
+Difference between the maximum and minimum of elements sorted by each bucket: 2.02557
+Difference between the maximum and minimum of elements sorted by each bucket: 2.02557
+
+Sizeof input 1048576:
+Execution Time: 3527.62ms
+Execution Time: 3527.95ms
+Execution Time: 4282.19ms
+Execution Time: 4030.03ms
+Execution Time: 3777.29ms
+Execution Time: 4028.67ms
+Execution Time: 3778.48ms
+Execution Time: 3778.79ms
+Estimated Communication Time: 3532.7ms
+Estimated Communication Time: 4510.35ms
+Estimated Communication Time: 4017.38ms
+Estimated Communication Time: 3520.9ms
+Estimated Communication Time: 3762.62ms
+Estimated Communication Time: 4259.33ms
+Estimated Communication Time: 3768.49ms
+Estimated Communication Time: 4013.93ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.437252
+Difference between the maximum and minimum of elements sorted by each bucket: 0.496302
+Difference between the maximum and minimum of elements sorted by each bucket: 0.426541
+Difference between the maximum and minimum of elements sorted by each bucket: 0.395026
+Difference between the maximum and minimum of elements sorted by each bucket: 0.205045
+Difference between the maximum and minimum of elements sorted by each bucket: 1.30421
+Difference between the maximum and minimum of elements sorted by each bucket: 0.318199
+Difference between the maximum and minimum of elements sorted by each bucket: 0.249814
+
+Sizeof input 2097152:
+Execution Time: 6121.58ms
+Execution Time: 6081.1ms
+Execution Time: 6080.95ms
+Execution Time: 6082.62ms
+Execution Time: 6082.14ms
+Execution Time: 6083.11ms
+Execution Time: 6082.66ms
+Execution Time: 6082.3ms
+Estimated Communication Time: 6067.58ms
+Estimated Communication Time: 6066.87ms
+Estimated Communication Time: 6067.39ms
+Estimated Communication Time: 6067.85ms
+Estimated Communication Time: 6066.83ms
+Estimated Communication Time: 6308.62ms
+Estimated Communication Time: 6064.05ms
+Estimated Communication Time: 6067.62ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.286976
+Difference between the maximum and minimum of elements sorted by each bucket: 0.167041
+Difference between the maximum and minimum of elements sorted by each bucket: 0.286805
+Difference between the maximum and minimum of elements sorted by each bucket: 0.498628
+Difference between the maximum and minimum of elements sorted by each bucket: 0.24657
+Difference between the maximum and minimum of elements sorted by each bucket: 0.240953
+Difference between the maximum and minimum of elements sorted by each bucket: 0.416437
+Difference between the maximum and minimum of elements sorted by each bucket: 0.252094
+
+#buckets: 32
+
+[compute-641-8.local:05088] MCW rank 28 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-641-8.local:05088] MCW rank 30 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-8.local:05088] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-8.local:05088] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-8.local:05088] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-8.local:05088] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-8.local:05088] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-8.local:05088] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-8.local:05088] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-641-8.local:05088] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-641-8.local:05088] MCW rank 16 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-8.local:05088] MCW rank 18 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-8.local:05088] MCW rank 20 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-8.local:05088] MCW rank 22 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-8.local:05088] MCW rank 24 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-641-8.local:05088] MCW rank 26 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-641-20.local:07088] MCW rank 17 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-20.local:07088] MCW rank 19 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-20.local:07088] MCW rank 21 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-20.local:07088] MCW rank 23 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-20.local:07088] MCW rank 25 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-641-20.local:07088] MCW rank 27 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-641-20.local:07088] MCW rank 29 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-641-20.local:07088] MCW rank 31 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-20.local:07088] MCW rank 1 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-20.local:07088] MCW rank 3 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-20.local:07088] MCW rank 5 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-20.local:07088] MCW rank 7 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-20.local:07088] MCW rank 9 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-20.local:07088] MCW rank 11 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-20.local:07088] MCW rank 13 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-641-20.local:07088] MCW rank 15 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+
+Sizeof input 2048:
+Execution Time: 17.415ms
+Execution Time: 17.238ms
+Execution Time: 17.667ms
+Execution Time: 17.472ms
+Execution Time: 17.284ms
+Execution Time: 17.783ms
+Execution Time: 17.924ms
+Execution Time: 17.642ms
+Estimated Communication Time: 17.343ms
+Estimated Communication Time: 17.8339ms
+Estimated Communication Time: 18.2779ms
+Estimated Communication Time: 17.5362ms
+Estimated Communication Time: 17.54ms
+Estimated Communication Time: 17.884ms
+Estimated Communication Time: 17.5691ms
+Estimated Communication Time: 17.297ms
+Difference between the maximum and minimum of elements sorted by each bucket: 21.6749
+Difference between the maximum and minimum of elements sorted by each bucket: 74.4681
+Difference between the maximum and minimum of elements sorted by each bucket: 17.3913
+Difference between the maximum and minimum of elements sorted by each bucket: 40
+Difference between the maximum and minimum of elements sorted by each bucket: 40
+Difference between the maximum and minimum of elements sorted by each bucket: 9.87261
+Difference between the maximum and minimum of elements sorted by each bucket: 12.2881
+Difference between the maximum and minimum of elements sorted by each bucket: 17.9775
+
+Sizeof input 16384:
+Execution Time: 92.347ms
+Execution Time: 92.117ms
+Execution Time: 91.799ms
+Execution Time: 92.048ms
+Execution Time: 92.332ms
+Execution Time: 92.394ms
+Execution Time: 92.104ms
+Execution Time: 92.07ms
+Estimated Communication Time: 91.944ms
+Estimated Communication Time: 92.057ms
+Estimated Communication Time: 91.7499ms
+Estimated Communication Time: 92.1071ms
+Estimated Communication Time: 91.8319ms
+Estimated Communication Time: 91.7249ms
+Estimated Communication Time: 91.855ms
+Estimated Communication Time: 91.959ms
+Difference between the maximum and minimum of elements sorted by each bucket: 8.74605
+Difference between the maximum and minimum of elements sorted by each bucket: 4.82794
+Difference between the maximum and minimum of elements sorted by each bucket: 11.1583
+Difference between the maximum and minimum of elements sorted by each bucket: 8.8634
+Difference between the maximum and minimum of elements sorted by each bucket: 4.50599
+Difference between the maximum and minimum of elements sorted by each bucket: 2.35674
+Difference between the maximum and minimum of elements sorted by each bucket: 6.93467
+Difference between the maximum and minimum of elements sorted by each bucket: 10.3267
+
+Sizeof input 1048576:
+Execution Time: 5894.66ms
+Execution Time: 5895.98ms
+Execution Time: 5890.22ms
+Execution Time: 5890.56ms
+Execution Time: 5918.84ms
+Execution Time: 5890.24ms
+Execution Time: 5891.56ms
+Execution Time: 5891.69ms
+Estimated Communication Time: 5877.83ms
+Estimated Communication Time: 5876.1ms
+Estimated Communication Time: 5877.14ms
+Estimated Communication Time: 5874.58ms
+Estimated Communication Time: 5875.46ms
+Estimated Communication Time: 5875.34ms
+Estimated Communication Time: 5889.85ms
+Estimated Communication Time: 5880.07ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.377547
+Difference between the maximum and minimum of elements sorted by each bucket: 0.606806
+Difference between the maximum and minimum of elements sorted by each bucket: 0.506583
+Difference between the maximum and minimum of elements sorted by each bucket: 1.03472
+Difference between the maximum and minimum of elements sorted by each bucket: 0.486945
+Difference between the maximum and minimum of elements sorted by each bucket: 0.616526
+Difference between the maximum and minimum of elements sorted by each bucket: 0.688725
+Difference between the maximum and minimum of elements sorted by each bucket: 0.490106
+
+Sizeof input 2097152:
+Execution Time: 14261.8ms
+Execution Time: 14266.1ms
+Execution Time: 14764ms
+Execution Time: 13772.7ms
+Execution Time: 15014.9ms
+Execution Time: 13526.3ms
+Execution Time: 14274.6ms
+Execution Time: 14775.8ms
+Estimated Communication Time: 14743.9ms
+Estimated Communication Time: 14492.1ms
+Estimated Communication Time: 14234ms
+Estimated Communication Time: 13738.1ms
+Estimated Communication Time: 13502.6ms
+Estimated Communication Time: 12752ms
+Estimated Communication Time: 12507.9ms
+Estimated Communication Time: 12257.4ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.376661
+Difference between the maximum and minimum of elements sorted by each bucket: 0.330623
+Difference between the maximum and minimum of elements sorted by each bucket: 0.877058
+Difference between the maximum and minimum of elements sorted by each bucket: 0.201841
+Difference between the maximum and minimum of elements sorted by each bucket: 0.259448
+Difference between the maximum and minimum of elements sorted by each bucket: 0.289701
+Difference between the maximum and minimum of elements sorted by each bucket: 0.917136
+Difference between the maximum and minimum of elements sorted by each bucket: 0.450231
 
 mapping: --map-by socket
 
-#buckets: 3-1
+#buckets: 2
 
-[compute-641-15.local:10555] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-[compute-641-15.local:10555] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-15.local:10555] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
-
-Sizeof input 2048:
-Execution Time: 0.315ms
-Execution Time: 0.318ms
-Execution Time: 0.312ms
-Execution Time: 0.302ms
-Execution Time: 0.384ms
-Execution Time: 0.313ms
-Execution Time: 0.318ms
-Execution Time: 0.316ms
-Estimated Communication Time: 0.19002ms
-Estimated Communication Time: 0.19908ms
-Estimated Communication Time: 0.201941ms
-Estimated Communication Time: 0.190973ms
-Estimated Communication Time: 0.181913ms
-Estimated Communication Time: 0.189066ms
-Estimated Communication Time: 0.197887ms
-Estimated Communication Time: 0.188112ms
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-Difference between the maximum and minimum of elements sorted by each bucket: 10.6996
-
-Sizeof input 16384:
-Execution Time: 1.479ms
-Execution Time: 1.483ms
-Execution Time: 1.463ms
-Execution Time: 1.483ms
-Execution Time: 1.458ms
-Execution Time: 1.463ms
-Execution Time: 1.559ms
-Execution Time: 1.487ms
-Estimated Communication Time: 0.48399ms
-Estimated Communication Time: 0.49901ms
-Estimated Communication Time: 0.466824ms
-Estimated Communication Time: 0.477076ms
-Estimated Communication Time: 0.452995ms
-Estimated Communication Time: 0.479937ms
-Estimated Communication Time: 0.479937ms
-Estimated Communication Time: 0.457048ms
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-Difference between the maximum and minimum of elements sorted by each bucket: 1.25292
-
-Sizeof input 1048576:
-Execution Time: 95.117ms
-Execution Time: 93.072ms
-Execution Time: 93.564ms
-Execution Time: 94.862ms
-Execution Time: 94.915ms
-Execution Time: 93.655ms
-Execution Time: 93.58ms
-Execution Time: 93.687ms
-Estimated Communication Time: 7.38788ms
-Estimated Communication Time: 7.50089ms
-Estimated Communication Time: 7.79915ms
-Estimated Communication Time: 6.85096ms
-Estimated Communication Time: 7.50804ms
-Estimated Communication Time: 7.56884ms
-Estimated Communication Time: 6.93417ms
-Estimated Communication Time: 6.30689ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-Difference between the maximum and minimum of elements sorted by each bucket: 0.000953674
-
-Sizeof input 2097152:
-Execution Time: 194.699ms
-Execution Time: 195.324ms
-Execution Time: 195.022ms
-Execution Time: 197.185ms
-Execution Time: 195.264ms
-Execution Time: 197.546ms
-Execution Time: 195.642ms
-Execution Time: 195.875ms
-Estimated Communication Time: 11.8392ms
-Estimated Communication Time: 11.9281ms
-Estimated Communication Time: 11.7781ms
-Estimated Communication Time: 12.5492ms
-Estimated Communication Time: 10.8151ms
-Estimated Communication Time: 11.8182ms
-Estimated Communication Time: 11.425ms
-Estimated Communication Time: 11.162ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0181215
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-Difference between the maximum and minimum of elements sorted by each bucket: 0.0183122
-
-#buckets: 5-1
-
-[compute-641-15.local:11165] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-[compute-641-15.local:11165] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
-[compute-641-15.local:11165] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
-[compute-641-15.local:11165] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-15.local:11165] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-8.local:08363] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-8.local:08363] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
 
 Sizeof input 2048:
+Execution Time: 0.266ms
 Execution Time: 0.259ms
-Execution Time: 0.267ms
-Execution Time: 0.255ms
-Execution Time: 0.269ms
-Execution Time: 0.301ms
-Execution Time: 0.246ms
-Execution Time: 0.292ms
-Execution Time: 0.252ms
-Estimated Communication Time: 0.172853ms
-Estimated Communication Time: 0.172853ms
-Estimated Communication Time: 0.166893ms
-Estimated Communication Time: 0.185966ms
-Estimated Communication Time: 0.179052ms
-Estimated Communication Time: 0.180006ms
-Estimated Communication Time: 0.188828ms
-Estimated Communication Time: 0.159025ms
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
-Difference between the maximum and minimum of elements sorted by each bucket: 6.3786
+Execution Time: 0.257ms
+Execution Time: 0.256ms
+Execution Time: 0.259ms
+Execution Time: 0.26ms
+Execution Time: 0.261ms
+Execution Time: 0.254ms
+Estimated Communication Time: 0.237942ms
+Estimated Communication Time: 0.230074ms
+Estimated Communication Time: 0.225067ms
+Estimated Communication Time: 0.229836ms
+Estimated Communication Time: 0.237942ms
+Estimated Communication Time: 0.265121ms
+Estimated Communication Time: 0.226021ms
+Estimated Communication Time: 0.227213ms
+Difference between the maximum and minimum of elements sorted by each bucket: 2.37154
+Difference between the maximum and minimum of elements sorted by each bucket: 0.976562
+Difference between the maximum and minimum of elements sorted by each bucket: 6.03622
+Difference between the maximum and minimum of elements sorted by each bucket: 6.03622
+Difference between the maximum and minimum of elements sorted by each bucket: 0.976562
+Difference between the maximum and minimum of elements sorted by each bucket: 2.77228
+Difference between the maximum and minimum of elements sorted by each bucket: 2.77228
+Difference between the maximum and minimum of elements sorted by each bucket: 1.3766
 
 Sizeof input 16384:
-Execution Time: 1.032ms
-Execution Time: 1.049ms
-Execution Time: 1.106ms
-Execution Time: 1.061ms
-Execution Time: 0.995ms
-Execution Time: 1.002ms
-Execution Time: 1.04ms
-Execution Time: 1.153ms
-Estimated Communication Time: 0.602961ms
-Estimated Communication Time: 0.547171ms
-Estimated Communication Time: 0.565052ms
-Estimated Communication Time: 0.539064ms
-Estimated Communication Time: 0.544071ms
-Estimated Communication Time: 0.59104ms
-Estimated Communication Time: 0.550032ms
-Estimated Communication Time: 0.549078ms
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
-Difference between the maximum and minimum of elements sorted by each bucket: 2.22883
+Execution Time: 1.156ms
+Execution Time: 1.168ms
+Execution Time: 1.165ms
+Execution Time: 1.164ms
+Execution Time: 1.175ms
+Execution Time: 1.167ms
+Execution Time: 1.183ms
+Execution Time: 1.161ms
+Estimated Communication Time: 1.06001ms
+Estimated Communication Time: 1.0519ms
+Estimated Communication Time: 1.06287ms
+Estimated Communication Time: 1.05095ms
+Estimated Communication Time: 1.05405ms
+Estimated Communication Time: 1.04904ms
+Estimated Communication Time: 1.06192ms
+Estimated Communication Time: 1.04094ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.514013
+Difference between the maximum and minimum of elements sorted by each bucket: 0.514013
+Difference between the maximum and minimum of elements sorted by each bucket: 0.952148
+Difference between the maximum and minimum of elements sorted by each bucket: 0.390625
+Difference between the maximum and minimum of elements sorted by each bucket: 0.390625
+Difference between the maximum and minimum of elements sorted by each bucket: 4.16199
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0366211
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0366211
 
 Sizeof input 1048576:
-Execution Time: 56.437ms
-Execution Time: 52.238ms
-Execution Time: 52.238ms
-Execution Time: 55.99ms
-Execution Time: 51.815ms
-Execution Time: 51.975ms
-Execution Time: 50.806ms
-Execution Time: 52.012ms
-Estimated Communication Time: 7.83205ms
-Estimated Communication Time: 9.49502ms
-Estimated Communication Time: 9.24993ms
-Estimated Communication Time: 9.51195ms
-Estimated Communication Time: 10.1249ms
-Estimated Communication Time: 8.16011ms
-Estimated Communication Time: 9.39417ms
-Estimated Communication Time: 9.81593ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
-Difference between the maximum and minimum of elements sorted by each bucket: 0.186909
+Execution Time: 78.443ms
+Execution Time: 78.13ms
+Execution Time: 78.063ms
+Execution Time: 77.846ms
+Execution Time: 77.816ms
+Execution Time: 77.9ms
+Execution Time: 77.85ms
+Execution Time: 78.258ms
+Estimated Communication Time: 71.6991ms
+Estimated Communication Time: 71.5041ms
+Estimated Communication Time: 71.6009ms
+Estimated Communication Time: 71.846ms
+Estimated Communication Time: 71.682ms
+Estimated Communication Time: 72.3131ms
+Estimated Communication Time: 72.3622ms
+Estimated Communication Time: 72.3741ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.00591278
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0501633
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0501633
+Difference between the maximum and minimum of elements sorted by each bucket: 0.156021
+Difference between the maximum and minimum of elements sorted by each bucket: 0.167606
+Difference between the maximum and minimum of elements sorted by each bucket: 0.378369
+Difference between the maximum and minimum of elements sorted by each bucket: 0.378369
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0293775
 
 Sizeof input 2097152:
-Execution Time: 107.978ms
-Execution Time: 109.303ms
-Execution Time: 107.973ms
-Execution Time: 106.458ms
-Execution Time: 108.613ms
-Execution Time: 108.098ms
-Execution Time: 110.193ms
-Execution Time: 108.754ms
-Estimated Communication Time: 14.4429ms
-Estimated Communication Time: 14.2949ms
-Estimated Communication Time: 13.7501ms
-Estimated Communication Time: 13.5081ms
-Estimated Communication Time: 13.88ms
-Estimated Communication Time: 13.2599ms
-Estimated Communication Time: 15.8331ms
-Estimated Communication Time: 14.106ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
-Difference between the maximum and minimum of elements sorted by each bucket: 0.155194
+Execution Time: 161.473ms
+Execution Time: 161.593ms
+Execution Time: 161.645ms
+Execution Time: 161.304ms
+Execution Time: 161.431ms
+Execution Time: 161.281ms
+Execution Time: 161.098ms
+Execution Time: 161.178ms
+Estimated Communication Time: 151.926ms
+Estimated Communication Time: 151.89ms
+Estimated Communication Time: 150.887ms
+Estimated Communication Time: 152.466ms
+Estimated Communication Time: 151.026ms
+Estimated Communication Time: 151.403ms
+Estimated Communication Time: 151.499ms
+Estimated Communication Time: 151.687ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0777245
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0180244
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0963675
+Difference between the maximum and minimum of elements sorted by each bucket: 0.227232
+Difference between the maximum and minimum of elements sorted by each bucket: 0.160919
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0715512
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0141154
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0184059
 
-#buckets: 9-1
+#buckets: 4
 
-[compute-641-15.local:13423] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-15.local:13423] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
-[compute-641-15.local:13423] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-[compute-641-15.local:13423] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
-[compute-641-15.local:13423] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
-[compute-641-15.local:13423] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
-[compute-641-15.local:13423] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
-[compute-641-15.local:13423] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
-[compute-641-15.local:13423] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-8.local:08834] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-8.local:08834] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-8.local:08834] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-8.local:08834] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
 
 Sizeof input 2048:
-Execution Time: 0.278ms
-Execution Time: 0.246ms
-Execution Time: 0.3ms
-Execution Time: 0.226ms
-Execution Time: 0.227ms
-Execution Time: 0.237ms
-Execution Time: 0.325ms
-Execution Time: 0.268ms
-Estimated Communication Time: 0.332832ms
-Estimated Communication Time: 0.192881ms
-Estimated Communication Time: 0.197887ms
-Estimated Communication Time: 0.18692ms
-Estimated Communication Time: 0.193119ms
-Estimated Communication Time: 0.195026ms
-Estimated Communication Time: 0.191927ms
-Estimated Communication Time: 0.20504ms
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-Difference between the maximum and minimum of elements sorted by each bucket: 9.87654
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
-Difference between the maximum and minimum of elements sorted by each bucket: 9.87654
-Difference between the maximum and minimum of elements sorted by each bucket: 9.65092
+Execution Time: 0.256ms
+Execution Time: 0.261ms
+Execution Time: 0.261ms
+Execution Time: 0.253ms
+Execution Time: 0.259ms
+Execution Time: 0.25ms
+Execution Time: 0.253ms
+Execution Time: 0.256ms
+Estimated Communication Time: 0.221014ms
+Estimated Communication Time: 0.224829ms
+Estimated Communication Time: 0.226021ms
+Estimated Communication Time: 0.230074ms
+Estimated Communication Time: 0.219822ms
+Estimated Communication Time: 0.227213ms
+Estimated Communication Time: 0.225067ms
+Estimated Communication Time: 0.225067ms
+Difference between the maximum and minimum of elements sorted by each bucket: 6.86869
+Difference between the maximum and minimum of elements sorted by each bucket: 6.86869
+Difference between the maximum and minimum of elements sorted by each bucket: 3.38645
+Difference between the maximum and minimum of elements sorted by each bucket: 4.16263
+Difference between the maximum and minimum of elements sorted by each bucket: 4.16263
+Difference between the maximum and minimum of elements sorted by each bucket: 7.27273
+Difference between the maximum and minimum of elements sorted by each bucket: 3.36634
+Difference between the maximum and minimum of elements sorted by each bucket: 3.36634
 
 Sizeof input 16384:
-Execution Time: 0.931ms
 Execution Time: 0.961ms
-Execution Time: 0.992ms
+Execution Time: 0.958ms
+Execution Time: 0.952ms
+Execution Time: 0.954ms
 Execution Time: 0.961ms
+Execution Time: 0.954ms
+Execution Time: 0.948ms
 Execution Time: 0.943ms
-Execution Time: 0.984ms
-Execution Time: 0.911ms
-Execution Time: 0.924ms
-Estimated Communication Time: 0.8111ms
-Estimated Communication Time: 0.749826ms
-Estimated Communication Time: 0.718117ms
-Estimated Communication Time: 0.813961ms
-Estimated Communication Time: 0.838041ms
-Estimated Communication Time: 1.52802ms
-Estimated Communication Time: 0.883102ms
-Estimated Communication Time: 0.849962ms
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-Difference between the maximum and minimum of elements sorted by each bucket: 6.1245
-Difference between the maximum and minimum of elements sorted by each bucket: 6.1245
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
-Difference between the maximum and minimum of elements sorted by each bucket: 6.07125
+Estimated Communication Time: 0.853062ms
+Estimated Communication Time: 0.827074ms
+Estimated Communication Time: 0.847101ms
+Estimated Communication Time: 0.828028ms
+Estimated Communication Time: 0.830889ms
+Estimated Communication Time: 0.843048ms
+Estimated Communication Time: 0.82922ms
+Estimated Communication Time: 0.833988ms
+Difference between the maximum and minimum of elements sorted by each bucket: 3.74133
+Difference between the maximum and minimum of elements sorted by each bucket: 1.35813
+Difference between the maximum and minimum of elements sorted by each bucket: 0.399478
+Difference between the maximum and minimum of elements sorted by each bucket: 0.399478
+Difference between the maximum and minimum of elements sorted by each bucket: 0.698872
+Difference between the maximum and minimum of elements sorted by each bucket: 2.2635
+Difference between the maximum and minimum of elements sorted by each bucket: 2.2635
+Difference between the maximum and minimum of elements sorted by each bucket: 4.4008
 
 Sizeof input 1048576:
-Execution Time: 37.126ms
-Execution Time: 36.055ms
-Execution Time: 42.707ms
-Execution Time: 42.386ms
-Execution Time: 41.729ms
-Execution Time: 35.95ms
-Execution Time: 35.87ms
-Execution Time: 41.944ms
-Estimated Communication Time: 14.1962ms
-Estimated Communication Time: 10.1318ms
-Estimated Communication Time: 10.1511ms
-Estimated Communication Time: 10.6399ms
-Estimated Communication Time: 9.90391ms
-Estimated Communication Time: 10.998ms
-Estimated Communication Time: 10.9279ms
-Estimated Communication Time: 10.2181ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
-Difference between the maximum and minimum of elements sorted by each bucket: 0.138832
+Execution Time: 48.541ms
+Execution Time: 48.781ms
+Execution Time: 48.959ms
+Execution Time: 48.818ms
+Execution Time: 48.393ms
+Execution Time: 48.447ms
+Execution Time: 48.732ms
+Execution Time: 47.404ms
+Estimated Communication Time: 42.0759ms
+Estimated Communication Time: 42.794ms
+Estimated Communication Time: 42.228ms
+Estimated Communication Time: 42.5959ms
+Estimated Communication Time: 42.665ms
+Estimated Communication Time: 41.2002ms
+Estimated Communication Time: 41.7919ms
+Estimated Communication Time: 41.6901ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.207572
+Difference between the maximum and minimum of elements sorted by each bucket: 0.210773
+Difference between the maximum and minimum of elements sorted by each bucket: 0.262891
+Difference between the maximum and minimum of elements sorted by each bucket: 0.262891
+Difference between the maximum and minimum of elements sorted by each bucket: 0.246326
+Difference between the maximum and minimum of elements sorted by each bucket: 0.144481
+Difference between the maximum and minimum of elements sorted by each bucket: 0.11034
+Difference between the maximum and minimum of elements sorted by each bucket: 0.11034
 
 Sizeof input 2097152:
-Execution Time: 72.219ms
-Execution Time: 72.412ms
-Execution Time: 72.313ms
-Execution Time: 66.381ms
-Execution Time: 72.036ms
-Execution Time: 72.119ms
-Execution Time: 67.54ms
-Execution Time: 66.094ms
-Estimated Communication Time: 15.78ms
-Estimated Communication Time: 15.77ms
-Estimated Communication Time: 15.712ms
-Estimated Communication Time: 19.1569ms
-Estimated Communication Time: 16.118ms
-Estimated Communication Time: 19.3169ms
-Estimated Communication Time: 15.4612ms
-Estimated Communication Time: 15.6178ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235978
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235978
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235977
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235977
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235977
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235978
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235978
-Difference between the maximum and minimum of elements sorted by each bucket: 0.235978
+Execution Time: 98.573ms
+Execution Time: 97.125ms
+Execution Time: 98.802ms
+Execution Time: 98.744ms
+Execution Time: 98.509ms
+Execution Time: 98.213ms
+Execution Time: 98.621ms
+Execution Time: 98.631ms
+Estimated Communication Time: 86.832ms
+Estimated Communication Time: 86.8781ms
+Estimated Communication Time: 88.0659ms
+Estimated Communication Time: 87.1232ms
+Estimated Communication Time: 86.545ms
+Estimated Communication Time: 87.986ms
+Estimated Communication Time: 86.6749ms
+Estimated Communication Time: 85.5792ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.234292
+Difference between the maximum and minimum of elements sorted by each bucket: 0.177256
+Difference between the maximum and minimum of elements sorted by each bucket: 0.179176
+Difference between the maximum and minimum of elements sorted by each bucket: 0.179176
+Difference between the maximum and minimum of elements sorted by each bucket: 0.421012
+Difference between the maximum and minimum of elements sorted by each bucket: 0.178418
+Difference between the maximum and minimum of elements sorted by each bucket: 0.0835918
+Difference between the maximum and minimum of elements sorted by each bucket: 0.109173
 
-#buckets: 16-1
+#buckets: 8
 
-[compute-641-15.local:15059] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
-[compute-641-15.local:15059] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
-[compute-641-15.local:15059] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-15.local:15059] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
-[compute-641-15.local:15059] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-[compute-641-15.local:15059] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
-[compute-641-15.local:15059] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
-[compute-641-15.local:15059] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
-[compute-641-15.local:15059] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
-[compute-641-15.local:15059] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
-[compute-641-15.local:15059] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
-[compute-641-15.local:15059] MCW rank 9 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
-[compute-641-15.local:15059] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
-[compute-641-15.local:15059] MCW rank 11 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
-[compute-641-15.local:15059] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
-[compute-641-15.local:15059] MCW rank 13 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-641-8.local:10033] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-8.local:10033] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-8.local:10033] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-8.local:10033] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-8.local:10033] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-8.local:10033] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-8.local:10033] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-8.local:10033] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
 
 Sizeof input 2048:
-Execution Time: 0.326ms
-Execution Time: 0.527ms
-Execution Time: 0.328ms
-Execution Time: 0.317ms
-Execution Time: 0.455ms
-Execution Time: 0.348ms
-Execution Time: 0.309ms
-Execution Time: 0.318ms
-Estimated Communication Time: 0.524044ms
-Estimated Communication Time: 0.277996ms
-Estimated Communication Time: 0.384092ms
-Estimated Communication Time: 0.232935ms
-Estimated Communication Time: 0.268936ms
-Estimated Communication Time: 0.402927ms
-Estimated Communication Time: 0.285864ms
-Estimated Communication Time: 0.267982ms
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
-Difference between the maximum and minimum of elements sorted by each bucket: 17.2691
+Execution Time: 0.379ms
+Execution Time: 0.352ms
+Execution Time: 0.38ms
+Execution Time: 0.363ms
+Execution Time: 0.384ms
+Execution Time: 0.382ms
+Execution Time: 0.375ms
+Execution Time: 0.377ms
+Estimated Communication Time: 0.334024ms
+Estimated Communication Time: 0.330925ms
+Estimated Communication Time: 0.320911ms
+Estimated Communication Time: 0.329971ms
+Estimated Communication Time: 0.338793ms
+Estimated Communication Time: 0.319958ms
+Estimated Communication Time: 0.344038ms
+Estimated Communication Time: 0.336885ms
+Difference between the maximum and minimum of elements sorted by each bucket: 6.03567
+Difference between the maximum and minimum of elements sorted by each bucket: 5.80645
+Difference between the maximum and minimum of elements sorted by each bucket: 5.80645
+Difference between the maximum and minimum of elements sorted by each bucket: 26.9231
+Difference between the maximum and minimum of elements sorted by each bucket: 9.4
+Difference between the maximum and minimum of elements sorted by each bucket: 9.4
+Difference between the maximum and minimum of elements sorted by each bucket: 4.47958
+Difference between the maximum and minimum of elements sorted by each bucket: 6.03217
 
 Sizeof input 16384:
-Execution Time: 1.369ms
-Execution Time: 1.321ms
-Execution Time: 1.552ms
-Execution Time: 1.29ms
-Execution Time: 1.403ms
-Execution Time: 1.123ms
-Execution Time: 1.824ms
-Execution Time: 1.565ms
-Estimated Communication Time: 1.369ms
-Estimated Communication Time: 1.11794ms
-Estimated Communication Time: 1.40905ms
-Estimated Communication Time: 1.00899ms
-Estimated Communication Time: 1.23906ms
-Estimated Communication Time: 1.36089ms
-Estimated Communication Time: 1.17898ms
-Estimated Communication Time: 1.06096ms
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58186
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58186
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58186
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58186
-Difference between the maximum and minimum of elements sorted by each bucket: 2.55118
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58268
-Difference between the maximum and minimum of elements sorted by each bucket: 2.55118
-Difference between the maximum and minimum of elements sorted by each bucket: 2.58186
+Execution Time: 1.151ms
+Execution Time: 1.119ms
+Execution Time: 1.115ms
+Execution Time: 1.113ms
+Execution Time: 1.11ms
+Execution Time: 1.103ms
+Execution Time: 1.128ms
+Execution Time: 1.13ms
+Estimated Communication Time: 1.02496ms
+Estimated Communication Time: 1.01709ms
+Estimated Communication Time: 0.999212ms
+Estimated Communication Time: 1.00684ms
+Estimated Communication Time: 0.993967ms
+Estimated Communication Time: 1.00303ms
+Estimated Communication Time: 1.03092ms
+Estimated Communication Time: 1.03307ms
+Difference between the maximum and minimum of elements sorted by each bucket: 1.84544
+Difference between the maximum and minimum of elements sorted by each bucket: 1.95041
+Difference between the maximum and minimum of elements sorted by each bucket: 1.95041
+Difference between the maximum and minimum of elements sorted by each bucket: 1.39163
+Difference between the maximum and minimum of elements sorted by each bucket: 1.64943
+Difference between the maximum and minimum of elements sorted by each bucket: 1.64943
+Difference between the maximum and minimum of elements sorted by each bucket: 2.55837
+Difference between the maximum and minimum of elements sorted by each bucket: 1.46567
 
 Sizeof input 1048576:
-Execution Time: 33.246ms
-Execution Time: 33.638ms
-Execution Time: 32.581ms
-Execution Time: 35.419ms
-Execution Time: 34.53ms
-Execution Time: 33.055ms
-Execution Time: 33.613ms
-Execution Time: 33.937ms
-Estimated Communication Time: 21.404ms
-Estimated Communication Time: 14.883ms
-Estimated Communication Time: 21.6651ms
-Estimated Communication Time: 15.0218ms
-Estimated Communication Time: 22.398ms
-Estimated Communication Time: 14.5481ms
-Estimated Communication Time: 15.358ms
-Estimated Communication Time: 14.884ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
-Difference between the maximum and minimum of elements sorted by each bucket: 0.876437
+Execution Time: 43.54ms
+Execution Time: 43.658ms
+Execution Time: 43.453ms
+Execution Time: 42.46ms
+Execution Time: 43.889ms
+Execution Time: 42.15ms
+Execution Time: 43.728ms
+Execution Time: 43.05ms
+Estimated Communication Time: 35.418ms
+Estimated Communication Time: 36.6161ms
+Estimated Communication Time: 35.1448ms
+Estimated Communication Time: 35.814ms
+Estimated Communication Time: 33.86ms
+Estimated Communication Time: 36.7639ms
+Estimated Communication Time: 36.32ms
+Estimated Communication Time: 35.1949ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.41579
+Difference between the maximum and minimum of elements sorted by each bucket: 0.264566
+Difference between the maximum and minimum of elements sorted by each bucket: 0.175373
+Difference between the maximum and minimum of elements sorted by each bucket: 0.175373
+Difference between the maximum and minimum of elements sorted by each bucket: 0.178982
+Difference between the maximum and minimum of elements sorted by each bucket: 0.515263
+Difference between the maximum and minimum of elements sorted by each bucket: 0.104364
+Difference between the maximum and minimum of elements sorted by each bucket: 0.104364
 
 Sizeof input 2097152:
-Execution Time: 56.174ms
-Execution Time: 55.954ms
-Execution Time: 68.633ms
-Execution Time: 66.939ms
-Execution Time: 54.926ms
-Execution Time: 57.075ms
-Execution Time: 55.212ms
-Execution Time: 55.208ms
-Estimated Communication Time: 25.795ms
-Estimated Communication Time: 21.313ms
-Estimated Communication Time: 20.5629ms
-Estimated Communication Time: 20.05ms
-Estimated Communication Time: 20.4279ms
-Estimated Communication Time: 27.7219ms
-Estimated Communication Time: 20.2491ms
-Estimated Communication Time: 27.1299ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
-Difference between the maximum and minimum of elements sorted by each bucket: 0.252717
+Execution Time: 85.294ms
+Execution Time: 84.547ms
+Execution Time: 80.634ms
+Execution Time: 83.526ms
+Execution Time: 84.42ms
+Execution Time: 85.487ms
+Execution Time: 84.805ms
+Execution Time: 84.448ms
+Estimated Communication Time: 71.223ms
+Estimated Communication Time: 72.711ms
+Estimated Communication Time: 73.806ms
+Estimated Communication Time: 73.76ms
+Estimated Communication Time: 69.6809ms
+Estimated Communication Time: 69.7489ms
+Estimated Communication Time: 70.9839ms
+Estimated Communication Time: 68.506ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.435532
+Difference between the maximum and minimum of elements sorted by each bucket: 0.406645
+Difference between the maximum and minimum of elements sorted by each bucket: 0.257765
+Difference between the maximum and minimum of elements sorted by each bucket: 0.213973
+Difference between the maximum and minimum of elements sorted by each bucket: 0.213973
+Difference between the maximum and minimum of elements sorted by each bucket: 0.126367
+Difference between the maximum and minimum of elements sorted by each bucket: 0.141396
+Difference between the maximum and minimum of elements sorted by each bucket: 0.585549
 
-#buckets: 32-1
+#buckets: 16
 
-[compute-641-15.local:17412] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
-[compute-641-15.local:17412] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
-[compute-641-15.local:17412] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-15.local:17412] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
-[compute-641-15.local:17412] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-[compute-641-15.local:17412] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
-[compute-641-15.local:17412] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
-[compute-641-15.local:17412] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
-[compute-641-15.local:17412] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
-[compute-641-15.local:17412] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
-[compute-641-15.local:17412] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
-[compute-641-15.local:17412] MCW rank 9 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
-[compute-641-15.local:17412] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
-[compute-641-15.local:17412] MCW rank 11 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
-[compute-641-15.local:17412] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
-[compute-641-15.local:17412] MCW rank 13 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
-[compute-641-14.local:20139] MCW rank 16 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
-[compute-641-14.local:20139] MCW rank 17 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
-[compute-641-14.local:20139] MCW rank 18 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
-[compute-641-14.local:20139] MCW rank 19 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
-[compute-641-14.local:20139] MCW rank 20 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
-[compute-641-14.local:20139] MCW rank 21 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
-[compute-641-14.local:20139] MCW rank 22 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
-[compute-641-14.local:20139] MCW rank 23 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
-[compute-641-14.local:20139] MCW rank 24 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
-[compute-641-14.local:20139] MCW rank 25 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
-[compute-641-14.local:20139] MCW rank 26 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
-[compute-641-14.local:20139] MCW rank 27 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
-[compute-641-14.local:20139] MCW rank 28 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
-[compute-641-14.local:20139] MCW rank 29 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
-[compute-641-14.local:20139] MCW rank 30 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
-[compute-641-14.local:20139] MCW rank 31 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-8.local:11854] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-641-8.local:11854] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-8.local:11854] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-8.local:11854] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-8.local:11854] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-8.local:11854] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-8.local:11854] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-8.local:11854] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-8.local:11854] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-8.local:11854] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-8.local:11854] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-8.local:11854] MCW rank 9 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-641-8.local:11854] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-8.local:11854] MCW rank 11 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-641-8.local:11854] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-641-8.local:11854] MCW rank 13 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
 
 Sizeof input 2048:
-Execution Time: 3.339ms
-Execution Time: 3.339ms
-Execution Time: 3.493ms
-Execution Time: 3.473ms
-Execution Time: 3.443ms
-Execution Time: 3.677ms
-Execution Time: 3.433ms
-Execution Time: 3.312ms
-Estimated Communication Time: 3.36385ms
-Estimated Communication Time: 3.30591ms
-Estimated Communication Time: 3.35312ms
-Estimated Communication Time: 3.36909ms
-Estimated Communication Time: 3.39603ms
-Estimated Communication Time: 3.37815ms
-Estimated Communication Time: 3.55005ms
-Estimated Communication Time: 3.26991ms
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
-Difference between the maximum and minimum of elements sorted by each bucket: 22.6994
+Execution Time: 0.589ms
+Execution Time: 0.623ms
+Execution Time: 0.609ms
+Execution Time: 0.589ms
+Execution Time: 0.585ms
+Execution Time: 0.613ms
+Execution Time: 0.592ms
+Execution Time: 0.593ms
+Estimated Communication Time: 0.565052ms
+Estimated Communication Time: 0.576973ms
+Estimated Communication Time: 0.547171ms
+Estimated Communication Time: 0.571966ms
+Estimated Communication Time: 0.560045ms
+Estimated Communication Time: 0.538111ms
+Estimated Communication Time: 0.547886ms
+Estimated Communication Time: 0.560045ms
+Difference between the maximum and minimum of elements sorted by each bucket: 3.97276
+Difference between the maximum and minimum of elements sorted by each bucket: 20.6751
+Difference between the maximum and minimum of elements sorted by each bucket: 20.6751
+Difference between the maximum and minimum of elements sorted by each bucket: 8.67052
+Difference between the maximum and minimum of elements sorted by each bucket: 6.01002
+Difference between the maximum and minimum of elements sorted by each bucket: 18.4
+Difference between the maximum and minimum of elements sorted by each bucket: 18.4
+Difference between the maximum and minimum of elements sorted by each bucket: 12.7273
 
 Sizeof input 16384:
-Execution Time: 4.99ms
-Execution Time: 4.933ms
-Execution Time: 4.699ms
-Execution Time: 4.954ms
-Execution Time: 4.712ms
-Execution Time: 5.122ms
-Execution Time: 4.561ms
-Execution Time: 5.123ms
-Estimated Communication Time: 3.98993ms
-Estimated Communication Time: 4.52399ms
-Estimated Communication Time: 4.25577ms
-Estimated Communication Time: 4.58503ms
-Estimated Communication Time: 4.28486ms
-Estimated Communication Time: 4.15587ms
-Estimated Communication Time: 4.73499ms
-Estimated Communication Time: 4.32706ms
-Difference between the maximum and minimum of elements sorted by each bucket: 3.3366
-Difference between the maximum and minimum of elements sorted by each bucket: 3.33824
-Difference between the maximum and minimum of elements sorted by each bucket: 3.28915
-Difference between the maximum and minimum of elements sorted by each bucket: 3.3366
-Difference between the maximum and minimum of elements sorted by each bucket: 3.3366
-Difference between the maximum and minimum of elements sorted by each bucket: 3.28915
-Difference between the maximum and minimum of elements sorted by each bucket: 3.3366
-Difference between the maximum and minimum of elements sorted by each bucket: 3.3366
+Execution Time: 1.749ms
+Execution Time: 1.716ms
+Execution Time: 1.718ms
+Execution Time: 1.709ms
+Execution Time: 1.713ms
+Execution Time: 1.709ms
+Execution Time: 2.884ms
+Execution Time: 1.723ms
+Estimated Communication Time: 1.56498ms
+Estimated Communication Time: 1.59597ms
+Estimated Communication Time: 1.60384ms
+Estimated Communication Time: 1.56808ms
+Estimated Communication Time: 1.60193ms
+Estimated Communication Time: 1.59502ms
+Estimated Communication Time: 1.6191ms
+Estimated Communication Time: 1.59311ms
+Difference between the maximum and minimum of elements sorted by each bucket: 1.45071
+Difference between the maximum and minimum of elements sorted by each bucket: 4.5133
+Difference between the maximum and minimum of elements sorted by each bucket: 4.41324
+Difference between the maximum and minimum of elements sorted by each bucket: 4.41324
+Difference between the maximum and minimum of elements sorted by each bucket: 4.52236
+Difference between the maximum and minimum of elements sorted by each bucket: 4.826
+Difference between the maximum and minimum of elements sorted by each bucket: 4.826
+Difference between the maximum and minimum of elements sorted by each bucket: 2.87627
 
 Sizeof input 1048576:
-Execution Time: 88.062ms
-Execution Time: 87.164ms
-Execution Time: 89.542ms
-Execution Time: 87.314ms
-Execution Time: 87.451ms
-Execution Time: 88.021ms
-Execution Time: 88.422ms
-Execution Time: 87.384ms
-Estimated Communication Time: 75.0802ms
-Estimated Communication Time: 66.9808ms
-Estimated Communication Time: 65.4371ms
-Estimated Communication Time: 64.841ms
-Estimated Communication Time: 70.173ms
-Estimated Communication Time: 65.31ms
-Estimated Communication Time: 64.549ms
-Estimated Communication Time: 75.2969ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
-Difference between the maximum and minimum of elements sorted by each bucket: 0.409704
+Execution Time: 57.996ms
+Execution Time: 57.903ms
+Execution Time: 60.211ms
+Execution Time: 60.226ms
+Execution Time: 58.317ms
+Execution Time: 57.192ms
+Execution Time: 59.991ms
+Execution Time: 59.606ms
+Estimated Communication Time: 47.446ms
+Estimated Communication Time: 48.4931ms
+Estimated Communication Time: 47.971ms
+Estimated Communication Time: 49.1261ms
+Estimated Communication Time: 48.5668ms
+Estimated Communication Time: 47.1771ms
+Estimated Communication Time: 48.3632ms
+Estimated Communication Time: 46.653ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.304545
+Difference between the maximum and minimum of elements sorted by each bucket: 0.304545
+Difference between the maximum and minimum of elements sorted by each bucket: 1.1567
+Difference between the maximum and minimum of elements sorted by each bucket: 0.397201
+Difference between the maximum and minimum of elements sorted by each bucket: 0.609195
+Difference between the maximum and minimum of elements sorted by each bucket: 0.393233
+Difference between the maximum and minimum of elements sorted by each bucket: 0.469987
+Difference between the maximum and minimum of elements sorted by each bucket: 0.469987
 
 Sizeof input 2097152:
-Execution Time: 139.684ms
-Execution Time: 144.89ms
-Execution Time: 144.558ms
-Execution Time: 140.698ms
-Execution Time: 140.012ms
-Execution Time: 140.67ms
-Execution Time: 142.318ms
-Execution Time: 142.751ms
-Estimated Communication Time: 109.096ms
-Estimated Communication Time: 114.728ms
-Estimated Communication Time: 110.908ms
-Estimated Communication Time: 109.341ms
-Estimated Communication Time: 109.496ms
-Estimated Communication Time: 107.842ms
-Estimated Communication Time: 110.252ms
-Estimated Communication Time: 107.197ms
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
-Difference between the maximum and minimum of elements sorted by each bucket: 0.388995
+Execution Time: 109.46ms
+Execution Time: 102.142ms
+Execution Time: 105.426ms
+Execution Time: 99.615ms
+Execution Time: 99.673ms
+Execution Time: 101.893ms
+Execution Time: 97.06ms
+Execution Time: 97.524ms
+Estimated Communication Time: 90.0831ms
+Estimated Communication Time: 84.0349ms
+Estimated Communication Time: 87.6091ms
+Estimated Communication Time: 88.8159ms
+Estimated Communication Time: 85.357ms
+Estimated Communication Time: 90.6188ms
+Estimated Communication Time: 89.8039ms
+Estimated Communication Time: 86.6761ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.128918
+Difference between the maximum and minimum of elements sorted by each bucket: 0.128918
+Difference between the maximum and minimum of elements sorted by each bucket: 0.199261
+Difference between the maximum and minimum of elements sorted by each bucket: 0.622008
+Difference between the maximum and minimum of elements sorted by each bucket: 0.348487
+Difference between the maximum and minimum of elements sorted by each bucket: 0.342546
+Difference between the maximum and minimum of elements sorted by each bucket: 0.176129
+Difference between the maximum and minimum of elements sorted by each bucket: 0.176129
+
+#buckets: 32
+
+[compute-641-8.local:14782] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-641-8.local:14782] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-8.local:14782] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-8.local:14782] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-8.local:14782] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-8.local:14782] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-8.local:14782] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-8.local:14782] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-8.local:14782] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-8.local:14782] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-8.local:14782] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-8.local:14782] MCW rank 9 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-641-8.local:14782] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-8.local:14782] MCW rank 11 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-641-8.local:14782] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-641-8.local:14782] MCW rank 13 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-641-20.local:10539] MCW rank 28 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-641-20.local:10539] MCW rank 29 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-641-20.local:10539] MCW rank 30 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-641-20.local:10539] MCW rank 31 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-20.local:10539] MCW rank 16 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-20.local:10539] MCW rank 17 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-20.local:10539] MCW rank 18 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-20.local:10539] MCW rank 19 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-20.local:10539] MCW rank 20 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-20.local:10539] MCW rank 21 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-20.local:10539] MCW rank 22 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-20.local:10539] MCW rank 23 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-20.local:10539] MCW rank 24 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-20.local:10539] MCW rank 25 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-641-20.local:10539] MCW rank 26 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-20.local:10539] MCW rank 27 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+
+
+Sizeof input 2048:
+Execution Time: 17.276ms
+Execution Time: 17.425ms
+Execution Time: 17.348ms
+Execution Time: 17.553ms
+Execution Time: 17.541ms
+Execution Time: 17.294ms
+Execution Time: 17.439ms
+Execution Time: 17.808ms
+Estimated Communication Time: 17.5099ms
+Estimated Communication Time: 17.4081ms
+Estimated Communication Time: 17.2491ms
+Estimated Communication Time: 18.1241ms
+Estimated Communication Time: 17.4639ms
+Estimated Communication Time: 17.1399ms
+Estimated Communication Time: 17.4599ms
+Estimated Communication Time: 17.714ms
+Difference between the maximum and minimum of elements sorted by each bucket: 17.7143
+Difference between the maximum and minimum of elements sorted by each bucket: 17.7143
+Difference between the maximum and minimum of elements sorted by each bucket: 11.8081
+Difference between the maximum and minimum of elements sorted by each bucket: 88.3721
+Difference between the maximum and minimum of elements sorted by each bucket: 9.70464
+Difference between the maximum and minimum of elements sorted by each bucket: 15.6584
+Difference between the maximum and minimum of elements sorted by each bucket: 15.6584
+Difference between the maximum and minimum of elements sorted by each bucket: 16.6667
+
+Sizeof input 16384:
+Execution Time: 93.597ms
+Execution Time: 93.224ms
+Execution Time: 93.079ms
+Execution Time: 92.844ms
+Execution Time: 93.002ms
+Execution Time: 93.266ms
+Execution Time: 92.767ms
+Execution Time: 93.106ms
+Estimated Communication Time: 92.9351ms
+Estimated Communication Time: 92.9258ms
+Estimated Communication Time: 92.8919ms
+Estimated Communication Time: 92.875ms
+Estimated Communication Time: 92.958ms
+Estimated Communication Time: 93.1311ms
+Estimated Communication Time: 93.323ms
+Estimated Communication Time: 92.6869ms
+Difference between the maximum and minimum of elements sorted by each bucket: 6.18557
+Difference between the maximum and minimum of elements sorted by each bucket: 4.53629
+Difference between the maximum and minimum of elements sorted by each bucket: 2.61503
+Difference between the maximum and minimum of elements sorted by each bucket: 9.50888
+Difference between the maximum and minimum of elements sorted by each bucket: 9.06183
+Difference between the maximum and minimum of elements sorted by each bucket: 5.82591
+Difference between the maximum and minimum of elements sorted by each bucket: 6.85028
+Difference between the maximum and minimum of elements sorted by each bucket: 4.74308
+
+Sizeof input 1048576:
+Execution Time: 5931.03ms
+Execution Time: 5924.43ms
+Execution Time: 5925.51ms
+Execution Time: 5932.08ms
+Execution Time: 5924.02ms
+Execution Time: 5935.63ms
+Execution Time: 5931.65ms
+Execution Time: 5924.01ms
+Estimated Communication Time: 5907.99ms
+Estimated Communication Time: 5907.9ms
+Estimated Communication Time: 5908.81ms
+Estimated Communication Time: 5909.06ms
+Estimated Communication Time: 5906.25ms
+Estimated Communication Time: 5909.55ms
+Estimated Communication Time: 5909.07ms
+Estimated Communication Time: 5906.84ms
+Difference between the maximum and minimum of elements sorted by each bucket: 1.20031
+Difference between the maximum and minimum of elements sorted by each bucket: 0.251627
+Difference between the maximum and minimum of elements sorted by each bucket: 1.03948
+Difference between the maximum and minimum of elements sorted by each bucket: 0.649623
+Difference between the maximum and minimum of elements sorted by each bucket: 0.66411
+Difference between the maximum and minimum of elements sorted by each bucket: 0.973973
+Difference between the maximum and minimum of elements sorted by each bucket: 0.356316
+Difference between the maximum and minimum of elements sorted by each bucket: 0.804876
+
+Sizeof input 2097152:
+Execution Time: 13091.9ms
+Execution Time: 13359.8ms
+Execution Time: 14586.7ms
+Execution Time: 13105.9ms
+Execution Time: 14831.8ms
+Execution Time: 14591.9ms
+Execution Time: 14090.9ms
+Execution Time: 13596.9ms
+Estimated Communication Time: 13576.4ms
+Estimated Communication Time: 14816ms
+Estimated Communication Time: 13563.9ms
+Estimated Communication Time: 13072.8ms
+Estimated Communication Time: 12824.7ms
+Estimated Communication Time: 12827.7ms
+Estimated Communication Time: 12090ms
+Estimated Communication Time: 12334.2ms
+Difference between the maximum and minimum of elements sorted by each bucket: 0.331071
+Difference between the maximum and minimum of elements sorted by each bucket: 0.374711
+Difference between the maximum and minimum of elements sorted by each bucket: 0.268765
+Difference between the maximum and minimum of elements sorted by each bucket: 0.429715
+Difference between the maximum and minimum of elements sorted by each bucket: 0.835618
+Difference between the maximum and minimum of elements sorted by each bucket: 0.528287
+Difference between the maximum and minimum of elements sorted by each bucket: 0.810357
+Difference between the maximum and minimum of elements sorted by each bucket: 0.362847
