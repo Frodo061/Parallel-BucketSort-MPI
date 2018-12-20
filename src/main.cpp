@@ -79,7 +79,9 @@ int main (int argc, char *argv[]){
     MPI_Scatter(counters, 1, MPI_INT, &counter, 1, MPI_INT, 0, MPI_COMM_WORLD);
     MPI_Scatter(buckets, n, MPI_INT, bucket, n, MPI_INT, 0, MPI_COMM_WORLD);
 
-    mergesort(bucket, counter);
+    if(!strcmp(opt, "time")) {
+        mergesort(bucket, counter);
+    }
     
     int *offset = (int *) _mm_malloc(sizeof(int) * p, 32);
 
