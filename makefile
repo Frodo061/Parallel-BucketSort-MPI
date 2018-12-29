@@ -3,7 +3,7 @@ BIN_NAME = main
 # CXX = g++
 # LD  = g++
 
-CXX = mpic++
+CXX = $(PREP) mpic++
 LD  = icpc
 
 #-fopenmp/-openmp for GNU/Intel

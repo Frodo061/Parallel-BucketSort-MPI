@@ -1,0 +1,31 @@
+Estimated aggregate size of event trace:                   141MB
+Estimated requirements for largest trace buffer (max_buf): 36MB
+Estimated memory requirements (SCOREP_TOTAL_MEMORY):       4097kB
+(hint: When tracing set SCOREP_TOTAL_MEMORY=4097kB to avoid intermediate flushes
+ or reduce requirements using USR regions filters.)
+
+flt     type max_buf[B]    visits time[s] time[%] time/visit[us]  region
+         ALL 36,929,148 5,676,414    2.29   100.0           0.40  ALL
+         USR 36,928,814 5,676,382    0.92    40.2           0.16  USR
+         MPI        308        28    1.37    59.8       48933.79  MPI
+         COM         26         4    0.00     0.0          36.15  COM
+
+         USR 27,283,074 4,194,300    0.51    22.4           0.12  void sort(int*, int*, int, int)
+         USR  9,645,688 1,482,066    0.27    12.0           0.19  void merge(int*, int*, int, int, int)
+         MPI        136         8    0.44    19.3       55325.94  MPI_Scatter
+         MPI         68         4    0.01     0.5        3116.37  MPI_Gatherv
+         MPI         26         4    0.00     0.2         882.01  MPI_Finalize
+         USR         26         4    0.00     0.0          11.43  void utils_results()
+         MPI         26         4    0.00     0.0           0.22  MPI_Comm_size
+         USR         26         1    0.00     0.0         451.73  int utils_clean(int*)
+         USR         26         1    0.00     0.0           3.20  void utils_setup(char*, int)
+         USR         26         1    0.00     0.0           2.83  void utils_start_timer()
+         USR         26         1    0.05     2.0       46621.47  void utils_init(int**, int)
+         USR         26         1    0.08     3.4       78333.39  void utils_clear_cache()
+         MPI         26         4    0.00     0.0           1.31  MPI_Comm_rank
+         USR         26         1    0.00     0.0           0.70  void bucketsort_init(int*, int)
+         USR         26         4    0.00     0.0         142.40  void mergesort(int*, int)
+         USR         26         1    0.00     0.0           5.77  void utils_stop_timer()
+         MPI         26         4    0.91    39.8      227884.73  MPI_Init
+         COM         26         4    0.00     0.0          36.15  int main(int, char**)
+         USR         26         1    0.01     0.3        6627.44  void bucketsort_placement(int*, int*, int*, int, int)

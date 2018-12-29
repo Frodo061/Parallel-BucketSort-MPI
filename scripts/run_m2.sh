@@ -1,5 +1,5 @@
 #!/bin/sh
-#PBS -l nodes=2:ppn=16:r641
+#PBS -l nodes=2:ppn=32:r641
 #PBS -q mei
 #PBS -l walltime=2:00:00
 #PBS -N pcp_m2
