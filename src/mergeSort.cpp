@@ -6,12 +6,6 @@ void mergesort(int *v, int n) {
   free(c);
 }
 
-void mergesortPrl(int *v, int n){
-	int *c = (int *)malloc(sizeof(int) * n);
-  	sortPrl(v, c, 0, n - 1);
-  	free(c);
-}
-
 /*
   Dado um vetor de inteiros v e dois inteiros i e f, ordena o vetor v[i..f] em ordem crescente.
   O vetor c é utilizado internamente durante a ordenação.
@@ -29,31 +23,6 @@ void sort(int *v, int *c, int i, int f) {
 
   	merge(v, c, i, m, f);
 }
-
-void sortPrl(int *v, int *c, int i, int f) {
-  	if (i >= f) return;
-
-  	int m = (i + f) / 2;
-
-	#pragma omp parallel sections
-	{
-		#pragma omp section
-		{
-  			sort(v, c, i, m);
-		}
-
-		#pragma omp section
-		{
-  			sort(v, c, m + 1, f);
-		}
-	}
-
-  	/* Se v[m] <= v[m + 1], então v[i..f] já está ordenado. */
-  	if (v[m] <= v[m + 1]) return;
-
-  	merge(v, c, i, m, f);
-}
-
 
 /*
   Dado um vetor v e três inteiros i, m e f, sendo v[i..m] e v[m+1..f] vetores ordenados,
